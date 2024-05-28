@@ -31,10 +31,6 @@ categories: [GitHub, ]
 #### Jekyll ✔️
 
 
-
-#### Jekyll ✔️
-
-
 ![1](/assets/img/2024-05-28-Github-Blog-[1]:-Using-Jekyll.md/1.png)
 
 - Ruby based
@@ -46,20 +42,12 @@ categories: [GitHub, ]
 #### Hugo
 
 
-
-#### Hugo
-
-
 ![2](/assets/img/2024-05-28-Github-Blog-[1]:-Using-Jekyll.md/2.png)
 
 - Based on Golang
 - Build speed is very fast
 - Well-organized documentation
 - Not a lot of Themes to use
-
-
-#### Hexo
-
 
 
 #### Hexo
@@ -116,11 +104,11 @@ Download:  [https://nodejs.org/ko/](https://nodejs.org/ko/)
 
 - NPM will also be installed with Node.js, and you can check whether the installation was successful by checking the version.
 
-	
+
 {% raw %}
 ```bash
-	$ node -v
-	$ npm -v
+node -v
+npm -v
 ```
 {% endraw %}
 
@@ -193,7 +181,7 @@ gem install jekyll bundler
 
 
 
-[https://jekyllrb-ko.github.io/docs/installation/macos/](https://jekyllrb-ko.github.io/docs/installation/macos/)
+[bookmark](https://jekyllrb-ko.github.io/docs/installation/macos/)
 
 
 
@@ -226,12 +214,12 @@ jekyll new ./
 
 - If you are using a M1 Macbook you may have this error…[Ruby Problem]
 
-	
+
 {% raw %}
 ```bash
-	[NOTE]
-	You may have encountered a bug in the Ruby interpreter or extension libraries.
-	...
+[NOTE]
+You may have encountered a bug in the Ruby interpreter or extension libraries.
+...
 ```
 {% endraw %}
 
@@ -358,15 +346,15 @@ bundle install
 
 1. Run.
 
-	
+
 {% raw %}
 ```bash
-	boundle exec jekyll serve
+boundle exec jekyll serve
 ```
 {% endraw %}
 
 
-2. **http://127.0.0.1:4000/** on browser.
+1. **http://127.0.0.1:4000/** on browser.
 
 
 ### 8. Deploy
@@ -417,11 +405,11 @@ These pages offer Jekyll Themes
 **2-1.** Create an empty folder and get in
 
 
-	
+
 {% raw %}
 ```bash
-	mkdir {folder_name}
-	cd {folder_name}
+mkdir {folder_name}
+cd {folder_name}
 ```
 {% endraw %}
 
@@ -430,16 +418,16 @@ These pages offer Jekyll Themes
 **2-2.** Connect to the pre-made GitHub homepage repository
 
 
-	
+
 {% raw %}
 ```bash
-	# 폴더에 git 생성하기
-	git init
-	# blog 폴더에 github homepage repository 연결하기
-	git remote add origin {github_HTTPS_address}
-	# repository에 있는 데이터를 blog 폴더에 내려받기
-	git pull origin main
-	# 연결 완료!
+# 폴더에 git 생성하기
+git init
+# blog 폴더에 github homepage repository 연결하기
+git remote add origin {github_HTTPS_address}
+# repository에 있는 데이터를 blog 폴더에 내려받기
+git pull origin main
+# 연결 완료!
 ```
 {% endraw %}
 
@@ -448,10 +436,10 @@ These pages offer Jekyll Themes
 **2-3.** Delete all the data in the folder
 
 
-	
+
 {% raw %}
 ```bash
-	rm -rf {folder_name}
+rm -rf {folder_name}
 ```
 {% endraw %}
 
@@ -500,50 +488,50 @@ git push
 **1. conflict error**
 
 
-	
+
 {% raw %}
 ```bash
-	bundle install
-	bundle exec jekyll build
+bundle install
+bundle exec jekyll build
 ```
 {% endraw %}
 
 
 
-	 → Delete 404.html, about.md, index.md files
+ → Delete 404.html, about.md, index.md files
 
 
 **2. github build failed**
 
 
-	깃헙에 add commit push 하면 에러 메시지: pages build and deployment #20 error
+깃헙에 add commit push 하면 에러 메시지: pages build and deployment #20 error
 
 
-	
+
 {% raw %}
 ```bash
-	github-pages 225 | Error: The jekyll-theme-hydejack theme could not be found
+github-pages 225 | Error: The jekyll-theme-hydejack theme could not be found
 ```
 {% endraw %}
 
 
 
-	→ Edit the `_config.yml` file in the folder.
+→ Edit the `_config.yml` file in the folder.
 
 
-		
+
 {% raw %}
 ```bash
-		vi _config.yml
-		
-		### code about the Theme
-		theme: jekyll-theme-hydejack
-		#remote_theme: hydecorp/hydejack@v9
-		
-		
-		### Change it to...
-		#theme: jekyll-theme-hydejack
-		remote_theme: hydecorp/hydejack@v9
+vi _config.yml
+
+### code about the Theme
+theme: jekyll-theme-hydejack
+#remote_theme: hydecorp/hydejack@v9
+
+
+### Change it to...
+#theme: jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack@v9
 ```
 {% endraw %}
 
@@ -552,29 +540,29 @@ git push
 **3. bundle update**
 
 
-	After you are done with step 9 if you have problem with build, please consider working on this process.
+After you are done with step 9 if you have problem with build, please consider working on this process.
 
 
-	> 👸 _**If you are suffering from the error message below, please make sure this process is done.**_  
-	> **`ERROR ‘/assets/js/dist/home.min.js’ not found.`**
+> 👸 _**If you are suffering from the error message below, please make sure this process is done.**_  
+> **`ERROR ‘/assets/js/dist/home.min.js’ not found.`**
 
 - Do either one of the commands below.
 
-	
+
 {% raw %}
 ```bash
-	$ NODE_ENV=production npx rollup -c --bundleConfigAsCjs
-	
-	OR
-	
-	$ npm install && npm run build bundle update
+$ NODE_ENV=production npx rollup -c --bundleConfigAsCjs
+
+OR
+
+$ npm install && npm run build bundle update
 ```
 {% endraw %}
 
 
 - Result
 
-	![6](/assets/img/2024-05-28-Github-Blog-[1]:-Using-Jekyll.md/6.png)
+![6](/assets/img/2024-05-28-Github-Blog-[1]:-Using-Jekyll.md/6.png)
 
 
 
