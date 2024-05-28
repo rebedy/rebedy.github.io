@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-05-28
-title: "GitHub Blog [3]: giscus, a comments system"
+title: "GitHub Blog [3]: A comments system, giscus"
 tags: [blog, ]
 categories: [GitHub, ]
 ---
@@ -17,7 +17,7 @@ categories: [GitHub, ]
 ## giscus
 
 
-![0](/assets/img/2024-05-28-GitHub-Blog-[3]:-giscus,-a-comments-system.md/0.png)
+![0](/assets/img/2024-05-28-GitHub-Blog-[3]:-A-comments-system,-giscus.md/0.png)
 
 
 > A comments system powered by [GitHub Discussions](https://docs.github.com/en/discussions). Let visitors leave comments and reactions on the website via GitHub. Similar to [utterances](https://github.com/utterance/utterances).
@@ -27,7 +27,7 @@ categories: [GitHub, ]
 - No database needed. All data is stored in GitHub Discussions. :
 - No database needed. All data is stored in GitHub Discussions. :
 
-![1](/assets/img/2024-05-28-GitHub-Blog-[3]:-giscus,-a-comments-system.md/1.png)
+![1](/assets/img/2024-05-28-GitHub-Blog-[3]:-A-comments-system,-giscus.md/1.png)
 
 - Supports [custom themes](https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#data-theme)! 🌗
 - Supports [multiple languages](https://github.com/giscus/giscus/blob/main/CONTRIBUTING.md#adding-localizations). 🌐
@@ -57,10 +57,10 @@ Install [**Giscus App**](https://github.com/apps/giscus) in **“Repository to 
 Activate **`Discussion`** in **`Settings > General > Features`** section and check the tab!
 
 
-![2](/assets/img/2024-05-28-GitHub-Blog-[3]:-giscus,-a-comments-system.md/2.png)
+![2](/assets/img/2024-05-28-GitHub-Blog-[3]:-A-comments-system,-giscus.md/2.png)
 
 
-![3](/assets/img/2024-05-28-GitHub-Blog-[3]:-giscus,-a-comments-system.md/3.png)
+![3](/assets/img/2024-05-28-GitHub-Blog-[3]:-A-comments-system,-giscus.md/3.png)
 
 
 
@@ -76,7 +76,7 @@ Go into [giscus setting page](https://giscus.app/ko) and follow the instruction.
 **(2) Repository**
 
 
-![4](/assets/img/2024-05-28-GitHub-Blog-[3]:-giscus,-a-comments-system.md/4.png)
+![4](/assets/img/2024-05-28-GitHub-Blog-[3]:-A-comments-system,-giscus.md/4.png)
 
 
 **(3) Discussion Category** 
@@ -174,7 +174,7 @@ git push
 **result**
 
 
-![5](/assets/img/2024-05-28-GitHub-Blog-[3]:-giscus,-a-comments-system.md/5.png)
+![5](/assets/img/2024-05-28-GitHub-Blog-[3]:-A-comments-system,-giscus.md/5.png)
 
 
 
