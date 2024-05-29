@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2024-05-28
+date: 2024-05-29
 title: "GitHub Blog [3]: A comments system, giscus"
 tags: [blog, ]
 categories: [GitHub, ]
@@ -10,25 +10,18 @@ categories: [GitHub, ]
  
 
 
-[bookmark](https://giscus.app/ko)
-
-
 
 ## giscus
 
 
-![0](/assets/img/2024-05-28-GitHub-Blog-[3]:-A-comments-system,-giscus.md/0.png)
+![0](/assets/img/2024-05-29-GitHub-Blog-[3]:-A-comments-system,-giscus.md/0.png)
 
 
 > A comments system powered by [GitHub Discussions](https://docs.github.com/en/discussions). Let visitors leave comments and reactions on the website via GitHub. Similar to [utterances](https://github.com/utterance/utterances).
 
 - [Open source](https://github.com/giscus/giscus). 🌏
 - No tracking, no ads, always free. 📡 🚫
-- No database needed. All data is stored in GitHub Discussions. :
-- No database needed. All data is stored in GitHub Discussions. :
-
-![1](/assets/img/2024-05-28-GitHub-Blog-[3]:-A-comments-system,-giscus.md/1.png)
-
+- No database needed. All data is stored in GitHub Discussions.
 - Supports [custom themes](https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#data-theme)! 🌗
 - Supports [multiple languages](https://github.com/giscus/giscus/blob/main/CONTRIBUTING.md#adding-localizations). 🌐
 - [Extensively configurable](https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md). 🔧
@@ -57,10 +50,10 @@ Install [**Giscus App**](https://github.com/apps/giscus) in **“Repository to 
 Activate **`Discussion`** in **`Settings > General > Features`** section and check the tab!
 
 
-![2](/assets/img/2024-05-28-GitHub-Blog-[3]:-A-comments-system,-giscus.md/2.png)
+![1](/assets/img/2024-05-29-GitHub-Blog-[3]:-A-comments-system,-giscus.md/1.png)
 
 
-![3](/assets/img/2024-05-28-GitHub-Blog-[3]:-A-comments-system,-giscus.md/3.png)
+![2](/assets/img/2024-05-29-GitHub-Blog-[3]:-A-comments-system,-giscus.md/2.png)
 
 
 
@@ -76,7 +69,7 @@ Go into [giscus setting page](https://giscus.app/ko) and follow the instruction.
 **(2) Repository**
 
 
-![4](/assets/img/2024-05-28-GitHub-Blog-[3]:-A-comments-system,-giscus.md/4.png)
+![3](/assets/img/2024-05-29-GitHub-Blog-[3]:-A-comments-system,-giscus.md/3.png)
 
 
 **(3) Discussion Category** 
@@ -126,10 +119,10 @@ and rest of them are optional
 comments:
   # Global switch for the post comment system. Keeping it empty means disabled.
   provider: giscus # [disqus | utterances | giscus]
-  **# -> The chirpy supports three different comment providers.
+	# -> The chirpy supports three different comment providers.
 	# Among them `utterances` and `giscus` use GitHub API.
 	# `utterances` uses GitHub Issue and `giscus` uses GitHub Discussion.
-	# I will go with the `giscus`**
+	# I will go with the `giscus`
 
   # The provider options are as follows:
   disqus:
@@ -174,7 +167,7 @@ git push
 **result**
 
 
-![5](/assets/img/2024-05-28-GitHub-Blog-[3]:-A-comments-system,-giscus.md/5.png)
+![4](/assets/img/2024-05-29-GitHub-Blog-[3]:-A-comments-system,-giscus.md/4.png)
 
 
 
