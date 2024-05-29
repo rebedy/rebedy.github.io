@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2024-05-28
+date: 2024-05-29
 title: "GitHub Blog [2]: Customizing"
 tags: [blog, ]
 categories: [GitHub, ]
@@ -197,7 +197,7 @@ paginate: 10  # -> **How many post will be appeared on a list**
 
 
 
-![0](/assets/img/2024-05-28-GitHub-Blog-[2]:-Customizing.md/0.png)
+![0](/assets/img/2024-05-29-GitHub-Blog-[2]:-Customizing.md/0.png)
 
 
 
