@@ -384,9 +384,9 @@ git push
 
 These pages offer Jekyll Themes
 
-- [http://jekyllthemes.org/](http://jekyllthemes.org/)
+- http://jekyllthemes.org/
 - [https://jekyllthemes.io/free](https://jekyllthemes.io/free)
-- [http://themes.jekyllrc.org/](http://themes.jekyllrc.org/)
+- [http://themes.jekyllrc.org/](https://themes.jekyllrc.org/)
 - [https://github.com/topics/jekyll-theme](https://github.com/topics/jekyll-theme)
 
 
