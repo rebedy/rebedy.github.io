@@ -181,7 +181,7 @@ gem install jekyll bundler
 
 
 
-[bookmark](https://jekyllrb-ko.github.io/docs/installation/macos/)
+ref.: [https://jekyllrb-ko.github.io/docs/installation/macos/](https://jekyllrb-ko.github.io/docs/installation/macos/)
 
 
 
@@ -224,110 +224,108 @@ You may have encountered a bug in the Ruby interpreter or extension libraries.
 {% endraw %}
 
 
-<details>
-  <summary>**Re-Install Ruby with specific version**</summary>
 
-1. rbenv 설치
+**→ Re-Install Ruby with specific version**
 
-	
+	1. rbenv 설치
+
+		
 {% raw %}
 ```bash
-	brew install rbenv ruby-build
+		brew install rbenv ruby-build
 ```
 {% endraw %}
 
 
-2. ruby version 확인 (현재 사용중인 버전)
+	2. ruby version 확인 (현재 사용중인 버전)
 
-	
+		
 {% raw %}
 ```bash
-	rbenv versions
+		rbenv versions
 ```
 {% endraw %}
 
 
-3. 설치 가능한 버전 확인
+	3. 설치 가능한 버전 확인
 
-	
+		
 {% raw %}
 ```bash
-	rbenv install -l
+		rbenv install -l
 ```
 {% endraw %}
 
 
-4. 루비 설치하고 버전 바꾸기
+	4. 루비 설치하고 버전 바꾸기
 
-	
+		
 {% raw %}
 ```bash
-	rbenv install x.x.x
-	rbenv global x.x.x
+		rbenv install x.x.x
+		rbenv global x.x.x
 ```
 {% endraw %}
 
 
-5. zsh를 사용 중인지 확인 후, 설정 파일 수정.
+	5. zsh를 사용 중인지 확인 후, 설정 파일 수정.
 
-	
+		
 {% raw %}
 ```bash
-	echo $SHELL
-		-> /bin/zsh 나오면..
-	
-	vi ~/.zshrc 후, 아래 명령어 추가.
-	
-	export PATH={$Home}/.rbenv/bin:$PATH && \
-	eval "$(rbenv init -)"
+		echo $SHELL
+			-> /bin/zsh 나오면..
+		
+		vi ~/.zshrc 후, 아래 명령어 추가.
+		
+		export PATH={$Home}/.rbenv/bin:$PATH && \
+		eval "$(rbenv init -)"
 ```
 {% endraw %}
 
 
-6. 변경된 파일 적용
+	6. 변경된 파일 적용
 
-	
+		
 {% raw %}
 ```bash
-	source ~/.zshrc
+		source ~/.zshrc
 ```
 {% endraw %}
 
 
-7. 다시 다운 받기
+	7. 다시 다운 받기
 
-	
+		
 {% raw %}
 ```bash
-	gem install bundler
-	rbenv rehash
+		gem install bundler
+		rbenv rehash
 ```
 {% endraw %}
 
 
-8. 다시 앞서 clone한 repository 저장소로가서 jekyll 다운 받기
+	8. 다시 앞서 clone한 repository 저장소로가서 jekyll 다운 받기
 
-	
+		
 {% raw %}
 ```bash
-	gem install jekyll
+		gem install jekyll
 ```
 {% endraw %}
 
 
-9. jekyll을 이용해 기본 번들 설치
+	9. jekyll을 이용해 기본 번들 설치
 
-	
+		
 {% raw %}
 ```bash
-	jekyll new ./
+		jekyll new ./
 ```
 {% endraw %}
 
 
 
-
-  </details>
 
 ### 7. `bundle` Installation
 

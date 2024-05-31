@@ -14,7 +14,7 @@ categories: [GitHub, ]
 ---
 
 
-[bookmark](https://rebedy.github.io/posts/Github-Blog-1-Using-Jekyll/)
+[Github Blog [1]: Using Jekyll](https://rebedy.github.io/posts/Github-Blog-1-Using-Jekyll/)
 
 
 
@@ -82,65 +82,65 @@ bundle
 
 {% raw %}
 ```yaml
-**# The Site Configuration**
+# The Site Configuration
 
-# **Import the theme**
+# Import the theme
 theme: jekyll-theme-chirpy
 
-# **The language of the webpage** › http://www.lingoes.net/en/translator/langcode.htm
+# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
 lang: en
 
-# **Change to your timezone** › https://kevinnovak.github.io/Time-Zone-Picker
+# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Asia/Seoul
 
-title: xxx # **the main title**
+title: xxx # the main title
 
-tagline: ~~~ # it will display as **the sub-title**
+tagline: ~~~ # it will display as the sub-title
 
-description: >- # used by **seo meta and the atom feed**
+description: >- # used by seo meta and the atom feed
   ~~~
 
-# Fill in the protocol & **hostname for your site.**
+# Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://xxx.github.io"
 
 github:
-  username: xxx # change to your **github username**
+  username: xxx # change to your github username
 
 twitter:
-  username: xxx # change to your **twitter username**
+  username: xxx # change to your twitter username
 
 social:
-  # Change to **your full name.**
+  # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: xxx
-  email: xxx@xxx # change to your **email address**
+  email: xxx@xxx # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/xxx # change to your **twitter homepage**
-    - https://github.com/xxx # change to your **github homepage**
+    - https://twitter.com/xxx # change to your twitter homepage
+    - https://github.com/xxx # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/xxx # change to your **linkenin homepage**
+    - https://www.linkedin.com/in/xxx # change to your linkenin homepage
 
 ...
 
 # Site Verification Settings
 webmaster_verifications:
-  google: # fill in your **Google verification code -> Google Search Console*****
+  google: # fill in your Google verification code -> Google Search Console***
 
 ...
 
 # Web Analytics Settings
 analytics:
   google:
-    id: # fill in your **Google Analytics ID**
+    id: # fill in your Google Analytics ID
     
 ...
 
-# **Prefer color scheme setting.**
+# Prefer color scheme setting.
 #
 # Note: <u>Keep empty</u> will follow the system prefer color by default,
 # and there will be a toggle to switch the theme between dark and light
@@ -156,23 +156,23 @@ theme_mode: # [light | dark]
 ...
 
 # The CDN endpoint for media resources.
-# Notice that once it is assigned, the **CDN url**
+# Notice that once it is assigned, the CDN url
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
 cdn: "https://xxx.netlify.app"
 
-# the avatar on sidebar, support local or CORS resources -> **Profile Image*****
+# the avatar on sidebar, support local or CORS resources -> Profile Image***
 avatar: "/assets/img/favicons/mstile-150x150.png"
 
 ...
 
-# boolean type, **the global switch for TOC in posts.**
+# boolean type, the global switch for TOC in posts.
 toc: true # -> Table of Contents
 
 ...
 
-paginate: 10  # -> **How many post will be appeared on a list**
+paginate: 10  # -> How many post will be appeared on a list
 
 ...
 ```
@@ -239,9 +239,7 @@ paginate: 10  # -> **How many post will be appeared on a list**
 - A repo provides a blog template that automatically imports Notion by linking Notion and Next.js.
 	- [https://github.com/morethanmin/morethan-log](https://github.com/morethanmin/morethan-log)
 - _**Just follow the link below.**_
-
-	[bookmark](https://lourcode.kr/posts/Jekyll-기반-Github-Pages와-Notion-Page-연동/#github-환경-설정)
-
+	- [Shout out to lourcode!](https://lourcode.kr/posts/Jekyll-%EA%B8%B0%EB%B0%98-Github-Pages%EC%99%80-Notion-Page-%EC%97%B0%EB%8F%99/#github-%ED%99%98%EA%B2%BD-%EC%84%A4%EC%A0%95)
 
 
 ## References

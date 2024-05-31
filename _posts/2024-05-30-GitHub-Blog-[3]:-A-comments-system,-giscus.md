@@ -11,6 +11,19 @@ categories: [GitHub, ]
 
 
 
+## Prerequisites
+
+
+---
+
+
+[Github Blog [1]: Using Jekyll](https://rebedy.github.io/posts/Github-Blog-1-Using-Jekyll/)
+
+
+[GitHub Blog [2]: Customizing](https://rebedy.github.io/posts/GitHub-Blog-2-Customizing/)
+
+
+
 ## giscus
 
 
