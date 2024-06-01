@@ -88,10 +88,7 @@ Go into [giscus setting page](https://giscus.app/ko) and follow the instruction.
 **(3) Discussion Category** 
 
 
-	→ choose `General` and check `Only search for discussions in this category`
-
-
-and rest of them are optional
+Choose `General` and check `Only search for discussions in this category` and rest of them are optional
 
 
 **result**
@@ -132,10 +129,10 @@ and rest of them are optional
 comments:
   # Global switch for the post comment system. Keeping it empty means disabled.
   provider: giscus # [disqus | utterances | giscus]
-	# -> The chirpy supports three different comment providers.
-	# Among them `utterances` and `giscus` use GitHub API.
-	# `utterances` uses GitHub Issue and `giscus` uses GitHub Discussion.
-	# I will go with the `giscus`
+  # -> The chirpy supports three different comment providers.
+  # Among them `utterances` and `giscus` use GitHub API.
+  # `utterances` uses GitHub Issue and `giscus` uses GitHub Discussion.
+  # I will go with the `giscus`
 
   # The provider options are as follows:
   disqus:
@@ -190,6 +187,6 @@ git push
 ---
 
 - [https://da-in.github.io/posts/Blog-Comments/](https://da-in.github.io/posts/Blog-Comments/)
-- [https://giscus.app/ko](https://giscus.app/ko)
-- [https://utteranc.es/?utm_source=saashub&utm_medium=marketplace&utm_campaign=saashub](https://utteranc.es/?utm_source=saashub&utm_medium=marketplace&utm_campaign=saashub)
-- [https://help.disqus.com/en/articles/1717053-what-is-disqus](https://help.disqus.com/en/articles/1717053-what-is-disqus)
+- [giscus](https://giscus.app/ko)
+- [utteranc](https://utteranc.es/?utm_source=saashub&utm_medium=marketplace&utm_campaign=saashub)
+- [disqus](https://help.disqus.com/en/articles/1717053-what-is-disqus)
