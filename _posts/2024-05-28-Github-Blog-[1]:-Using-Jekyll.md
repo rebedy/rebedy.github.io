@@ -91,10 +91,9 @@ categories: [GitHub, ]
 
 ### 2. Github r**epository clone**
 
-- HTTPs의 주소를 복사하고 컴퓨터의 터미널을 열어 clone하고 싶은 폴더에서
- `git clone {HTTPs주소}` 입력.
+- After copying the HTTPs address, open the terminal and then run  `git clone {HTTPs_address}`
 - Permission error
-	- 20년 11월부터 비밀번호를 허용하지 않는다. 21년 8월13일부터는 모든 Git 작업에는 토큰(또는 SSH 키) 인증이 필요
+	- Password is not allowed from November 2020. From 13th August 2021, the certified token (or SSH key) is needed for all git processes.
 
 
 ### 3. npm Installation
@@ -212,6 +211,10 @@ jekyll new ./
 
 ![4](/assets/img/2024-05-28-Github-Blog-[1]:-Using-Jekyll.md/4.png)
 
+
+
+#### **Re-Install Ruby with specific version**
+
 - If you are using a M1 Macbook you may have this error…[Ruby Problem]
 
 
@@ -224,103 +227,107 @@ You may have encountered a bug in the Ruby interpreter or extension libraries.
 {% endraw %}
 
 
+1. `rbenv` installation
 
-**→ Re-Install Ruby with specific version**
 
-	1. rbenv 설치
-
-		
 {% raw %}
 ```bash
-		brew install rbenv ruby-build
+brew install rbenv ruby-build
 ```
 {% endraw %}
 
 
-	2. ruby version 확인 (현재 사용중인 버전)
+1. Check ruby version (current one)
 
-		
+
 {% raw %}
 ```bash
-		rbenv versions
+rbenv versions
 ```
 {% endraw %}
 
 
-	3. 설치 가능한 버전 확인
+1. Check installable versions
 
-		
+
 {% raw %}
 ```bash
-		rbenv install -l
+rbenv install -l
 ```
 {% endraw %}
 
 
-	4. 루비 설치하고 버전 바꾸기
+1. Install ruby and change the version setting.
 
-		
+
 {% raw %}
 ```bash
-		rbenv install x.x.x
-		rbenv global x.x.x
+rbenv install x.x.x
+rbenv global x.x.x
 ```
 {% endraw %}
 
 
-	5. zsh를 사용 중인지 확인 후, 설정 파일 수정.
+1. Check shell and edit the configuration file.
 
-		
+
 {% raw %}
 ```bash
-		echo $SHELL
-			-> /bin/zsh 나오면..
-		
-		vi ~/.zshrc 후, 아래 명령어 추가.
-		
-		export PATH={$Home}/.rbenv/bin:$PATH && \
-		eval "$(rbenv init -)"
+echo $SHELL
 ```
 {% endraw %}
 
 
-	6. 변경된 파일 적용
 
-		
+If it says `/bin/zsh`, add below after `vi ~/.zshrc`
+
+
+
 {% raw %}
 ```bash
-		source ~/.zshrc
+export PATH={$Home}/.rbenv/bin:$PATH && \
+eval "$(rbenv init -)"
 ```
 {% endraw %}
 
 
-	7. 다시 다운 받기
+1. Apply the change
 
-		
+
 {% raw %}
 ```bash
-		gem install bundler
-		rbenv rehash
+source ~/.zshrc
 ```
 {% endraw %}
 
 
-	8. 다시 앞서 clone한 repository 저장소로가서 jekyll 다운 받기
+1. Re-install
 
-		
+
 {% raw %}
 ```bash
-		gem install jekyll
+gem install bundler
+rbenv rehash
 ```
 {% endraw %}
 
 
-	9. jekyll을 이용해 기본 번들 설치
+1. Download jekyll at the repository you cloned
 
-		
+
 {% raw %}
 ```bash
-		jekyll new ./
+gem install jekyll
+```
+{% endraw %}
+
+
+1. Install basic bundle using jekyll
+
+
+{% raw %}
+```bash
+jekyll new ./
 ```
 {% endraw %}
 
@@ -380,24 +387,21 @@ git push
 ### 9. Jekyll Theme
 
 
-These pages offer Jekyll Themes
-
-- http://jekyllthemes.org/
-- [https://jekyllthemes.io/free](https://jekyllthemes.io/free)
-- [https://themes.jekyllrc.org/](https://themes.jekyllrc.org/)
-- [https://github.com/topics/jekyll-theme](https://github.com/topics/jekyll-theme)
-
 
 #### Step 1. Download Theme
 
-1. github에서 직접 내려 받는 방법
-2. 홈페이지에서 다운 받는 방법
+1. Download directly from github
+2. Download from the homepages
+	- http://jekyllthemes.org/
+	- [https://jekyllthemes.io/free](https://jekyllthemes.io/free)
+	- [https://themes.jekyllrc.org/](https://themes.jekyllrc.org/)
+	- [https://github.com/topics/jekyll-theme](https://github.com/topics/jekyll-theme)
 
 
 #### Step 2. Create a new folder in local and connect to the GitHub repository
 
 
-해도되고 안 해도 되고 
+~~_Doesn’t matter if you don't do this step!_~~
 
 
 **2-1.** Create an empty folder and get in
@@ -419,13 +423,13 @@ cd {folder_name}
 
 {% raw %}
 ```bash
-# 폴더에 git 생성하기
+# Generate git in the folder
 git init
-# blog 폴더에 github homepage repository 연결하기
+# Connect the GitHub homepage repository to the blog
 git remote add origin {github_HTTPS_address}
-# repository에 있는 데이터를 blog 폴더에 내려받기
+# Download data from repository to blog folder
 git pull origin main
-# 연결 완료!
+# Done!
 ```
 {% endraw %}
 
