@@ -44,7 +44,7 @@ A device that allows your blog posts to appear when searched on Google
 #### Step 2. Download HTML file
 
 
-download the HTML file and place it in where the `Gemfile` is. And commit and push the repo.
+Download the HTML file and place it in where the `Gemfile` is. And commit and push the repo.
 
 
 ![2](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/2.png)
@@ -257,13 +257,10 @@ Same with ‘the purpose of business’. Choose anything you like for the 4th st
 ![8](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/8.png)
 
 
-![9](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/9.png)
-
-
 And agree to the GDR.
 
 
-![10](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/10.png)
+![9](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/9.png)
 
 
 
@@ -274,7 +271,7 @@ And agree to the GDR.
 ‘Manage' > ‘Attribute Setting’ > ‘Data Collection and Edit’ > ‘Data Stream’ > Choose your stream > ‘Stream Details’ > ‘Measurement ID’
 
 
-![11](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/11.png)
+![10](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/10.png)
 
 - `_config.yml`
 
@@ -303,7 +300,7 @@ Again, since the Google Analytics upgraded their service from Universal Analytic
 A tool that generates revenue through advertising and allows you to earn advertising fees.
 
 
-![12](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/12.png)
+![11](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/11.png)
 
 
 

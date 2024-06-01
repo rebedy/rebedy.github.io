@@ -239,7 +239,7 @@ paginate: 10  # -> How many post will be appeared on a list
 - A repo provides a blog template that automatically imports Notion by linking Notion and Next.js.
 	- [https://github.com/morethanmin/morethan-log](https://github.com/morethanmin/morethan-log)
 - _**Just follow the link below.**_
-	- [Shout out to lourcode!](https://lourcode.kr/posts/Jekyll-%EA%B8%B0%EB%B0%98-Github-Pages%EC%99%80-Notion-Page-%EC%97%B0%EB%8F%99/#github-%ED%99%98%EA%B2%BD-%EC%84%A4%EC%A0%95)
+	- [Shout out to lourcode!](https://lourcode.kr/posts/Integrating-Jekyll-based-Github-pages-with-Notion-pages/)
 
 
 ## References
