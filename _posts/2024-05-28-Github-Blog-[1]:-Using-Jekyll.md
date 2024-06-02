@@ -644,13 +644,7 @@ remote_theme: hydecorp/hydejack@v9
 After you are done with step 9 if you have problem with build, please consider working on this process.
 
 
-> 👸 _**If you are suffering from the error message below, please make sure this process is done.**_  
-> **`ERROR ‘/assets/js/dist/home.min.js’ not found.`**   
->   
-> `{: .prompt-tip }`
-
-
-> 👸 _**If you are suffering from the error message below, please make sure this process is done.**_ **`ERROR ‘/assets/js/dist/home.min.js’ not found.`**  `{: .prompt-tip }`
+![6](/assets/img/2024-05-28-Github-Blog-[1]:-Using-Jekyll.md/6.png)
 
 - Do either one of the commands below.
 
@@ -668,7 +662,7 @@ $ npm install && npm run build bundle update
 
 - Result
 
-![6](/assets/img/2024-05-28-Github-Blog-[1]:-Using-Jekyll.md/6.png)
+![7](/assets/img/2024-05-28-Github-Blog-[1]:-Using-Jekyll.md/7.png)
 
 
             
