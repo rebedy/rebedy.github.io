@@ -160,18 +160,6 @@ examples
 ![4](/assets/img/2024-06-02-Github-Profile-[1]:-README.md.md/4.png)
 
 
-[embed](https://img.shields.io/badge/logo-test-blue?logo=facebook)
-
-
-[embed](https://img.shields.io/badge/logo-test-blue?logo=facebook&logoColor=white)
-
-
-[embed](https://img.shields.io/badge/logo-test-blue?logo=facebook&logoColor=white&logoWidth=40)
-
-
-       
-
-
 
 {% raw %}
 ```markdown
@@ -181,10 +169,7 @@ examples
 
 
 
-[embed](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white"/)
-
-
-            
+![5](/assets/img/2024-06-02-Github-Profile-[1]:-README.md.md/5.png)
 
 
             
@@ -240,7 +225,7 @@ examples
 
 
 
-![5](/assets/img/2024-06-02-Github-Profile-[1]:-README.md.md/5.png)
+![6](/assets/img/2024-06-02-Github-Profile-[1]:-README.md.md/6.png)
 
 
             
@@ -275,7 +260,7 @@ Find `lines=Please%2C+change+here.;This+is+where+you+should+change.` part and wr
 {% raw %}
 ```markdown
 <!-- example1 -->
-[![6](/assets/img/2024-06-02-Github-Profile-[1]:-README.md.md/6.png)_Typing SVG_](https://git.io/typing-svg)
+[![7](/assets/img/2024-06-02-Github-Profile-[1]:-README.md.md/7.png)_Typing SVG_](https://git.io/typing-svg)
 
 <!-- example2 -->
 <img src="https://readme-typing-svg.demolab.com/?lines=Please%2C+change+here.;This+is+where+you+should+change.&font=Fira%20Code&center=true&color=e0c8d0&width=380&height=50&duration=4000&pause=1000">
@@ -318,7 +303,7 @@ Find `lines=Please%2C+change+here.;This+is+where+you+should+change.` part and wr
 
 
 
-![7](/assets/img/2024-06-02-Github-Profile-[1]:-README.md.md/7.png)
+![8](/assets/img/2024-06-02-Github-Profile-[1]:-README.md.md/8.png)
 
 
             
@@ -393,7 +378,7 @@ Find `lines=Please%2C+change+here.;This+is+where+you+should+change.` part and wr
 
 
 
-[embed](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=white)
+![9](/assets/img/2024-06-02-Github-Profile-[1]:-README.md.md/9.png)
 
 
             
@@ -429,8 +414,9 @@ Find `xxxxxxx` and change it to your github username!
 
 {% raw %}
 ```markdown
-[![8](/assets/img/2024-06-02-Github-Profile-[1]:-README.md.md/8.png)_Hits_](https://hits.seeyoufarm.com)
-![9](/assets/img/2024-06-02-Github-Profile-[1]:-README.md.md/9.png)_Views_
+[![10](/assets/img/2024-06-02-Github-Profile-[1]:-README.md.md/10.png)_Hits_](https://hits.seeyoufarm.com)
+
+![11](/assets/img/2024-06-02-Github-Profile-[1]:-README.md.md/11.png)_Views_
 ```
 {% endraw %}
 
@@ -464,9 +450,3 @@ Find `xxxxxxx` and change it to your github username!
 - [http://blog.cowkite.com/blog/2102241544/](http://blog.cowkite.com/blog/2102241544/)
 - [https://github.com/anuraghazra/github-readme-stats/blob/master/docs/readme_kr.md](https://github.com/anuraghazra/github-readme-stats/blob/master/docs/readme_kr.md)
 - [https://velog.io/@loakick/Shield-IO-사용법-iojyndy4pi](https://velog.io/@loakick/Shield-IO-%EC%82%AC%EC%9A%A9%EB%B2%95-iojyndy4pi)
-
-https://img.shields.io/badge/Visual Studio Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
-
-
-https://img.shields.io/badge/python-%2314354C.svg?logo=python&logoColor=white
-

@@ -211,7 +211,7 @@ theme_mode: # [light | dark]
 # e.g. 'https://cdn.com'
 cdn: "https://xxx.netlify.app"
 
-# the avatar on sidebar, support local or CORS resources -> Profile Image***
+# the avatar on sidebar, support local or CORS resources
 avatar: "/assets/img/favicons/mstile-150x150.png"
 ...
 
@@ -310,7 +310,7 @@ paginate: 10  # -> How many post will be appeared on a list
 ---
 
 - A repo provides a blog template that automatically imports Notion by linking Notion and Next.js.
-	- [https://github.com/morethanmin/morethan-log](https://github.com/morethanmin/morethan-log)
+	- [morethan-log](https://github.com/morethanmin/morethan-log)
 - _**Just follow the link below.**_
 	- [Shout out to lourcode!](https://lourcode.kr/posts/Integrating-Jekyll-based-Github-pages-with-Notion-pages/)
 

@@ -361,7 +361,7 @@ echo $SHELL
 
 
 
-     If it says `/bin/zsh`, add below after `vi ~/.zshrc`
+→ If it says `/bin/zsh`, add below after `vi ~/.zshrc`
 
 
 
@@ -645,7 +645,12 @@ After you are done with step 9 if you have problem with build, please consider w
 
 
 > 👸 _**If you are suffering from the error message below, please make sure this process is done.**_  
-> **`ERROR ‘/assets/js/dist/home.min.js’ not found.`**
+> **`ERROR ‘/assets/js/dist/home.min.js’ not found.`**   
+>   
+> `{: .prompt-tip }`
+
+
+> 👸 _**If you are suffering from the error message below, please make sure this process is done.**_ **`ERROR ‘/assets/js/dist/home.min.js’ not found.`**  `{: .prompt-tip }`
 
 - Do either one of the commands below.
 
