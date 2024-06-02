@@ -7,6 +7,15 @@ categories: [GitHub, ]
 ---
 
 
+            
+
+
+            
+
+
+            
+
+
 
 ## Prerequisites
 
@@ -15,6 +24,21 @@ categories: [GitHub, ]
 
 
 [Github Blog [1]: Using Jekyll](https://rebedy.github.io/posts/Github-Blog-1-Using-Jekyll/)
+
+
+            
+
+
+            
+
+
+                        
+
+
+            
+
+
+            
 
 
 
@@ -44,6 +68,12 @@ categories: [GitHub, ]
 	- delete `Gemfile.lock` from .gitignore
 	- automatically generate commits to save changes
 
+            
+
+
+            
+
+
 
 ### 2. Dependencies
 
@@ -55,6 +85,12 @@ bundle
 ```
 {% endraw %}
 
+
+
+            
+
+
+            
 
 
 
@@ -78,6 +114,28 @@ bundle
 
 #### `_config.yml`
 
+- `lang` : choose language you want to display (eg. `en` or `ko` ). Search your language from [here](http://www.lingoes.net/en/translator/langcode.htm).
+- `timezone` : Change to your timezone. Search your timezone from [here](https://zones.arilyn.cc/).
+- `title` : The main title. This will displayed on the sidebar.
+- `tagline` : The sub-title. This will displayed on the sidebar under the title.
+- `description` : SEO meta and the atom feed.
+- `url` : ‘https://username.github.io’. Don’t add ‘/’ at the end.
+- `github > username` : Your GitHub username.
+- `twitter > username` : Your twitter username.
+- `social`
+	- `name` : Your name or nickname.
+	- `email` : Your email address. (Note that if you don’t want to expose, don’t fill this in)
+	- `links`:
+		- ‘https://twitter.com/xxx’ : Your Twitter homepage.
+		- ‘https://github.com/xxx’ : Your GitHub homepage.
+		- ‘https://www.linkedin.com/in/xxx’ : Your LinkenIn homepage.
+		- ‘https://www.facebook.com/username’ : Your Facebook homepage.
+- `analytics > google > id` : ‘G-xxxxxxxxxx’ Your Google Analytics ID from Google Search Console.
+- `theme_mode` : [light | dark] Keep empty will follow the system prefer color and there will be a toggle in the bottom of sidebar.
+- `cdn` : The CDN endpoint for media resources. For example; "https://xxx.netlify.app".
+- `avatar` : The avatar on sidebar, the profile image.
+- `toc` : boolean type, the global switch for Table of Contents in posts.
+- `paginate` : How many post will be appeared on a list. I set it to 10.
 
 
 {% raw %}
@@ -124,25 +182,17 @@ social:
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/xxx # change to your linkenin homepage
-
-...
-
-# Site Verification Settings
-webmaster_verifications:
-  google: # fill in your Google verification code -> Google Search Console***
-
 ...
 
 # Web Analytics Settings
 analytics:
   google:
-    id: # fill in your Google Analytics ID
-    
+    id: G-xxxxxxxxxx # fill in your Google Analytics ID
 ...
 
 # Prefer color scheme setting.
 #
-# Note: <u>Keep empty</u> will follow the system prefer color by default,
+# Note: Keep empty will follow the system prefer color by default,
 # and there will be a toggle to switch the theme between dark and light
 # on the bottom left of the sidebar.
 #
@@ -152,7 +202,6 @@ analytics:
 #     dark   - Use the dark color scheme
 #
 theme_mode: # [light | dark] 
-
 ...
 
 # The CDN endpoint for media resources.
@@ -164,24 +213,27 @@ cdn: "https://xxx.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources -> Profile Image***
 avatar: "/assets/img/favicons/mstile-150x150.png"
-
 ...
 
 # boolean type, the global switch for TOC in posts.
 toc: true # -> Table of Contents
-
 ...
 
 paginate: 10  # -> How many post will be appeared on a list
-
 ...
 ```
 {% endraw %}
 
 
 
+            
 
-### 4. Sidebar background with Image
+
+            
+
+
+
+### 4. Sidebar background with image
 
 - `_sass/addon/commons.scss`
 
@@ -200,8 +252,14 @@ paginate: 10  # -> How many post will be appeared on a list
 ![0](/assets/img/2024-05-29-GitHub-Blog-[2]:-Customizing.md/0.png)
 
 
+            
 
-### 5. Styles per mode
+
+            
+
+
+
+### 5. Color styles per mode
 
 - `_sass/colors/typography-dark.scss`  or `_sass/colors/typography-light.scss`
 
@@ -230,6 +288,21 @@ paginate: 10  # -> How many post will be appeared on a list
 
 
 
+            
+
+
+            
+
+
+                        
+
+
+            
+
+
+            
+
+
 
 ## Connecting Github Pages and Notion based on Jekyll
 
@@ -240,6 +313,21 @@ paginate: 10  # -> How many post will be appeared on a list
 	- [https://github.com/morethanmin/morethan-log](https://github.com/morethanmin/morethan-log)
 - _**Just follow the link below.**_
 	- [Shout out to lourcode!](https://lourcode.kr/posts/Integrating-Jekyll-based-Github-pages-with-Notion-pages/)
+
+            
+
+
+            
+
+
+                        
+
+
+            
+
+
+            
+
 
 
 ## References

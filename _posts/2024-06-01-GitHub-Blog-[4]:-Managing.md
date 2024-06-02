@@ -7,6 +7,15 @@ categories: [GitHub, ]
 ---
 
 
+            
+
+
+            
+
+
+                        
+
+
 
 ## Prerequisites
 
@@ -18,6 +27,24 @@ categories: [GitHub, ]
 
 
 [GitHub Blog [2]: Customizing](https://rebedy.github.io/posts/GitHub-Blog-2-Customizing/)
+
+
+            
+
+
+            
+
+
+                        
+
+
+            
+
+
+            
+
+
+                        
 
 
 
@@ -33,11 +60,29 @@ A device that allows your blog posts to appear when searched on Google
 ![0](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/0.png)
 
 
+            
+
+
+            
+
+
+                        
+
+
 
 #### Step 1. Add your site
 
 
 ![1](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/1.png)
+
+
+            
+
+
+            
+
+
+                        
 
 
 
@@ -48,6 +93,15 @@ Download the HTML file and place it in where the `Gemfile` is. And commit and pu
 
 
 ![2](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/2.png)
+
+
+            
+
+
+            
+
+
+                        
 
 
 
@@ -76,6 +130,15 @@ bundle install
 ```
 {% endraw %}
 
+
+
+            
+
+
+            
+
+
+                        
 
 
 
@@ -170,6 +233,15 @@ you also can visit sites generate `sitemap.xml` for you!
 [https://www.xml-sitemaps.com/](https://www.xml-sitemaps.com/)
 
 
+            
+
+
+            
+
+
+                        
+
+
 
 #### Step 5. robots.txt
 
@@ -195,6 +267,15 @@ Of course you gotta change the blog address!
 And commit/push!
 
 
+            
+
+
+            
+
+
+                        
+
+
 
 #### Step 6. Add new Sitemaps on the [Google Search Console](https://search.google.com/search-console)
 
@@ -203,6 +284,24 @@ And commit/push!
 
 
 Within 7 days, your blog will be exposed on the search engine.
+
+
+            
+
+
+            
+
+
+                        
+
+
+            
+
+
+            
+
+
+                        
 
 
 
@@ -218,6 +317,15 @@ It is a tool that analyzes various factors such as who accessed my blog, when, w
 ![4](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/4.png)
 
 
+            
+
+
+            
+
+
+                        
+
+
 
 #### Step 1. Start
 
@@ -231,6 +339,15 @@ Since the Google Analytics upgraded their service from Universal Analytics to GA
 ![5](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/5.png)
 
 
+            
+
+
+            
+
+
+                        
+
+
 
 #### Step 2. Make new attribute
 
@@ -239,6 +356,15 @@ Since the Google Analytics upgraded their service from Universal Analytics to GA
 3. Currency: $ (can be anything)
 
 ![6](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/6.png)
+
+
+            
+
+
+            
+
+
+                        
 
 
 
@@ -261,6 +387,15 @@ And agree to the GDR.
 
 
 ![9](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/9.png)
+
+
+            
+
+
+            
+
+
+                        
 
 
 
@@ -290,6 +425,24 @@ analytics:
 Again, since the Google Analytics upgraded their service from Universal Analytics to GA4, your measurement ID is also starts with `G` not `UA`.
 
 
+            
+
+
+            
+
+
+                        
+
+
+            
+
+
+            
+
+
+                        
+
+
 
 ## [**Google Adsense**](https://www.google.com/adsense/new/u/0/pub-2215052066308993/onboarding)
 
@@ -313,6 +466,15 @@ After accessing the site and sign up using your blog’s URL and email address a
 Register a profile in order to receive payments. Enter personal information such as address and contact information.
 
 
+            
+
+
+            
+
+
+                        
+
+
 
 #### Step 2. Apply Google AdSense code to website
 
@@ -332,6 +494,24 @@ Add code below to the bottom of `_includes/head.html`.
 ```
 {% endraw %}
 
+
+
+            
+
+
+            
+
+
+                        
+
+
+            
+
+
+            
+
+
+                        
 
 
 

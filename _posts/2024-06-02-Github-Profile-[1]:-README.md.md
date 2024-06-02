@@ -7,7 +7,25 @@ categories: [GitHub, ]
 ---
 
 
+            
+
+
+            
+
+
+                        
+
+
 ![0](/assets/img/2024-06-02-Github-Profile-[1]:-README.md.md/0.png)_https://github.com/rebedy_
+
+
+            
+
+
+            
+
+
+                        
 
 
 
@@ -29,6 +47,24 @@ categories: [GitHub, ]
 ![1](/assets/img/2024-06-02-Github-Profile-[1]:-README.md.md/1.png)
 
 
+            
+
+
+            
+
+
+            
+
+
+                        
+
+
+            
+
+
+                        
+
+
 
 ## 1. Add badges
 
@@ -38,6 +74,9 @@ categories: [GitHub, ]
 
 > 💡 **Badge:** [**https://shields.io/**](https://shields.io/)  
 > **Icon:** [**https://simpleicons.org/**](https://simpleicons.org/)
+
+
+       
 
 
 
@@ -52,11 +91,17 @@ https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>
 {% endraw %}
 
 
+
+       
+
 - underscores, dash, space == `__`, `--`, `_`
 
 	![2](/assets/img/2024-06-02-Github-Profile-[1]:-README.md.md/2.png)
 
 - `COLOR`: Hex, rgb, rgba, hsl, hsla and css named colors may be used.
+
+       
+
 
 
 #### 1) Styles
@@ -90,6 +135,9 @@ examples
 ![3](/assets/img/2024-06-02-Github-Profile-[1]:-README.md.md/3.png)
 
 
+       
+
+
 
 #### 2) Logo
 
@@ -121,6 +169,9 @@ examples
 [embed](https://img.shields.io/badge/logo-test-blue?logo=facebook&logoColor=white&logoWidth=40)
 
 
+       
+
+
 
 {% raw %}
 ```markdown
@@ -131,6 +182,24 @@ examples
 
 
 [embed](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white"/)
+
+
+            
+
+
+            
+
+
+                        
+
+
+            
+
+
+            
+
+
+                        
 
 
 
@@ -174,6 +243,24 @@ examples
 ![5](/assets/img/2024-06-02-Github-Profile-[1]:-README.md.md/5.png)
 
 
+            
+
+
+            
+
+
+                        
+
+
+            
+
+
+            
+
+
+                        
+
+
 
 ## 3. Add typing svg
 
@@ -197,6 +284,21 @@ Find `lines=Please%2C+change+here.;This+is+where+you+should+change.` part and wr
 
 
 
+                        
+
+
+            
+
+
+                        
+
+
+            
+
+
+                        
+
+
 
 ## 4. Add moving emoji
 
@@ -217,6 +319,24 @@ Find `lines=Please%2C+change+here.;This+is+where+you+should+change.` part and wr
 
 
 ![7](/assets/img/2024-06-02-Github-Profile-[1]:-README.md.md/7.png)
+
+
+            
+
+
+            
+
+
+                        
+
+
+            
+
+
+            
+
+
+                        
 
 
 
@@ -276,8 +396,29 @@ Find `lines=Please%2C+change+here.;This+is+where+you+should+change.` part and wr
 [embed](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=white)
 
 
+            
 
-## 6. Add badges for the counts 
+
+            
+
+
+                        
+
+
+            
+
+
+            
+
+
+                        
+
+
+
+## 6. Add badges for the counts
+
+
+---
 
 - **A badge that counts hits:** [hit-counter](https://hits.seeyoufarm.com/)
 - **A badge that counts profile views:** [github-profile-views-counter](https://github.com/antonkomarev/github-profile-views-counter)
@@ -293,6 +434,24 @@ Find `xxxxxxx` and change it to your github username!
 ```
 {% endraw %}
 
+
+
+            
+
+
+            
+
+
+                        
+
+
+            
+
+
+            
+
+
+                        
 
 
 

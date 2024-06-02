@@ -7,14 +7,44 @@ categories: [GitHub, ]
 ---
 
 
+       
+
+
+       
+
+
+       
+
+
 > 👸 _**Exposing commit time statistics on the pin box!**_ 
+
+
+          
 
 
 ![0](/assets/img/2024-06-03-Github-Profile-[2]:-.md/0.png)
 
 
+       
+
+
+       
+
+
+       
+
+
 
 ## 1. Fork the repo from [productive-box.git](https://github.com/rebedy/productive-box.git)
+
+
+       
+
+
+       
+
+
+       
 
 
 
@@ -22,12 +52,30 @@ categories: [GitHub, ]
 
 1. go to `Actions` tab and click the `enabled` bottom to activate.
 
+       
+
+
+       
+
+
+       
+
+
 
 ## 3. [Generate new public gist](https://gist.github.com/)
 
 1. the title and contents do not matter. It will be overwritten anyway.
 2. ⚠️ click `Create public gist`
 3. copy the gist ID beforehand.
+
+       
+
+
+       
+
+
+       
+
 
 
 ## 4. [Generate token](https://github.com/settings/tokens/new)
@@ -37,6 +85,15 @@ categories: [GitHub, ]
 3. set the `Expiration` to ‘No expiration’.
 
 ![1](/assets/img/2024-06-03-Github-Profile-[2]:-.md/1.png)
+
+
+       
+
+
+       
+
+
+       
 
 
 
@@ -79,6 +136,15 @@ categories: [GitHub, ]
 
 
 
+       
+
+
+       
+
+
+       
+
+
 
 ## 6. Add new secret
 
@@ -89,8 +155,26 @@ categories: [GitHub, ]
 ![3](/assets/img/2024-06-03-Github-Profile-[2]:-.md/3.png)
 
 
+       
+
+
+       
+
+
+       
+
+
 
 ## 7. [Fix the gist onto my github profile](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/pinning-items-to-your-profile)
+
+
+       
+
+
+       
+
+
+       
 
 
 
@@ -102,6 +186,24 @@ categories: [GitHub, ]
 	2. Go to `Actions` > `Update git` > press `Run workflow` button.
 
 	![4](/assets/img/2024-06-03-Github-Profile-[2]:-.md/4.png)
+
+
+       
+
+
+       
+
+
+       
+
+
+       
+
+
+       
+
+
+       
 
 
 

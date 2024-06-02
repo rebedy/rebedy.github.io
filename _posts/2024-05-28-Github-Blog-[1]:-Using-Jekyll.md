@@ -7,6 +7,15 @@ categories: [GitHub, ]
 ---
 
 
+            
+
+
+            
+
+
+            
+
+
 
 ## GitHub Pages
 
@@ -19,6 +28,24 @@ categories: [GitHub, ]
 - Static site provided by GitHub
 - You can manage posts by pushing files to the repository and there is no cost.
 - [GitHub Pages Information](https://docs.github.com/ko/pages/getting-started-with-github-pages/about-github-pages)
+
+            
+
+
+            
+
+
+           
+
+
+            
+
+
+            
+
+
+             
+
 
 
 ## Static Site Generator
@@ -88,12 +115,30 @@ categories: [GitHub, ]
 
 - **Settings** > **Pages** > **Build and deployment > Source > choose** **`GitHub Actions`**
 
+            
+
+
+            
+
+
+            
+
+
 
 ### 2. Github r**epository clone**
 
 - After copying the HTTPs address, open the terminal and then run  `git clone {HTTPs_address}`
 - Permission error
 	- Password is not allowed from November 2020. From 13th August 2021, the certified token (or SSH key) is needed for all git processes.
+
+            
+
+
+            
+
+
+            
+
 
 
 ### 3. npm Installation
@@ -113,6 +158,15 @@ npm -v
 
 
 - [Detailed Explanation](https://velog.io/@me2designer/NPM-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%84%A4%EC%A0%95)
+
+            
+
+
+            
+
+
+            
+
 
 
 ### 4. Ruby Installation 
@@ -167,6 +221,15 @@ source ~/.zshrc
 
 
 
+            
+
+
+            
+
+
+            
+
+
 
 ### **5. Jekyll and** `gem` **Installation**
 
@@ -194,6 +257,15 @@ gem install github-pages
 ```
 {% endraw %}
 
+
+
+            
+
+
+            
+
+
+            
 
 
 
@@ -227,7 +299,9 @@ You may have encountered a bug in the Ruby interpreter or extension libraries.
 {% endraw %}
 
 
-1. `rbenv` installation
+
+1) `rbenv` installation
+
 
 
 {% raw %}
@@ -237,7 +311,9 @@ brew install rbenv ruby-build
 {% endraw %}
 
 
-1. Check ruby version (current one)
+
+2) Check ruby version (current one)
+
 
 
 {% raw %}
@@ -247,7 +323,9 @@ rbenv versions
 {% endraw %}
 
 
-1. Check installable versions
+
+3) Check installable versions
+
 
 
 {% raw %}
@@ -257,7 +335,9 @@ rbenv install -l
 {% endraw %}
 
 
-1. Install ruby and change the version setting.
+
+4) Install ruby and change the version setting.
+
 
 
 {% raw %}
@@ -268,7 +348,9 @@ rbenv global x.x.x
 {% endraw %}
 
 
-1. Check shell and edit the configuration file.
+
+5) Check shell and edit the configuration file.
+
 
 
 {% raw %}
@@ -279,7 +361,7 @@ echo $SHELL
 
 
 
-If it says `/bin/zsh`, add below after `vi ~/.zshrc`
+     If it says `/bin/zsh`, add below after `vi ~/.zshrc`
 
 
 
@@ -291,7 +373,9 @@ eval "$(rbenv init -)"
 {% endraw %}
 
 
-1. Apply the change
+
+6) Apply the change
+
 
 
 {% raw %}
@@ -301,7 +385,9 @@ source ~/.zshrc
 {% endraw %}
 
 
-1. Re-install
+
+7) Re-install
+
 
 
 {% raw %}
@@ -312,7 +398,9 @@ rbenv rehash
 {% endraw %}
 
 
-1. Download jekyll at the repository you cloned
+
+8) Download jekyll at the repository you cloned
+
 
 
 {% raw %}
@@ -322,7 +410,9 @@ gem install jekyll
 {% endraw %}
 
 
-1. Install basic bundle using jekyll
+
+9) Install basic bundle using jekyll
+
 
 
 {% raw %}
@@ -331,6 +421,15 @@ jekyll new ./
 ```
 {% endraw %}
 
+
+
+            
+
+
+            
+
+
+            
 
 
 
@@ -565,6 +664,21 @@ $ npm install && npm run build bundle update
 - Result
 
 ![6](/assets/img/2024-05-28-Github-Blog-[1]:-Using-Jekyll.md/6.png)
+
+
+            
+
+
+            
+
+
+                        
+
+
+            
+
+
+            
 
 
 

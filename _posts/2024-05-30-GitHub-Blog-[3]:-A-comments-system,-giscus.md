@@ -10,6 +10,21 @@ categories: [GitHub, ]
  
 
 
+            
+
+
+            
+
+
+                        
+
+
+            
+
+
+            
+
+
 
 ## Prerequisites
 
@@ -23,8 +38,29 @@ categories: [GitHub, ]
 [GitHub Blog [2]: Customizing](https://rebedy.github.io/posts/GitHub-Blog-2-Customizing/)
 
 
+            
+
+
+            
+
+
+                        
+
+
+            
+
+
+            
+
+
+                        
+
+
 
 ## giscus
+
+
+---
 
 
 ![0](/assets/img/2024-05-30-GitHub-Blog-[3]:-A-comments-system,-giscus.md/0.png)
@@ -41,6 +77,24 @@ categories: [GitHub, ]
 - Automatically fetches new comments and edits from GitHub. 🔃
 - [Can be self-hosted](https://github.com/giscus/giscus/blob/main/SELF-HOSTING.md)! 🤳
 
+            
+
+
+            
+
+
+                        
+
+
+            
+
+
+            
+
+
+                        
+
+
 
 ## **How to use** **`giscus`** 
 
@@ -56,6 +110,15 @@ Install [**Giscus App**](https://github.com/apps/giscus) in **“Repository to 
 
 - **“Repository to use comments”** will be `{username}/{username}.github.io` if you are on GitHub Pages for blog.
 
+            
+
+
+            
+
+
+                        
+
+
 
 ### 2. Activation
 
@@ -67,6 +130,15 @@ Activate **`Discussion`** in **`Settings > General > Features`** section and che
 
 
 ![2](/assets/img/2024-05-30-GitHub-Blog-[3]:-A-comments-system,-giscus.md/2.png)
+
+
+            
+
+
+            
+
+
+                        
 
 
 
@@ -117,6 +189,15 @@ Choose `General` and check `Only search for discussions in this category` and re
 
 
 
+            
+
+
+            
+
+
+                        
+
+
 
 ### 4. Setting `_config.yml`
 
@@ -159,6 +240,15 @@ comments:
 
 
 
+            
+
+
+            
+
+
+                        
+
+
 
 ### 5. Deployment
 
@@ -178,6 +268,24 @@ git push
 
 
 ![4](/assets/img/2024-05-30-GitHub-Blog-[3]:-A-comments-system,-giscus.md/4.png)
+
+
+            
+
+
+            
+
+
+                        
+
+
+            
+
+
+            
+
+
+                        
 
 
 
