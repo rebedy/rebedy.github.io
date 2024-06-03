@@ -103,9 +103,9 @@ categories: [GitHub, ]
 {% raw %}
 ```yaml
 ...
-	steps:
-		- name: Update gist
-		  uses: rebedy/productive-box@master
+steps:
+	- name: Update gist
+	  uses: rebedy/productive-box@master
 ```
 {% endraw %}
 
@@ -121,13 +121,13 @@ categories: [GitHub, ]
 {% raw %}
 ```yaml
 ...
-	steps:
-		- name: Update gist
-		  uses: rebedy/productive-box@master
-		  env:
-			  GH_TOKEN: ${{ secrets.GH_TOKEN }}
-			  GIST_ID: ...
-			  TIMEZONE: Asia/Seoul
+steps:
+	- name: Update gist
+	  uses: rebedy/productive-box@master
+	  env:
+		  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+		  GIST_ID: ...
+		  TIMEZONE: Asia/Seoul
 ```
 {% endraw %}
 
