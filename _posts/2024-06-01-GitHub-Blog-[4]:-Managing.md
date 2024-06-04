@@ -2,7 +2,7 @@
 layout: post
 date: 2024-06-01
 title: "GitHub Blog [4]: Managing"
-tags: [blog, ]
+tags: [blog, chirpy, ]
 categories: [GitHub, ]
 ---
 
