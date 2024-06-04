@@ -104,8 +104,8 @@ categories: [GitHub, ]
 ```yaml
 ...
 steps:
-	- name: Update gist
-		uses: rebedy/productive-box@master
+  - name: Update gist
+    uses: rebedy/productive-box@master
 ```
 {% endraw %}
 
@@ -122,12 +122,12 @@ steps:
 ```yaml
 ...
 steps:
-	- name: Update gist
-		uses: rebedy/productive-box@master
-		env:
-			GH_TOKEN: ${{ secrets.GH_TOKEN }}
-			GIST_ID: ...
-			TIMEZONE: Asia/Seoul
+  - name: Update gist
+    uses: rebedy/productive-box@master
+    env:
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      GIST_ID: ...
+      TIMEZONE: Asia/Seoul
 ```
 {% endraw %}
 
@@ -147,7 +147,7 @@ steps:
 
 1. `Settings` of the repository > `Secrets and variables` > `Actions` > `New repository secret`
 2. Name: **`GH_TOKEN`**
-3. Secret: _token you copied from 3)-2._
+3. Secret: _**token you copied from 3)-2.**_
 
 ![4](/assets/img/2024-06-04-Github-Profile-[3]:-Commit-Stat-(feat.gist).md/4.png)
 
@@ -162,11 +162,22 @@ steps:
 
 
 
-## 7. [Fix the gist onto my github profile](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/pinning-items-to-your-profile)
+## 7. [Fix the gist onto my GitHub profile](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/pinning-items-to-your-profile)
 
+1. On the top right corner of GitHub > Click your profile photo > Click **`Your profile`**.
 
-       
+![5](/assets/img/2024-06-04-Github-Profile-[3]:-Commit-Stat-(feat.gist).md/5.png)
 
+1. At the left top of the `Pinned` section, click **`Customize your pins`**.
+
+	![6](/assets/img/2024-06-04-Github-Profile-[3]:-Commit-Stat-(feat.gist).md/6.png)
+
+1. Select up to six repositories and gists, combined > Click **`Save pins`****.**
+
+![7](/assets/img/2024-06-04-Github-Profile-[3]:-Commit-Stat-(feat.gist).md/7.png)
+
+	- (Optional) To change which items are included in the searchable list, next to `Show`, select or deselect **`Repositories`** and **`Gists`**.
+	- (Optional) To make it easier to find a specific item, in the `Filter repositories and gists` field, type the name of a user, organization, repository, or gist.
 
        
 
@@ -182,7 +193,7 @@ steps:
 	1. Edit README.md or .yml file. It will update instantly.
 	2. Go to `Actions` > `Update git` > press `Run workflow` button.
 
-	![5](/assets/img/2024-06-04-Github-Profile-[3]:-Commit-Stat-(feat.gist).md/5.png)
+	![8](/assets/img/2024-06-04-Github-Profile-[3]:-Commit-Stat-(feat.gist).md/8.png)
 
 
        
