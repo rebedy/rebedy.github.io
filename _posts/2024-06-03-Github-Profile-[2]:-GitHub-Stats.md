@@ -104,33 +104,35 @@ Copy and paste line below into your markdown and replace the value after `?user
 There are optional fields besides the `user` field which is mandatory.
 
 
-| Parameter                  | Details                                              | Example                                                                                                                 |
-| -------------------------- | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| `hide_border`              | Make the border transparent (Default: `false`)       | `true` or `false`                                                                                                       |
-| `border_radius`            | Set the roundness of the edges (Default: `4.5`)      | Number `0` (sharp corners) to `248` (ellipse)                                                                           |
-| `background`               | Background <u>color</u> (eg. `f2f2f2`, `35,d22,00f`) | **hex code** without `#`, **css color**, or gradient in the form `angle,start_color,...,end_color`                      |
-| `border`                   | Border <u>color</u>                                  | **hex code** w/o `#` or **css color**                                                                                   |
-| `stroke`                   | Stroke line <u>color</u> between sections            | **hex code** w/o `#` or **css color**                                                                                   |
-| `ring`                     | <u>Color</u> of the ring around the current streak   | **hex code** w/o `#` or **css color**                                                                                   |
-| `fire`                     | <u>Color</u> of the fire in the ring                 | **hex code** w/o `#` or **css color**                                                                                   |
-| `currStreakNum`            | Current streak number <u>color</u>                   | **hex code** w/o `#` or **css color**                                                                                   |
-| `sideNums`                 | Total and longest streak # <u>color</u>              | **hex code** w/o `#` or **css color**                                                                                   |
-| `currStreakLabel`          | Current streak label <u>color</u>                    | **hex code** w/o `#` or **css color**                                                                                   |
-| `sideLabels`               | Total and longest streak labels                      | **hex code** w/o `#` or **css color**                                                                                   |
-| `dates`                    | Date range text <u>color</u>                         | **hex code** w/o `#` or **css color**                                                                                   |
-| `excludeDaysLabel`         | Excluded days of the week text <u>color</u>          | **hex code** w/o `#` or **css color**                                                                                   |
-| `date_format`              | Date format pattern or empty for locale format       | See note below on [📅 Date Formats](https://github.com/DenverCoder1/github-readme-streak-stats/tree/main#-date-formats) |
-| `locale`                   | Locale for labels and numbers (Default: `en`)        | ISO 639-1 code - See [🗪 Locales](https://github.com/DenverCoder1/github-readme-streak-stats/tree/main#-locales)        |
-| `type`                     | Output format (Default: `svg`)                       | Current options: `svg`, `png` or `json`                                                                                 |
-| `mode`                     | Streak mode (Default: `daily`)                       | `daily` (contribute daily) or `weekly` (contribute once per Sun-Sat week)                                               |
-| `exclude_days`             | List of days of the week to exclude from streaks     | Comma-separated list of day abbreviations (Sun, Mon, Tue, Wed, Thu, Fri, Sat) e.g. `Sun,Sat`                            |
-| `disable_animations`       | Disable SVG animations (Default: `false`)            | `true` or `false`                                                                                                       |
-| `card_width`               | Width of the card in pixels (Default: `495`)         | Positive integer, minimum width is 100px per column                                                                     |
-| `card_height`              | Height of the card in pixels (Default: `195`)        | Positive integer, minimum height is 170px                                                                               |
-| `hide_total_contributions` | Hide the total contributions (Default: `false`)      | `true` or `false`                                                                                                       |
-| `hide_current_streak`      | Hide the current streak (Default: `false`)           | `true` or `false`                                                                                                       |
-| `hide_longest_streak`      | Hide the longest streak (Default: `false`)           | `true` or `false`                                                                                                       |
-| `starting_year`            | Starting year of contributions                       | Integer, must be `2005` or later, eg. `2017`. By default, your account creation year is used.                           |
+| **Parameter**              | **Details**                                          | **Example**                                                                                                  |
+| -------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| `hide_border`              | Make the border transparent (Default: `false`)       | `true` or `false`                                                                                            |
+| `border_radius`            | Set the roundness of the edges (Default: `4.5`)      | Number `0` (sharp corners) to `248` (ellipse)                                                                |
+| `background`               | Background <u>color</u> (eg. `f2f2f2`, `35,d22,00f`) | **hex code** without `#`, **css color** or
+gradient (`angle,start_color,...,end_color`)                      |
+| `border`                   | Border <u>color</u>                                  | **hex code** w/o `#` or **css color**                                                                        |
+| `stroke`                   | Stroke line <u>color</u> between sections            | **hex code** w/o `#` or **css color**                                                                        |
+| `ring`                     | <u>Color</u> of the ring around the current streak   | **hex code** w/o `#` or **css color**                                                                        |
+| `fire`                     | <u>Color</u> of the fire in the ring                 | **hex code** w/o `#` or **css color**                                                                        |
+| `currStreakNum`            | Current streak number <u>color</u>                   | **hex code** w/o `#` or **css color**                                                                        |
+| `sideNums`                 | Total and longest streak # <u>color</u>              | **hex code** w/o `#` or **css color**                                                                        |
+| `currStreakLabel`          | Current streak label <u>color</u>                    | **hex code** w/o `#` or **css color**                                                                        |
+| `sideLabels`               | Total and longest streak labels                      | **hex code** w/o `#` or **css color**                                                                        |
+| `dates`                    | Date range text <u>color</u>                         | **hex code** w/o `#` or **css color**                                                                        |
+| `excludeDaysLabel`         | Excluded days of the week text <u>color</u>          | **hex code** w/o `#` or **css color**                                                                        |
+| `date_format`              | Date format pattern or empty for locale format       | [📅 Date Formats](https://github.com/DenverCoder1/github-readme-streak-stats/tree/main#-date-formats)        |
+| `locale`                   | Locale for labels and numbers (Default: `en`)        | ISO 639-1 code - [🗪 Locales](https://github.com/DenverCoder1/github-readme-streak-stats/tree/main#-locales) |
+| `type`                     | Output format (Default: `svg`)                       | Current options: `svg`, `png` or `json`                                                                      |
+| `mode`                     | Streak mode (Default: `daily`)                       | `daily` or `weekly` (once per Sun-Sat week)                                                                  |
+| `exclude_days`             | List of days of the week to exclude from streaks     | Comma-separated list of day abbreviations e.g. `Sun,Sat`                                                     |
+| `disable_animations`       | Disable SVG animations (Default: `false`)            | `true` or `false`                                                                                            |
+| `card_width`               | Width of the card in pixels (Default: `495`)         | Positive integer, min width is 100px per col                                                                 |
+| `card_height`              | Height of the card in pixels (Default: `195`)        | Positive integer, min height is 170px                                                                        |
+| `hide_total_contributions` | Hide the total contributions (Default: `false`)      | `true` or `false`                                                                                            |
+| `hide_current_streak`      | Hide the current streak (Default: `false`)           | `true` or `false`                                                                                            |
+| `hide_longest_streak`      | Hide the longest streak (Default: `false`)           | `true` or `false`                                                                                            |
+| `starting_year`            | Starting year of contributions                       | Integer, must be `2005` or later.
+Default: your account creation year.                                       |
 
 undefined
 
@@ -205,18 +207,22 @@ You can customize the appearance of all your cards however you wish with URL par
 **Common Options**
 
 
-| Name            | Description                                                                                                                                               | Type                                                              | Default value |
-| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------- |
-| `title_color`   | Card's title color.                                                                                                                                       | string (hex color)                                                | `2f80ed`      |
-| `text_color`    | Body text color.                                                                                                                                          | string (hex color)                                                | `434d58`      |
-| `icon_color`    | Icons color if available.                                                                                                                                 | string (hex color)                                                | `4c71f2`      |
-| `border_color`  | Card's border color. Does not apply when `hide_border` is enabled.                                                                                        | string (hex color)                                                | `e4e2e2`      |
-| `bg_color`      | Card's background color.                                                                                                                                  | string (hex color or a gradient in the form of _angle,start,end_) | `fffefe`      |
-| `hide_border`   | Hides the card's border.                                                                                                                                  | boolean                                                           | `false`       |
-| `theme`         | Name of the theme, choose from [all available themes](https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md).                   | enum                                                              | `default`     |
-| `cache_seconds` | Sets the cache header manually (min: 21600, max: 86400).                                                                                                  | integer                                                           | `21600`       |
-| `locale`        | Sets the language in the card, you can check full list of available locales [here](https://github.com/anuraghazra/github-readme-stats#available-locales). | enum                                                              | `en`          |
-| `border_radius` | Corner rounding on the card.                                                                                                                              | number                                                            | `4.5`         |
+| **Name**        | **Description**                                                                                                                | **Type**                                           | **Default value** |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------- | ----------------- |
+| `title_color`   | Card's title color.                                                                                                            | string (hex color)                                 | `2f80ed`          |
+| `text_color`    | Body text color.                                                                                                               | string (hex color)                                 | `434d58`          |
+| `icon_color`    | Icons color if available.                                                                                                      | string (hex color)                                 | `4c71f2`          |
+| `border_color`  | Card's border color. 
+Can’t do when `hide_bordee:T`.                                                                           | string (hex color)                                 | `e4e2e2`          |
+| `bg_color`      | Card's background color.                                                                                                       | string (hex color or
+a gradient:_angle,start,end_) | `fffefe`          |
+| `hide_border`   | Hides the card's border.                                                                                                       | boolean                                            | `false`           |
+| `theme`         | Name of the theme.
+[all available themes](https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md).    | enum                                               | `default`         |
+| `cache_seconds` | Sets the cache header manually (min: 21600, max: 86400).                                                                       | integer                                            | `21600`           |
+| `locale`        | Sets the language in the card.
+Available locales [here](https://github.com/anuraghazra/github-readme-stats#available-locales). | enum                                               | `en`              |
+| `border_radius` | Corner rounding on the card.                                                                                                   | number                                             | `4.5`             |
 
 undefined
 
@@ -239,7 +245,7 @@ undefined
 ---
 
 
-To sum up, the following code will be in your `{username}/README.md` file.
+To sum up, something similar to the following code will be in your `{username}/README.md`.
 
 
 

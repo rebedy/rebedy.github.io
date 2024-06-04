@@ -105,7 +105,7 @@ categories: [GitHub, ]
 ...
 steps:
 	- name: Update gist
-	  uses: rebedy/productive-box@master
+		uses: rebedy/productive-box@master
 ```
 {% endraw %}
 
@@ -123,11 +123,11 @@ steps:
 ...
 steps:
 	- name: Update gist
-	  uses: rebedy/productive-box@master
-	  env:
-		  GH_TOKEN: ${{ secrets.GH_TOKEN }}
-		  GIST_ID: ...
-		  TIMEZONE: Asia/Seoul
+		uses: rebedy/productive-box@master
+		env:
+			GH_TOKEN: ${{ secrets.GH_TOKEN }}
+			GIST_ID: ...
+			TIMEZONE: Asia/Seoul
 ```
 {% endraw %}
 
