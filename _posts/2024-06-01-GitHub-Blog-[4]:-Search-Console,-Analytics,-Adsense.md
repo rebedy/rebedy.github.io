@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-06-01
-title: "GitHub Blog [4]: Managing"
+title: "GitHub Blog [4]: Search Console, Analytics, Adsense"
 tags: [blog, chirpy, ]
 categories: [GitHub, ]
 ---
@@ -57,7 +57,7 @@ categories: [GitHub, ]
 A device that allows your blog posts to appear when searched on Google
 
 
-![0](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/0.png)
+![0](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/0.png)
 
 
             
@@ -73,7 +73,7 @@ A device that allows your blog posts to appear when searched on Google
 #### Step 1. Add your site
 
 
-![1](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/1.png)
+![1](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/1.png)
 
 
             
@@ -92,7 +92,7 @@ A device that allows your blog posts to appear when searched on Google
 Download the HTML file and place it in where the `Gemfile` is. And commit and push the repo.
 
 
-![2](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/2.png)
+![2](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/2.png)
 
 
             
@@ -280,7 +280,7 @@ And commit/push!
 #### Step 6. Add new Sitemaps on the [Google Search Console](https://search.google.com/search-console)
 
 
-![3](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/3.png)
+![3](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/3.png)
 
 
 Within 7 days, your blog will be exposed on the search engine.
@@ -314,7 +314,7 @@ Within 7 days, your blog will be exposed on the search engine.
 It is a tool that analyzes various factors such as who accessed my blog, when, where, and how much.
 
 
-![4](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/4.png)
+![4](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/4.png)
 
 
             
@@ -336,7 +336,7 @@ Press ‘start’ button and make a name for the account. And then leave other t
 Since the Google Analytics upgraded their service from Universal Analytics to GA4, things are much simple and easier.
 
 
-![5](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/5.png)
+![5](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/5.png)
 
 
             
@@ -355,7 +355,7 @@ Since the Google Analytics upgraded their service from Universal Analytics to GA
 2. Time for the analytics: Kor
 3. Currency: $ (can be anything)
 
-![6](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/6.png)
+![6](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/6.png)
 
 
             
@@ -377,16 +377,16 @@ Since this is just for your blog (not some kind of serious business😂), the si
 Same with ‘the purpose of business’. Choose anything you like for the 4th step.
 
 
-![7](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/7.png)
+![7](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/7.png)
 
 
-![8](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/8.png)
+![8](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/8.png)
 
 
 And agree to the GDR.
 
 
-![9](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/9.png)
+![9](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/9.png)
 
 
             
@@ -406,7 +406,7 @@ And agree to the GDR.
 ‘Manage' > ‘Attribute Setting’ > ‘Data Collection and Edit’ > ‘Data Stream’ > Choose your stream > ‘Stream Details’ > ‘Measurement ID’
 
 
-![10](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/10.png)
+![10](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/10.png)
 
 - `_config.yml`
 
@@ -453,7 +453,7 @@ Again, since the Google Analytics upgraded their service from Universal Analytic
 A tool that generates revenue through advertising and allows you to earn advertising fees.
 
 
-![11](/assets/img/2024-06-01-GitHub-Blog-[4]:-Managing.md/11.png)
+![11](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/11.png)
 
 
 
@@ -488,7 +488,7 @@ Add code below to the bottom of `_includes/head.html`.
 <!--...-->
 
   <!-- Google Addsence -->
-  <script data-ad-client="ca-pub-8857040748920572" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script data-ad-client="ca-pub-xxxxxxxxxxxxxxxx" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   
 </head>
 ```

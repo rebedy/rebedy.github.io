@@ -413,7 +413,7 @@ Find `xxxxxxx` and change it to your github username!
 
 
 {% raw %}
-```markdown
+```text
 [![10](/assets/img/2024-06-02-Github-Profile-[1]:-README.md.md/10.png)_Hits_](https://hits.seeyoufarm.com)
 
 ![11](/assets/img/2024-06-02-Github-Profile-[1]:-README.md.md/11.png)_Views_
