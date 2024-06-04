@@ -16,7 +16,7 @@ categories: [GitHub, ]
                         
 
 
-![0](/assets/img/2024-06-02-Github-Profile-[1]:-README.md.md/0.png)_https://github.com/rebedy_
+![0](/assets/img/2024-06-02-Github-Profile-[1]:-README.md.md/0.png)
 
 
             
