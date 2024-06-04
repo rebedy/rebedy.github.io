@@ -1,13 +1,13 @@
 ---
 layout: post
 date: 2024-06-03
-title: "Github Profile [2]:"
+title: "Github Profile [2]: GitHub Stats"
 tags: [github-profile, ]
 categories: [GitHub, ]
 ---
 
 
-![0](/assets/img/2024-06-03-Github-Profile-[2]:.md/0.png)
+![0](/assets/img/2024-06-03-Github-Profile-[2]:-GitHub-Stats.md/0.png)
 
 
 
@@ -192,7 +192,7 @@ There are inbuilt themes and you can use them with `&theme={theme_name}` parame
 **All inbuilt themes:**  [Available themes](https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md) 
 
 
-![1](/assets/img/2024-06-03-Github-Profile-[2]:.md/1.png)
+![1](/assets/img/2024-06-03-Github-Profile-[2]:-GitHub-Stats.md/1.png)
 
 
 
