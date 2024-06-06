@@ -2,7 +2,7 @@
 layout: post
 date: 2024-06-05
 title: "Github Profile [4]: Emoji"
-tags: [github-profile, ]
+tags: [github-profile, github, ]
 categories: [GitHub, ]
 ---
 

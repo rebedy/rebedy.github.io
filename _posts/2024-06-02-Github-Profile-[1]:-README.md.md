@@ -2,7 +2,7 @@
 layout: post
 date: 2024-06-02
 title: "Github Profile [1]: README.md"
-tags: [github-profile, ]
+tags: [github-profile, github, ]
 categories: [GitHub, ]
 ---
 

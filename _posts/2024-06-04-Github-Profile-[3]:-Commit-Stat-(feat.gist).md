@@ -2,7 +2,7 @@
 layout: post
 date: 2024-06-04
 title: "Github Profile [3]: Commit Stat (feat.gist)"
-tags: [github-profile, ]
+tags: [github-profile, github, ]
 categories: [GitHub, ]
 ---
 
