@@ -112,17 +112,17 @@ By maintaining a consistent code style through the code formatter, you can impro
 3. Open `settings.json` file.
 4. Add. (example of Google formatter)
 
-	
+
 {% raw %}
 ```json
-	// Define basic formatter.
-	"editor.defaultFormatter": "ms-vscode.cpptools",
-	
-	// Format the code when the file is saved.
-	"editor.formatOnSave": true,
-	
-	// Define the code formatting style.
-	"C_Cpp.clang_format_fallbackStyle": "Google",
+// Define basic formatter.
+"editor.defaultFormatter": "ms-vscode.cpptools",
+
+// Format the code when the file is saved.
+"editor.formatOnSave": true,
+
+// Define the code formatting style.
+"C_Cpp.clang_format_fallbackStyle": "Google",
 ```
 {% endraw %}
 
@@ -140,9 +140,9 @@ If you are working on a C++ project, you must either choose one of these coding 
 
 (1) LLVM: [LLVM coding standards](https://llvm.org/docs/CodingStandards.html)
 
-	- **clang-format:** [**ClangFormat**](https://clang.llvm.org/docs/ClangFormat.html)
-		- Code formatter provided as part of the LLVM project
-		- [Untitled](https://www.notion.so/b407e4f7e92c451d9536357baf95b884)
+- **clang-format:** [**ClangFormat**](https://clang.llvm.org/docs/ClangFormat.html)
+	- Code formatter provided as part of the LLVM project
+	- [Untitled](https://www.notion.so/b407e4f7e92c451d9536357baf95b884)
 
 (2) Linux kernel: [Linux kernel](https://www.kernel.org/doc/html/v4.10/process/coding-style.html)
 
@@ -185,7 +185,7 @@ If you are working on a C++ project, you must either choose one of these coding 
 
 (15) CppCoreGuidelines: [CppCoreGuidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md)
 
-	- CppCoreGuidelines is the most representative C++ coding convention[[1](https://ccss17.netlify.app/programmerbase/codingconvention/#cc-indentation-style)]
+- CppCoreGuidelines is the most representative C++ coding convention[[1](https://ccss17.netlify.app/programmerbase/codingconvention/#cc-indentation-style)]
 
 
 ### [Python]
