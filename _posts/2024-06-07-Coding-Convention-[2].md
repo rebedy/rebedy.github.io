@@ -14,10 +14,10 @@ categories: [Coding Convention, ]
 ---
 
 
-코드 스타일을 통일 시켜 주는 code formatting tool
+Code formatting tool that unifies code style
 
 
-[https://github.com/psf/black](https://github.com/psf/black)
+[black-github](https://github.com/psf/black)
 
 
 ![0](/assets/img/2024-06-07-Coding-Convention-[2].md/0.png)
@@ -76,15 +76,15 @@ black [file_name or folder_name]
 
 #### Designate to Formatter in VSCode
 
-- Black을 기본 포맷터로 실행하도록 VSCode 기본 설정에 추가
+- Add to VSCode preferences to run Black as default formatter
 	- Go to `.vscode/setting.json` in the command palette(`ctrl+shift+P`).
 	- Add commands below.
 
 
 {% raw %}
-```bash
-"python.formatting.provider": "black“, # VSCode의 기본 포맷터 대신 Black을 사용하게 해주는 설정
-"editor.formatOnSave": true, # 코드를 저장할 때 마다 자동으로 포맷팅 해주는 설정
+```json
+"python.formatting.provider": "black“,  # Allows VSCode to use Black instead of its default formatter.
+"editor.formatOnSave": true,  # Automatically format the code every time you save it.
 ```
 {% endraw %}
 
@@ -96,10 +96,10 @@ black [file_name or folder_name]
 
 ---
 
-- `l` : 한 라인에 최대 글자 수 (초기값 88)
-- `—diff` : 파일을 변경하지 않고 변경되는 부분을 콘솔로 보여 준다.
-- `—color` : `—diff`를 사용했을 때 변경점에 색을 입힌다.
-- `black {파일명 또는 폴더명} -l 80 --diff --color` 과 같이 사용하면 변경 사항을 preview 할 수 있다.
+- `l` : Maximum number of characters per line (initial value 88)
+- `—diff` : Shows the changed parts in the console without changing the file.
+- `—color` : Colors the changes when using `—diff`.
+- You can preview changes with `black {파일명 또는 폴더명} -l 80 --diff --color.`
 
 
 ## **Git hook Setting**
@@ -107,7 +107,7 @@ black [file_name or folder_name]
 
 ---
 
-- 코드 편집기 설정은 어디까지나 개인의 선택 사항이기 때문에 프로젝트 차원에서 포맷팅이 되지 않은 코드를 커밋하려고 하는 것을 방지하는 것이 바람직하다.
+- Since code editor settings are ultimately a personal choice, it is advisable to avoid attempting to commit unformatted code at the project level.
 
 
 #### 1. Install `pre-commit` package 
@@ -132,7 +132,7 @@ pip install pre-commit
 
 
 {% raw %}
-```bash
+```yaml
 repos:
   - repo: https://github.com/psf/black
     rev: stable
@@ -146,7 +146,7 @@ repos:
 
 #### 4. `pre-commit` 
 
-- 방금 작성한 Git hook 스크립트를 설치
+- Install the Git hook script you just wrote above.
 
 
 {% raw %}
@@ -159,11 +159,11 @@ pre-commit installed at .git/hooks/pre-commit
 
 
 
-#### 5. 코드 에디터의 자동 포맷팅을 해제 후 커밋을 시도
+#### 5. Try to commit after disabling the code editor's automatic formatting.
 
 
 
-#### 6. Git hook 스크립트가 실행되어 커밋이 실패하고 Black이 포맷팅을 해줌
+#### 6. The Git hook script runs, the commit fails, and Black does the formatting.
 
 
 
@@ -176,7 +176,7 @@ pre-commit installed at .git/hooks/pre-commit
  **# fmt : off / on / skip**
 
 
-Code Formatter는 보통 '파일을 저장할 때'나 혹은 '커밋을 생성할 때' 등에 자동 실행되도록 지정한다. 그런데 가끔은 Code Formatter 가 실행되지 않았으면 하는 때가 있다.
+Code Formatter is usually specified to run automatically when saving a file or creating a commit. However, there are times when you do not want Code Formatter to run. In that case, set as below.
 
 
 
@@ -190,7 +190,7 @@ Code Formatter는 보통 '파일을 저장할 때'나 혹은 '커밋을 생성�
 
 
 
-만약 해당 코드 안에서도 특정한 라인만 포멧팅을 회피하고 싶다면 그 라인 끝에 `# fmt: ski`p을 사용할 수도 있다.
+If you want to avoid formatting only a specific line within the code, you can use `# fmt: skip` at the end of that line.
 
 
 
