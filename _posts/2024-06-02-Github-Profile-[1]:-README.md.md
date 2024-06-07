@@ -447,6 +447,6 @@ Find `xxxxxxx` and change it to your github username!
 ---
 
 - [https://dev.to/web/design-github-profile-using-readme-md-8al](https://dev.to/web/design-github-profile-using-readme-md-8al)
-- [http://blog.cowkite.com/blog/2102241544/](http://blog.cowkite.com/blog/2102241544/)
+- [https://blog.cowkite.com/blog/2102241544/](https://blog.cowkite.com/blog/2102241544/)
 - [https://github.com/anuraghazra/github-readme-stats/blob/master/docs/readme_kr.md](https://github.com/anuraghazra/github-readme-stats/blob/master/docs/readme_kr.md)
 - [https://velog.io/@loakick/Shield-IO-사용법-iojyndy4pi](https://velog.io/@loakick/Shield-IO-%EC%82%AC%EC%9A%A9%EB%B2%95-iojyndy4pi)

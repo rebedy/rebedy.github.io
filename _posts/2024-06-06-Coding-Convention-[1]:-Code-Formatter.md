@@ -174,10 +174,10 @@ If you are working on a C++ project, you must either choose one of these coding 
 (11) Unreal Engine: [Unreal Engine Coding Standard](https://docs.unrealengine.com/latest/INT/Programming/Development/CodingStandard/)
 
 
-(12) Blender: [Blender Coding Style](http://wiki.blender.org/index.php/Dev:Doc/Code_Style)
+(12) Blender: Blender Coding Style(http://wiki.blender.org/index.php/Dev:Doc/Code_Style)
 
 
-(13) Blink: [Blink Coding Style Guidelines](http://www.chromium.org/blink/coding-style)
+(13) Blink: [Blink Coding Style Guidelines](https://www.chromium.org/blink/coding-style)
 
 
 (14) Inkscape: [Inkscape Coding Style](https://inkscape.org/en/develop/coding-style/)

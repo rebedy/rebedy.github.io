@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-06-07
-title: "Coding Convention [2]"
+title: "Coding Convention [2]: Black"
 tags: [coding-convention, code-formatter, black, ]
 categories: [Coding Convention, ]
 ---
@@ -20,7 +20,7 @@ Code formatting tool that unifies code style
 [black-github](https://github.com/psf/black)
 
 
-![0](/assets/img/2024-06-07-Coding-Convention-[2].md/0.png)
+![0](/assets/img/2024-06-07-Coding-Convention-[2]:-Black.md/0.png)
 
 
 

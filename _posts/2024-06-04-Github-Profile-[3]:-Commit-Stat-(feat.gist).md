@@ -222,4 +222,3 @@ steps:
 
 - [productive-box](https://github.com/maxam2017/productive-box)
 - [awesome-pinned-gists](https://github.com/matchai/awesome-pinned-gists)
-- [http://blog.cowkite.com/blog/2102241544/](http://blog.cowkite.com/blog/2102241544/)

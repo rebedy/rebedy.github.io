@@ -114,7 +114,8 @@ bundle
 
 #### `_config.yml`
 
-- `lang` : choose language you want to display (eg. `en` or `ko` ). Search your language from [here](http://www.lingoes.net/en/translator/langcode.htm).
+- `lang` : choose language you want to display (eg. `en` or `ko` ). 
+Search your language from http://www.lingoes.net/en/translator/langcode.htm.
 - `timezone` : Change to your timezone. Search your timezone from [here](https://zones.arilyn.cc/).
 - `title` : The main title. This will displayed on the sidebar.
 - `tagline` : The sub-title. This will displayed on the sidebar under the title.
