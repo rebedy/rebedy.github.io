@@ -8,19 +8,12 @@ order: 4
 {: .prompt-tip } -->
 
 
-<span style="color: #e0c8d0; font-family: 'Brush Script MT'; font-size: 3em;">Da Young </span> <span style="color: black; font-family: 'Brush Script MT'; font-size: 3em;"> , </span>
-<span style="color: black; font-family: Copperplate, Papyrus, fantasy; font-size: 3em;">Lee </span>
+<span style="color: #e0c8d0; font-family: 'Brush Script MT'; font-size: 3em;">Da Young </span> <span style="color: #black; font-family: 'Brush Script MT'; font-size: 3em;"> , </span>&nbsp;
+<span style="color: #black; font-family: Copperplate, Papyrus, fantasy; font-size: 2.5em;">Lee </span>
+
+<a href="https://drive.google.com/file/d/1xMrQubJXfhT8vr205JDPKanq4p5IWDeG/view?usp=sharing"><img  alt="résumé"  src="https://img.shields.io/badge/résumé-CF89A0"/></a>
+
 &nbsp;
-
-
-
-
-
-
-
-
-<!-- About Me -->
-<h3 align="left">About Me 🌱</h3>
 
 <!-- Interests -->
 <h3 align="left">Interests 💬</h3>
@@ -31,6 +24,8 @@ order: 4
 - Medical AI
 
 <br>
+
+
 
 
 <!-- Language and Tools -->
