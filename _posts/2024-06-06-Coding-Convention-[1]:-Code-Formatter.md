@@ -2,7 +2,7 @@
 layout: post
 date: 2024-06-06
 title: "Coding Convention [1]: Code Formatter"
-tags: [code-formatter, black, prettier, autopep8, coding-convention, ]
+tags: [coding-convention, code-formatter, black, prettier, autopep8, ]
 categories: [Coding Convention, ]
 ---
 
