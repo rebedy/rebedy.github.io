@@ -8,18 +8,19 @@ order: 4
 {: .prompt-tip } -->
 
 
-<h1 align="center">
-<!--   <img src="https://slackmojis.com/emojis/20940-wave/download" width="60"/> -->
-  <img src="https://slackmojis.com/emojis/6863-blob_highfive/download" width="60"/>
-</h1>
-
-<h3 align="center">
-<img src="https://readme-typing-svg.demolab.com/?lines=Hey%2C+I'm+Dayoung.;AI+Researcher.&font=Fira%20Code&center=true&color=e0c8d0&width=380&height=50&duration=4000&pause=1000">
-</h3>
+<span style="color: #e0c8d0; font-family: 'Brush Script MT'; font-size: 3em;">Da Young </span> <span style="color: black; font-family: 'Brush Script MT'; font-size: 3em;"> , </span>
+<span style="color: black; font-family: Copperplate, Papyrus, fantasy; font-size: 3em;">Lee </span>
+&nbsp;
 
 
----
 
+
+
+
+
+
+<!-- About Me -->
+<h3 align="left">About Me 🌱</h3>
 
 <!-- Interests -->
 <h3 align="left">Interests 💬</h3>
