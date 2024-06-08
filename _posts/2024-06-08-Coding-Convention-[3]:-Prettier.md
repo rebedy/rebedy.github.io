@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-06-08
-title: "Coding Convention [3]"
+title: "Coding Convention [3]: Prettier"
 tags: [coding-convention, code-formatter, prettier, ]
 categories: [Coding Convention, ]
 ---
@@ -14,7 +14,7 @@ categories: [Coding Convention, ]
 ---
 
 
-![0](/assets/img/2024-06-08-Coding-Convention-[3].md/0.png)
+![0](/assets/img/2024-06-08-Coding-Convention-[3]:-Prettier.md/0.png)
 
 
 Prettier is a code formatter and a VSCode Extension.
@@ -118,7 +118,7 @@ module.exports = {
 Set the **`Default Formatter`** to **Prettier** and then check the **`Format on Save`** setting.
 
 
-![1](/assets/img/2024-06-08-Coding-Convention-[3].md/1.png)
+![1](/assets/img/2024-06-08-Coding-Convention-[3]:-Prettier.md/1.png)
 
 
 > 👸 _**If the settings don't work, try turning it off and then back on!**_
