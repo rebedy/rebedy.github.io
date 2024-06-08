@@ -20,7 +20,7 @@ categories: [Coding Convention, ]
 Prettier is a code formatter and a VSCode Extension.
 
 
-Prettier is a <u>**JavaScript library**</u> that has become the most popular among code formatters and is almost becoming a standard.
+Prettier is a **JavaScript library** that has become the most popular among code formatters and is almost becoming a standard.
 
 
 Open source projects and many companies are using Prettier as their official code formatter. (Facebook, React, Jest, Yarn, Babel, Webpack, Dropbox, Storybook, Paypal, MongoDB, Salesforce, …)
@@ -80,6 +80,7 @@ $ npm i -D prettier
 
 {% raw %}
 ```json
+
 // .prettierrc.json
 {
   "trailingComma": "es5",
@@ -89,6 +90,7 @@ $ npm i -D prettier
   "bracketSpacing": true,
   "printWidth": 80
 }
+
 
 // prettier.config.js or .prettierrc.js
 module.exports = {
