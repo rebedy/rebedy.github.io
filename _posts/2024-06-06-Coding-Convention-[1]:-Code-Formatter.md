@@ -191,7 +191,7 @@ If you are working on a C++ project, you must either choose one of these coding 
 ### [Python]
 
 
-(1) [Coding Convention [4]: Linter](https://www.notion.so/111a6cdb56864b7e858c2199d412a84a) : A small program that checks coding conventions and code errors
+(1) [Coding Convention [5]: Linter](https://www.notion.so/111a6cdb56864b7e858c2199d412a84a) : A small program that checks coding conventions and code errors
 
 
 (2) PEP8: coding convention: [Style Guide for Python Code](https://peps.python.org/pep-0008/) / [PEP8 한국어 번역](https://zerosheepmoo.github.io/pep8-in-korean/doc/introduction.html) 
@@ -200,7 +200,7 @@ If you are working on a C++ project, you must either choose one of these coding 
 (3) [Coding Convention [4]: autopep8](https://www.notion.so/d82208ba030f4558809766264dc487c5) : A module that automatically corrects Python code to PEP8 conventions.
 
 
-(4) [Coding Convention [2]: Black](https://www.notion.so/9e307b6cdf3b493dbfe2d967d4defa1a): the uncompromising Python code formatter
+(4) [Black](https://rebedy.github.io/posts/Coding-Convention-2-Black/): the uncompromising Python code formatter
 
 
 (5) Google:  [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html). Quite commonly used!
