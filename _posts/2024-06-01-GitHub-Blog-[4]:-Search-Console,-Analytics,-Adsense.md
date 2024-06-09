@@ -23,13 +23,13 @@ categories: [GitHub, ]
 ---
 
 
-[Github Blog [1]: Using Jekyll](https://rebedy.github.io/posts/Github-Blog-1-Using-Jekyll/)
+**[1]** [**Github Blog [1]: Using Jekyll**](https://rebedy.github.io/posts/Github-Blog-1-Using-Jekyll/)
 
 
-[GitHub Blog [2]: Customizing](https://rebedy.github.io/posts/GitHub-Blog-2-Customizing/)
+**[2]** [**GitHub Blog [2]: Customizing**](https://rebedy.github.io/posts/GitHub-Blog-2-Customizing/)
 
 
-            
+[3] [GitHub Blog [3]: A comments system, giscus](https://rebedy.github.io/posts/GitHub-Blog-3-A-comments-system,-giscus/)
 
 
             

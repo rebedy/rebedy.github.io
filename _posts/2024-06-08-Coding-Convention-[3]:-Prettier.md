@@ -8,6 +8,19 @@ categories: [Coding Convention, ]
 
 
 
+## Prerequsite
+
+
+---
+
+
+**[1]** [**Coding-Convention-1-Code-Formatter**](https://rebedy.github.io/posts/Coding-Convention-1-Code-Formatter/)
+
+
+**[2]** [**Coding-Convention-2-Black**](https://rebedy.github.io/posts/Coding-Convention-2-Black/)
+
+
+
 ## Prettier
 
 

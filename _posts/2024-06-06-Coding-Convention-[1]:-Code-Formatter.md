@@ -138,52 +138,52 @@ C++ 프로젝트를 진행한다면, 이러한 코딩 컨벤션 중 하나를 �
 If you are working on a C++ project, you must either choose one of these coding conventions or agree on a convention with the people working on the project together.
 
 
-(1) LLVM: [LLVM coding standards](https://llvm.org/docs/CodingStandards.html)
+**(1) LLVM:** [LLVM coding standards](https://llvm.org/docs/CodingStandards.html)
 
 - **clang-format:** [**ClangFormat**](https://clang.llvm.org/docs/ClangFormat.html)
 	- Code formatter provided as part of the LLVM project
 	- [Untitled](https://www.notion.so/b407e4f7e92c451d9536357baf95b884)
 
-(2) Linux kernel: [Linux kernel](https://www.kernel.org/doc/html/v4.10/process/coding-style.html)
+**(2) Linux kernel:** [Linux kernel](https://www.kernel.org/doc/html/v4.10/process/coding-style.html)
 
 
-(3) GCC: [GCC C++ Coding Conventions](https://gcc.gnu.org/wiki/CppConventions)
+**(3) GCC:** [GCC C++ Coding Conventions](https://gcc.gnu.org/wiki/CppConventions)
 
 
-(4) GNU: [GNU coding standards](https://www.gnu.org/prep/standards/standards.html)
+**(4) GNU:** [GNU coding standards](https://www.gnu.org/prep/standards/standards.html)
 
 
-(5) Microsoft: [Microsoft's style guide](https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference)
+**(5) Microsoft:** [Microsoft's style guide](https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference)
 
 
-(6) Google: [Google's C++ style guide](https://google.github.io/styleguide/cppguide.html)
+**(6) Google:** [Google's C++ style guide](https://google.github.io/styleguide/cppguide.html)
 
 
-(7) Chromium: [Chromium's style guide](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/styleguide/styleguide.md)
+**(7) Chromium:** [Chromium's style guide](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/styleguide/styleguide.md)
 
 
-(8) Mozilla: [Mozilla's style guide](https://firefox-source-docs.mozilla.org/code-quality/coding-style/index.html)
+**(8) Mozilla:** [Mozilla's style guide](https://firefox-source-docs.mozilla.org/code-quality/coding-style/index.html)
 
 
-(9) WebKit: [WebKit's style guide](https://www.webkit.org/coding/coding-style.html)
+**(9) WebKit:** [WebKit's style guide](https://www.webkit.org/coding/coding-style.html)
 
 
-(10) QT: [Qt Coding Style](https://wiki.qt.io/Qt_Coding_Style)
+**(10) QT:** [Qt Coding Style](https://wiki.qt.io/Qt_Coding_Style)
 
 
-(11) Unreal Engine: [Unreal Engine Coding Standard](https://docs.unrealengine.com/latest/INT/Programming/Development/CodingStandard/)
+**(11) Unreal Engine:** [Unreal Engine Coding Standard](https://docs.unrealengine.com/latest/INT/Programming/Development/CodingStandard/)
 
 
-(12) Blender: Blender Coding Style(http://wiki.blender.org/index.php/Dev:Doc/Code_Style)
+**(12) Blender:** Blender Coding Style(http://wiki.blender.org/index.php/Dev:Doc/Code_Style)
 
 
-(13) Blink: [Blink Coding Style Guidelines](https://www.chromium.org/blink/coding-style)
+**(13) Blink:** [Blink Coding Style Guidelines](https://www.chromium.org/blink/coding-style)
 
 
-(14) Inkscape: [Inkscape Coding Style](https://inkscape.org/en/develop/coding-style/)
+**(14) Inkscape:** [Inkscape Coding Style](https://inkscape.org/en/develop/coding-style/)
 
 
-(15) CppCoreGuidelines: [CppCoreGuidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md)
+**(15) CppCoreGuidelines:** [CppCoreGuidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md)
 
 - CppCoreGuidelines is the most representative C++ coding convention[[1](https://ccss17.netlify.app/programmerbase/codingconvention/#cc-indentation-style)]
 
@@ -191,26 +191,26 @@ If you are working on a C++ project, you must either choose one of these coding 
 ### [Python]
 
 
-(1) [Coding Convention [5]: Linter](https://www.notion.so/111a6cdb56864b7e858c2199d412a84a) : A small program that checks coding conventions and code errors
+**(1)** [Coding Convention [5]: Linter](https://www.notion.so/111a6cdb56864b7e858c2199d412a84a) : A small program that checks coding conventions and code errors
 
 
-(2) PEP8: coding convention: [Style Guide for Python Code](https://peps.python.org/pep-0008/) / [PEP8 한국어 번역](https://zerosheepmoo.github.io/pep8-in-korean/doc/introduction.html) 
+**(2)** [**PEP8**](https://rebedy.github.io/posts/Coding-Convention-4-autopep8/#pep8) : coding convention: [Style Guide for Python Code](https://peps.python.org/pep-0008/) / [PEP8 한국어 번역](https://zerosheepmoo.github.io/pep8-in-korean/doc/introduction.html) 
 
 
-(3) [Coding Convention [4]: autopep8](https://www.notion.so/d82208ba030f4558809766264dc487c5) : A module that automatically corrects Python code to PEP8 conventions.
+**(3)** [**autopep8**](https://rebedy.github.io/posts/Coding-Convention-4-autopep8/#autopep8) : A module that automatically corrects Python code to PEP8 conventions.
 
 
-(4) [Black](https://rebedy.github.io/posts/Coding-Convention-2-Black/): the uncompromising Python code formatter
+**(4)** [**Black**](https://rebedy.github.io/posts/Coding-Convention-2-Black/) : the uncompromising Python code formatter
 
 
-(5) Google:  [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html). Quite commonly used!
+**(5) Google** :  [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html). Quite commonly used!
 
 
 
 ### [JAVA]
 
 
-(1) [Coding Convention [3]: Prettier](https://www.notion.so/f7b0eea4700b487e8c7dd4dc82e36423) 
+**(1)** [**Prettier**](https://rebedy.github.io/posts/Coding-Convention-3-Prettier/)
 
 
 

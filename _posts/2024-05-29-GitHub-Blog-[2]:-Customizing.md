@@ -23,7 +23,7 @@ categories: [GitHub, ]
 ---
 
 
-[Github Blog [1]: Using Jekyll](https://rebedy.github.io/posts/Github-Blog-1-Using-Jekyll/)
+**[1]** [**Github Blog [1]: Using Jekyll**](https://rebedy.github.io/posts/Github-Blog-1-Using-Jekyll/)
 
 
             

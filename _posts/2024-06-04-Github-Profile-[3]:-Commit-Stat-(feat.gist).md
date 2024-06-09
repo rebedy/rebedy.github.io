@@ -22,7 +22,17 @@ categories: [GitHub, ]
 ![1](/assets/img/2024-06-04-Github-Profile-[3]:-Commit-Stat-(feat.gist).md/1.png)
 
 
-       
+
+## Prerequisite
+
+
+---
+
+
+**[1]** [**Github-Profile-1-README.md**](https://rebedy.github.io/posts/Github-Profile-1-README.md/)
+
+
+**[2]** [**Github-Profile-2-GitHub-Stats**](https://rebedy.github.io/posts/Github-Profile-2-GitHub-Stats/)
 
 
        

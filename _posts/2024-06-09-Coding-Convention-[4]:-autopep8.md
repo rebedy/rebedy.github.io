@@ -8,6 +8,22 @@ categories: [Coding Convention, ]
 
 
 
+## Prerequsite
+
+
+---
+
+
+**[1]** [**Coding-Convention-1-Code-Formatter**](https://rebedy.github.io/posts/Coding-Convention-1-Code-Formatter/)
+
+
+**[2]** [**Coding-Convention-2-Black**](https://rebedy.github.io/posts/Coding-Convention-2-Black/)
+
+
+**[3]** [**Coding-Convention-3-Prettier**](https://rebedy.github.io/posts/Coding-Convention-3-Prettier/)
+
+
+
 ## [**autopep8**](https://pypi.org/project/autopep8/)
 
 
