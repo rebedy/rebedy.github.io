@@ -11,7 +11,7 @@ categories: [GitHub, ]
 
 
 
-## Prerequisite
+## Prerequisites
 
 
 ---

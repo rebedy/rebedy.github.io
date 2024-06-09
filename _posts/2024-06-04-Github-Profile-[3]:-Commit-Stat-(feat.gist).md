@@ -23,7 +23,7 @@ categories: [GitHub, ]
 
 
 
-## Prerequisite
+## Prerequisites
 
 
 ---
