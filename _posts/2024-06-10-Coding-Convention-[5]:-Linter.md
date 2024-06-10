@@ -115,7 +115,7 @@ Through this, potential problems such as errors and convention adherence can be 
 ### 1) Python
 
 
-![2](/assets/img/2024-06-10-Coding-Convention-[5]:-Linter.md/2.png)
+![2](/assets/img/2024-06-10-Coding-Convention-[5]:-Linter.md/2.png)_https://sanggi-jayg.tistory.com/entry/Python-Linter-비교_
 
 
 |              | **flake8**                            | **pylint**                                 | **bandit**          |
