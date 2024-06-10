@@ -70,6 +70,10 @@ A device that allows your blog posts to appear when searched on Google
 
 
 
+### 1. How to set your site searchable?
+
+
+
 #### Step 1. Add your site
 
 
@@ -286,16 +290,54 @@ And commit/push!
 Within 7 days, your blog will be exposed on the search engine.
 
 
-            
+
+### 2. ⚠️ If your site is not searchable even after 7 days…
 
 
-            
+
+#### Step 1. Check your pages
 
 
-                        
+![4](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/4.png)
 
 
-            
+There is _**ZERO**_ indexed pages...😲
+
+
+An index must be created to actually be searchable on Google, but this does not happen just by registering a _sitemap_, and you may have to do it yourself. So, I chose to manually put each of my post addresses in the index registration priority list.
+
+
+
+#### Step 2. URL Inspection
+
+
+![5](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/5.png)
+
+
+Searcg your blog URL on inspection bar.
+
+
+
+#### Step 3. Let’s request indexing…
+
+
+Since the URl is not on Google, I requested indexing.
+
+
+It will say that the request has been made after few mins. And the page will become searchable on Google in a day or two.
+If you wait, the index for the requested sites will be approved one by one. If approved, you can search on Google.
+
+
+![6](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/6.png)
+
+
+![7](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/7.png)
+
+
+![8](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/8.png)
+
+
+❗If you see the **quota exceeded message**, try again a day later.
 
 
             
@@ -314,7 +356,7 @@ Within 7 days, your blog will be exposed on the search engine.
 It is a tool that analyzes various factors such as who accessed my blog, when, where, and how much.
 
 
-![4](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/4.png)
+![9](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/9.png)
 
 
             
@@ -336,7 +378,7 @@ Press ‘start’ button and make a name for the account. And then leave other t
 Since the Google Analytics upgraded their service from Universal Analytics to GA4, things are much simple and easier.
 
 
-![5](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/5.png)
+![10](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/10.png)
 
 
             
@@ -355,7 +397,7 @@ Since the Google Analytics upgraded their service from Universal Analytics to GA
 2. Time for the analytics: Kor
 3. Currency: $ (can be anything)
 
-![6](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/6.png)
+![11](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/11.png)
 
 
             
@@ -377,16 +419,16 @@ Since this is just for your blog (not some kind of serious business😂), the si
 Same with ‘the purpose of business’. Choose anything you like for the 4th step.
 
 
-![7](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/7.png)
+![12](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/12.png)
 
 
-![8](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/8.png)
+![13](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/13.png)
 
 
 And agree to the GDR.
 
 
-![9](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/9.png)
+![14](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/14.png)
 
 
             
@@ -406,7 +448,7 @@ And agree to the GDR.
 ‘Manage' > ‘Attribute Setting’ > ‘Data Collection and Edit’ > ‘Data Stream’ > Choose your stream > ‘Stream Details’ > ‘Measurement ID’
 
 
-![10](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/10.png)
+![15](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/15.png)
 
 - `_config.yml`
 
@@ -453,7 +495,7 @@ Again, since the Google Analytics upgraded their service from Universal Analytic
 A tool that generates revenue through advertising and allows you to earn advertising fees.
 
 
-![11](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/11.png)
+![16](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/16.png)
 
 
 
