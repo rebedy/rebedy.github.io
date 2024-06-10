@@ -1,8 +1,8 @@
 ---
 layout: post
 date: 2024-06-10
-title: "Coding Convention [5]"
-tags: [coding-convention, linter, ]
+title: "Coding Convention [5]: Linter"
+tags: [coding-convention, linter, git-pre-commit-hook, ]
 categories: [Coding Convention, ]
 ---
 
@@ -33,10 +33,10 @@ categories: [Coding Convention, ]
 ---
 
 
-![0](/assets/img/2024-06-10-Coding-Convention-[5].md/0.png)
+![0](/assets/img/2024-06-10-Coding-Convention-[5]:-Linter.md/0.png)
 
 
-![1](/assets/img/2024-06-10-Coding-Convention-[5].md/1.png)_https://velog.io/@adbr/flutter-flutter-linter-package-effectivedart_
+[embed]()
 
 
 It's a small program that checks coding conventions and errors. It can be run independently or as a plugin in an IDE.
@@ -115,7 +115,7 @@ Through this, potential problems such as errors and convention adherence can be 
 ### 1) Python
 
 
-![2](/assets/img/2024-06-10-Coding-Convention-[5].md/2.png)
+![1](/assets/img/2024-06-10-Coding-Convention-[5]:-Linter.md/1.png)
 
 
 |              | **flake8**                            | **pylint**                                 | **bandit**          |
