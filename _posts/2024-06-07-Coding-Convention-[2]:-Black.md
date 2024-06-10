@@ -8,7 +8,7 @@ categories: [Coding Convention, ]
 
 
 
-## Prerequsites
+## Prerequisites
 
 
 ---

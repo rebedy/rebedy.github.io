@@ -8,7 +8,7 @@ categories: [Coding Convention, ]
 
 
 
-## 0. Prerequsites
+## 0. Prerequisites
 
 
 ---
@@ -36,7 +36,7 @@ categories: [Coding Convention, ]
 ![0](/assets/img/2024-06-10-Coding-Convention-[5]:-Linter.md/0.png)
 
 
-![1](/assets/img/2024-06-10-Coding-Convention-[5]:-Linter.md/1.png)
+![1](/assets/img/2024-06-10-Coding-Convention-[5]:-Linter.md/1.png)_https://subicura.com/2016/07/11/coding-convention.html_
 
 
 It's a small program that checks coding conventions and errors. It can be run independently or as a plugin in an IDE.
@@ -323,7 +323,7 @@ While JSLint and JSHint focus on providing best coding practices, <u>JSCS only s
 Javascript static analysis tool created by Nicholas C. Zakas in 2013.
 
 
-Because both SLint and JSHint lacked the ability to create additional rules for code quality and coding style, we created ESLint, a new linting tool that allows you to configure all rules and define or load additional rules at runtime. It is a pluggable JavaScript linter that provides both the functions provided by JSHint and the code style check function provided by JSCS.
+**ES(EcmaScript) + Lint.** ESLint was created since both JSLint and JSHint lacked the ability to create additional rules for code quality and coding style. It is a new linting tool that allows you to configure all rules and define or load additional rules at runtime. It is a pluggable JavaScript linter that provides both the functions provided by JSHint and the code style check function provided by JSCS.
 
 
 ESLint allows users to select the desired support environment. Basically, it supports ECMAScript5 grammar.
