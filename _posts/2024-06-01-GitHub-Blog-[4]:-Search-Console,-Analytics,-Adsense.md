@@ -290,6 +290,9 @@ And commit/push!
 Within 7 days, your blog will be exposed on the search engine.
 
 
+**‼️‼️‼️ Do this step and the steps below time to time in order to add new posts and make them indexed!!! ‼️‼️‼️**
+
+
 
 ### 2. ⚠️ If your site is not searchable even after 7 days…
 
