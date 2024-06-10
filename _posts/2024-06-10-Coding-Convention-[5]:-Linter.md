@@ -36,7 +36,7 @@ categories: [Coding Convention, ]
 ![0](/assets/img/2024-06-10-Coding-Convention-[5]:-Linter.md/0.png)
 
 
-[embed]()
+![1](/assets/img/2024-06-10-Coding-Convention-[5]:-Linter.md/1.png)
 
 
 It's a small program that checks coding conventions and errors. It can be run independently or as a plugin in an IDE.
@@ -98,7 +98,7 @@ Through this, potential problems such as errors and convention adherence can be 
 - It analyzes the code to find errors and provides best practices for better code quality.
 
 
-#### 4-3. The most ideal use case
+#### **4-3. The most ideal use case**
 
 1. Modify (or unify) the code style with the **Formatter**
 2. Use **Linter** to correct potential errors or use better syntax.
@@ -115,7 +115,7 @@ Through this, potential problems such as errors and convention adherence can be 
 ### 1) Python
 
 
-![1](/assets/img/2024-06-10-Coding-Convention-[5]:-Linter.md/1.png)
+![2](/assets/img/2024-06-10-Coding-Convention-[5]:-Linter.md/2.png)
 
 
 |              | **flake8**                            | **pylint**                                 | **bandit**          |
@@ -356,7 +356,7 @@ Currently, SwiftLint has over 75 rules. There are three main parameters that set
 
 1. **disabled_rules**: Specifies rules to be disabled among the default activated rules.
 2. **opt_in_rules**: Activates rules other than the default rules.
-3. **whitelist_rules**: Specifies a whitelist so that only the specified rules are activated. <u>Cannot be used with</u> <u>_disabled_rules_</u> <u>and</u> <u>_opt_in_rules_</u><u>.</u>
+3. **whitelist_rules**: Specifies a whitelist so that only the specified rules are activated. <u>Cannot be used with disabled_rules and opt_in_rules.</u>
 
 **3-1-2. Links**
 
