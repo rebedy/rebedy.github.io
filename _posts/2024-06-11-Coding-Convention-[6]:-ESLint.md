@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-06-11
-title: "Coding Convention [6]"
+title: "Coding Convention [6]: ESLint"
 tags: [coding-convention, linter, ESLint, javascript, ]
 categories: [Coding Convention, ]
 ---
@@ -36,7 +36,7 @@ categories: [Coding Convention, ]
 ---
 
 
-![0](/assets/img/2024-06-11-Coding-Convention-[6].md/0.png)
+![0](/assets/img/2024-06-11-Coding-Convention-[6]:-ESLint.md/0.png)
 
 
 Javascript static analysis tool created by Nicholas C. Zakas in 2013.
@@ -95,7 +95,7 @@ yarn add -D eslint
 
 
 
-![1](/assets/img/2024-06-11-Coding-Convention-[6].md/1.png)
+![1](/assets/img/2024-06-11-Coding-Convention-[6]:-ESLint.md/1.png)
 
 
 
@@ -113,7 +113,7 @@ npm init @eslint/config@latest
 
 
 
-![2](/assets/img/2024-06-11-Coding-Convention-[6].md/2.png)
+![2](/assets/img/2024-06-11-Coding-Convention-[6]:-ESLint.md/2.png)
 
 
 The file below will be generated with the options you set.
