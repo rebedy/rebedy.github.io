@@ -132,6 +132,9 @@ undefined- It can be used mixed.
 #### **1-1. flake8**
 
 
+![3](/assets/img/2024-06-10-Coding-Convention-[5]:-Linter.md/3.png)
+
+
 Checks code conventions based on Python's leading lint tool, PEP8. It checks code style, errors, and complexity and wraps the package below.
 
 
