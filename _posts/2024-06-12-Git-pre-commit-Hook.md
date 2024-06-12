@@ -2,7 +2,7 @@
 layout: post
 date: 2024-06-12
 title: "Git pre-commit Hook"
-tags: [coding-convention, linter, git-pre-commit-hook, ]
+tags: [coding-convention, linter, git-pre-commit-hook, black, flake8, ]
 categories: [Coding Convention, GitHub, ]
 ---
 

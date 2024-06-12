@@ -2,7 +2,7 @@
 layout: post
 date: 2024-06-10
 title: "Coding Convention [5]: Linter"
-tags: [coding-convention, linter, git-pre-commit-hook, ]
+tags: [coding-convention, linter, git-pre-commit-hook, flake8, ]
 categories: [Coding Convention, ]
 ---
 
