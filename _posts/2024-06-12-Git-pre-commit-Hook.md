@@ -57,9 +57,6 @@ pre-commit -V
 
 
 
-![1](/assets/img/2024-06-12-Git-pre-commit-Hook.md/1.png)
-
-
 
 #### 2-2. On MacOS
 
@@ -75,6 +72,9 @@ pre-commit -V
 ```
 {% endraw %}
 
+
+
+![1](/assets/img/2024-06-12-Git-pre-commit-Hook.md/1.png)
 
 
 
