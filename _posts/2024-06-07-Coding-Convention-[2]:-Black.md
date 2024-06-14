@@ -84,22 +84,81 @@ black [file_name or folder_name]
 
 
 
+#### Install the extension
+
+
+Extensions (**`^+⌘+X`**) > Type ‘**Black Formatter**’ > Install 
+
+
+
 #### Designate to Formatter in VSCode
 
 - Add to VSCode preferences to run Black as default formatter
-	- Go to `.vscode/setting.json` in the command palette(`ctrl+shift+P`).
+	- Go to `.vscode/setting.json` in the command palette(**`⌘+shift+P`**).
 	- Add commands below.
 
 
 {% raw %}
 ```json
-"python.formatting.provider": "black“,  # Allows VSCode to use Black instead of its default formatter.
-"editor.formatOnSave": true,  # Automatically format the code every time you save it.
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
 ```
 {% endraw %}
 
 
 
+
+#### **Format on save**
+
+
+Automatically format your Python files on save by setting the `editor.formatOnSave` setting to `true` and the `editor.defaultFormatter` setting to `ms-python.black-formatter`. You can also enable format on save for Python files only by adding the following to your settings:
+
+
+
+{% raw %}
+```json
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  }
+```
+{% endraw %}
+
+
+
+
+#### Settings
+
+
+| **Settings**                           | **Default** | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| -------------------------------------- | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **`black-formatter.args`**             | []          | Passing arguments to Black to specify the Python file format. string.
+e.g. "black-formatter.args" = ["--config", "<file>"]                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **`black-formatter.cwd`**              | []          | Sets the current working directory used to format Python files to Black.
+By default, the root directory of the workspace `${workspaceFolder}` is used.
+If set to `${fileDirname}`, the parent folder can be used as the working directory.                                                                                                                                                                                                                                                                                    |
+| **`black-formatter.path`**             | []          | Path or command to be used by the extension.
+Array of single or multiple strings.
+Each argument is provided as a separate string in the array.
+Setting to ["black"] will use the Black version available in the PATH environment variable. This may slow formatting.
+e.g. ["~/global_env/black"]["conda", "run", "-n", "lint_env", "python", "-m", "black" ]                                                                                                                                                                  |
+| **`black-formatter.interpreter`**      | []          | Path to the Python executable or command used to start the Black server and child processes.
+Allows arrays of single or multiple strings.
+Each argument is provided as a separate string in the array.
+If set to `[]`, the path to the selected Python interpreter will be used.                                                                                                                                                                                                                                              |
+| **`black-formatter.importStrategy`**   | useBundled  | Defines the Black formatter binary.
+If set to `useBundled`, the included Black Formatter binary will be used.
+When set to `fromEnvironment`, attempts to use the Black Formatter binary and all dependencies available in the currently selected environment.
+**Note**: If the extension cannot find a valid Black Formatter binary for the selected environment, it will fallback to using the accompanying binary. The `black-formatter.path` setting takes precedence over the action of `black-formatter.importStrategy`. |
+| **`black-formatter.showNotification`** | off         | Controls when notifications are shown by this extension.
+e.g. `onError`, `onWarning`, `always` and `off`                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **`black-formatter.serverTransport`**  | stdio       | Selects the transport protocol to be used by the Black server.
+When set to `stdio`, the extension will use the standard i/o streams.
+When set to `pipe`, the extension will use a named pipe (on Windows) or Unix Domain Socket (on Linux/Mac).
+The `stdio` transport protocol is the default and recommended option for most users.                                                                                                                                                                                          |
+
+undefined
 
 ## Options
 
