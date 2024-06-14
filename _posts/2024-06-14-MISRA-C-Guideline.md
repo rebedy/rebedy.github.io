@@ -38,20 +38,20 @@ ISO26262와 MISRA C는 자동차 소프트웨어 및 시스템 개발에 있어 
 
 가이드라인들은 변수 또는 함수의 선언, 정의, 제어 흐름, 포인터, 배열, 구조체, 공용체, 표준 라이브러리를 포함하는 17개의 섹션으로 분류된다. 이러한 가이드라인들은 준수 필요 정도에 따라 아래와 같이 분류된다.
 
-	- Mandatory Rule: MISRA C의 일부 코딩 규칙들은 예외(deviation)없이 직관적이고 명확하다. 이와 같은 규칙들은 어떠한 상황에서도 예외가 허용되지 않는다.
-	- Required Rule: MISRA C를 준수하도록 요구 받는 코드는 반드시 Required Rule들을 준수해야 한다. 이 규칙들은 정당한 사유 있을 경우에 한해서 예외가 허용된다.
-	- Advisory Rule: 권장사항. 하지만 이 규칙들이 무시되어도 된다는 뜻은 아니며 합리적으로 준수되어야 함을 의미한다.
+- Mandatory Rule: MISRA C의 일부 코딩 규칙들은 예외(deviation)없이 직관적이고 명확하다. 이와 같은 규칙들은 어떠한 상황에서도 예외가 허용되지 않는다.
+- Required Rule: MISRA C를 준수하도록 요구 받는 코드는 반드시 Required Rule들을 준수해야 한다. 이 규칙들은 정당한 사유 있을 경우에 한해서 예외가 허용된다.
+- Advisory Rule: 권장사항. 하지만 이 규칙들이 무시되어도 된다는 뜻은 아니며 합리적으로 준수되어야 함을 의미한다.
 
 이후로도 수시로 **업데이트** 되고 있다.
 
-	- **MISRA C 1998 (MC1):** "Guidelines for the use of the C language in vehicle-based software"
-		- 127개 규칙 / 93개 필수규칙 / 34개 권고규칙
-	- **MISRA C 2004 (MC2) :** "Guidelines for the use of C language in critical systems"
-		- 141개 규칙 / 121개 필수규칙 / 20개 권고규칙
-		- MC1에의 단점을 개선함 (불명확한 규칙, 의미 해석이나 적용이 어려운 규칙 등)
-	- **MISRA C 2012 (MC3) :** "Guidelines for the use of the C languate in critical systems"
-		- 143개 규칙 / 28개 권고사항
-		- 전자제어장치 등 소프트웨어에 대한 의존성이 급격함에 증가함에 따라 자동차분야 및 여러 분야에서 C 언어에 대한 코딩 표준으로 <u>MISRA C 2012가 가장 널리 사용되고 있다</u>.
+- **MISRA C 1998 (MC1):** "Guidelines for the use of the C language in vehicle-based software"
+	- 127개 규칙 / 93개 필수규칙 / 34개 권고규칙
+- **MISRA C 2004 (MC2) :** "Guidelines for the use of C language in critical systems"
+	- 141개 규칙 / 121개 필수규칙 / 20개 권고규칙
+	- MC1에의 단점을 개선함 (불명확한 규칙, 의미 해석이나 적용이 어려운 규칙 등)
+- **MISRA C 2012 (MC3) :** "Guidelines for the use of the C languate in critical systems"
+	- 143개 규칙 / 28개 권고사항
+	- 전자제어장치 등 소프트웨어에 대한 의존성이 급격함에 증가함에 따라 자동차분야 및 여러 분야에서 C 언어에 대한 코딩 표준으로 <u>MISRA C 2012가 가장 널리 사용되고 있다</u>.
 
 현재에는 자동차 산업 뿐만 아니라 안전이 중요한 다른 다양한 응용 분야(의료 및 항공)에서도 사용되고 있으며 산업 표준으로 널리 채택되고 있다.
 
