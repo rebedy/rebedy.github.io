@@ -2,7 +2,7 @@
 layout: post
 date: 2024-06-09
 title: "Coding Convention [4]: autopep8"
-tags: [coding-convention, code-formatter, autopep8, PEP8, ]
+tags: [coding-convention, code-formatter, autopep8, PEP8, Javascript, ]
 categories: [Coding Convention, ]
 ---
 
