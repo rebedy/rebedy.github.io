@@ -14,6 +14,9 @@ categories: [Guideline, ]
 ---
 
 
+![0](/assets/img/2024-06-14-MISRA-C-Guideline.md/0.png)
+
+
 
 #### [MISRA C:1998 - Reference Guide](https://wwwfiles.iar.com/rl78/EW_MisraC1998Reference.pdf)
 
@@ -39,7 +42,7 @@ ISO26262와 MISRA C는 자동차 소프트웨어 및 시스템 개발에 있어 
 	- Required Rule: MISRA C를 준수하도록 요구 받는 코드는 반드시 Required Rule들을 준수해야 한다. 이 규칙들은 정당한 사유 있을 경우에 한해서 예외가 허용된다.
 	- Advisory Rule: 권장사항. 하지만 이 규칙들이 무시되어도 된다는 뜻은 아니며 합리적으로 준수되어야 함을 의미한다.
 
-이후로도 수시로 업데이트 되고 있다.
+이후로도 수시로 **업데이트** 되고 있다.
 
 	- **MISRA C 1998 (MC1):** "Guidelines for the use of the C language in vehicle-based software"
 		- 127개 규칙 / 93개 필수규칙 / 34개 권고규칙
@@ -57,7 +60,7 @@ MISRA C가 확장된 MISRA C++가 2000년 대에 새롭게 C++에 대한 가이�
 
 
 
-### WHY?
+### Why do we need MISRA C?
 
 
 임베디드 개발자들은 단점이 없는, 이상적인, 무결점의 프로그래밍 언어는 없다는 사실을 알고 있다. 하여 개발자들은 항상 주어진 요구사항에서 가장 최적화된 해결방법을 고민한다.
@@ -70,7 +73,7 @@ C 언어는 가장 널리 사용되는 프로그래밍 언어로써 간결하고
 
 
 
-#### C 프로그래밍 언어의 불안정성
+#### Instability of the C programming language
 
 
 **1.  프로그래머의 실수**
@@ -94,7 +97,7 @@ C 언어는 가장 널리 사용되는 프로그래밍 언어로써 간결하고
 	- 산술 예외, 오버플로우, 포인터 주소 유효, 어레이 바운드 err 같은 런타임 checking 제공 안함.
 
 
-## Why updating?
+## Why MISRA needed to be updated?
 
 
 ---
@@ -139,8 +142,12 @@ C 언어는 가장 널리 사용되는 프로그래밍 언어로써 간결하고
 
 **Migration**
 
-<details>
-  <summary>Detailed</summary>
+
+
+## What’s in the updated MISRA C
+
+
+---
 
 
 
@@ -276,9 +283,7 @@ _정적 분석 도구 필요 :_
 
 
 
-  </details>
-
-## **코딩 룰을 체크해 주는 소프트웨어**
+## Software for coding rules
 
 
 ---

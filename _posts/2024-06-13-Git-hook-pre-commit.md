@@ -1,8 +1,8 @@
 ---
 layout: post
 date: 2024-06-13
-title: "Git pre-commit Hook"
-tags: [coding-convention, linter, git-pre-commit-hook, black, flake8, ]
+title: "Git hook pre-commit"
+tags: [coding-convention, linter, git-hook, pre-commit, black, flake8, ]
 categories: [Coding Convention, GitHub, ]
 ---
 
@@ -14,7 +14,7 @@ categories: [Coding Convention, GitHub, ]
 ---
 
 
-![0](/assets/img/2024-06-13-Git-pre-commit-Hook.md/0.png)
+![0](/assets/img/2024-06-13-Git-hook-pre-commit.md/0.png)
 
 
 A **Git hook** is a function in Git that executes a specific script at an event. **Git** **`pre-commit`** **hook** automatically executes certain tasks every time we commit our code. So basically it is called before we actually write a commit message. We can automate code checking before commit with `pre-commit`. This can be used to check for grammar errors, style, alignment, and type errors before committing. Many projects use this to run a <u>Code Formatter</u> to unify the code style and run a <u>Linter</u> to find potential problems in the code. It can even be customized according to the developer’s preference. And also the biggest advantage of `pre-commit` is that just as Git is language-agnostic, this can be used regardless of programming language.
@@ -57,7 +57,7 @@ pre-commit -V
 
 
 
-![1](/assets/img/2024-06-13-Git-pre-commit-Hook.md/1.png)
+![1](/assets/img/2024-06-13-Git-hook-pre-commit.md/1.png)
 
 
 
@@ -97,7 +97,7 @@ cat .pre-commit-config.yaml
 We can check out that **four hooks** have been set.
 
 
-![2](/assets/img/2024-06-13-Git-pre-commit-Hook.md/2.png)
+![2](/assets/img/2024-06-13-Git-hook-pre-commit.md/2.png)
 
 
 The `pre-commit` tool downloads and executes hooks from Git repositories. So, we need to know which Git repository the hook is located in. You can see various pre-commit hooks on the [**Supported hooks**](https://pre-commit.com/hooks.html) page on the `pre-commit` official website.
