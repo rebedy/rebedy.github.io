@@ -2,7 +2,7 @@
 layout: post
 date: 2024-06-12
 title: "Coding Convention [7]: flake8"
-tags: [coding-convention, code-formatter, linter, flake8, python, ]
+tags: [coding-convention, code-formatter, linter, flake8, Python, ]
 categories: [Coding Convention, ]
 ---
 
