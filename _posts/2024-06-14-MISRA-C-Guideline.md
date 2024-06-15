@@ -2,7 +2,7 @@
 layout: post
 date: 2024-06-14
 title: "MISRA C Guideline"
-tags: [guideline, safety-related standards, ICMS, C, C++, MISRA C, ]
+tags: [guideline, safety-related standards, ICMS, MISRA C, C, C++, ]
 categories: [Guideline, ]
 ---
 
@@ -21,10 +21,10 @@ categories: [Guideline, ]
 #### [MISRA C:1998 - Reference Guide](https://wwwfiles.iar.com/rl78/EW_MisraC1998Reference.pdf)
 
 
-자동차 모델 기반의 코딩 규칙.
+Coding rules based on car model.
 
 
-ISO26262와 MISRA C는 자동차 소프트웨어 및 시스템 개발에 있어 안전성 관련 표준이다.
+**MISRA C** and **ISO26262** are safety-related standards for automotive software and system development.
 
 
 **Motor Industry Software Reliability Association**, 자동차 산업 소프트웨어 신뢰성 협회)가 1998년, 차량 시스템에서 C언어를 사용하기 위한 일련의 가이드라인을 소개함.
@@ -102,9 +102,9 @@ undefined
 
 ---
 
-- 새로운 규칙이 꼭 필요할까?
-- 이전 규칙보다 월등히 좋은가?
-- 기존 MC1/MC2를 준수한 코드는 새로운 표준도 준수할 수 있을까?
+- Are the new rules are necessary?
+- Is it much better than the previous rule?
+- Can the code that complies with the existing MC1/MC2 comply with the new standard?
 
 룰이 업데이트 되기 이전에 **언어의 버전도 계속 업데이트** 되기 때문에 위와 같은 의문이 생긴다.
 
@@ -113,9 +113,6 @@ undefined
 
 
 예를 들어 C99기능 중 **inline 함수와 _Bool 타입**과 같은 기능이 가치 있는 내용이 인정했기 때문이다.
-
-
-이에 따라 룰을 업데이트하는데 어떤 규칙에 따라 업데이트 했는지 내용에 대해 알아보도록 하자.
 
 
 
