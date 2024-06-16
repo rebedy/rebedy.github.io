@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-06-14
-title: "MISRA C Guideline"
+title: "Guideline [1]: MISRA C "
 tags: [guideline, safety-related standards, ICMS, MISRA C, C, C++, ]
 categories: [Guideline, ]
 ---
@@ -14,7 +14,7 @@ categories: [Guideline, ]
 ---
 
 
-![0](/assets/img/2024-06-14-MISRA-C-Guideline.md/0.png)
+![0](/assets/img/2024-06-14-Guideline-[1]:-MISRA-C-.md/0.png)
 
 
 
