@@ -3,7 +3,7 @@ layout: post
 date: 2024-06-16
 title: "Guideline [3]: PRISMA"
 tags: [guideline, systematic-review, meta-analysis, PRISMA, ]
-categories: [Guideline, ]
+categories: [Guideline/Assessment, ]
 ---
 
 
@@ -44,15 +44,15 @@ categories: [Guideline, ]
 
 **3. Main Body**
 
-- **서론(Introduction)**: 연구 배경과 목적 설명.
-- **방법(Methods)**: 연구 설계, 데이터베이스 검색 전략, 포함 및 제외 기준, 데이터 추출 및 분석 방법 설명.
-- **결과(Results)**: 검색 결과, 포함된 연구, 데이터 분석 결과 보고.
-- **논의(Discussion)**: 연구 결과 해석, 강점과 한계 논의.
-- **결론(Conclusion)**: 검색 결과, 포함된 연구, 배제된 연구, 데이터 추출 및 분석 결과를 포함.
-	- _**연구 선택, 연구 특성, 위험 바이어스, 결과**_
+	- **서론(Introduction)**: 연구 배경과 목적 설명.
+	- **방법(Methods)**: 연구 설계, 데이터베이스 검색 전략, 포함 및 제외 기준, 데이터 추출 및 분석 방법 설명.
+	- **결과(Results)**: 검색 결과, 포함된 연구, 데이터 분석 결과 보고.
+	- **논의(Discussion)**: 연구 결과 해석, 강점과 한계 논의.
+	- **결론(Conclusion)**: 검색 결과, 포함된 연구, 배제된 연구, 데이터 추출 및 분석 결과를 포함.
+		- _**연구 선택, 연구 특성, 위험 바이어스, 결과**_
 1. **Additional Files**
-- **PRISMA 체크리스트**: 체계적 문헌고찰과 메타분석의 특정 측면을 다루는 27개 항목.
-- **PRISMA 플로우차트**: 연구 선택 과정을 시각적으로 나타냄 (식별, 스크리닝, 적격성 평가 및 포함).
+	- **PRISMA 체크리스트**: 체계적 문헌고찰과 메타분석의 특정 측면을 다루는 27개 항목.
+	- **PRISMA 플로우차트**: 연구 선택 과정을 시각적으로 나타냄 (식별, 스크리닝, 적격성 평가 및 포함).
 
 
 #### [**Additional Files]** [PRISMA Checklist](https://www.prisma-statement.org/prisma-2020-checklist) Example
