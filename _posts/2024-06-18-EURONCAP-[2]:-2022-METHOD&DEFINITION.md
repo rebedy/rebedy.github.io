@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-06-18
-title: "EURONCAP"
+title: "EURONCAP [2]: 2022 METHOD&DEFINITION"
 tags: [assessment, EURONCAP, EURONCAP23, ]
 categories: [Guideline/Assessment, ]
 ---
@@ -180,7 +180,7 @@ Distance between the point where the straight line drawn in the y-axis direction
 운전자의 눈의 외 측 모서리와 내 측 모서리를 연결하는 선분의 중점으로부터 y 축 방향으로 그려진 직선이 상안검의 하측 모서리와 하측 눈꺼풀의 상측 모서리와 중첩되는 지점 사이의 거리. 운전자가 깨어 주의를 기울일 때 측정된다.
 
 
-![0](/assets/img/2024-06-18-EURONCAP.md/0.png)
+![0](/assets/img/2024-06-18-EURONCAP-[2]:-2022-METHOD&DEFINITION.md/0.png)
 
 
 
