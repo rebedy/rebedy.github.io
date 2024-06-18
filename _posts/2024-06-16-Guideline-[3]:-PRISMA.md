@@ -22,10 +22,10 @@ categories: [Guideline/Assessment, ]
 
 - 체계적 문헌고찰(Systematic Review)과 메타분석(Meta-Analysis)의 보고를 향상시키기 위해 개발된 가이드라인.
 - PRISMA는 연구자들이 연구 결과를 투명하고 일관되게 보고할 수 있도록 하며, 읽는 이로 하여금 연구의 강점과 약점을 평가할 수 있도록 한다. PRISMA의 주요 목적은 연구의 질과 투명성을 높이는 것.
-- [PRISMA Statement](http://prisma-statement.org/PRISMAStatement/PRISMAStatement.aspx)는 Systematic Review 프로토콜을 어떻게 만들고 고찰을 작성할 때 무엇을 포함해야 하는가를 저자에게 안내해주는 문서이다. 이는 27개 항목으로 된 [checklist](https://www.prisma-statement.org/prisma-2020-checklist)와 [flow diagram](https://www.prisma-statement.org/prisma-2020-flow-diagram)로 구성되어 있다. 체계적 문헌고찰이나 Meta-Analysis 논문을 작성하는 모든 저자는 PRISMA 체크리스트를 완성하여 논문과 함께 제출해야 한다. 대부분 저널은 이를 의무사항으로 규정하고 있다.
+- [PRISMA Statement](https://www.prisma-statement.org/PRISMAStatement/PRISMAStatement.aspx)는 Systematic Review 프로토콜을 어떻게 만들고 고찰을 작성할 때 무엇을 포함해야 하는가를 저자에게 안내해주는 문서이다. 이는 27개 항목으로 된 [checklist](https://www.prisma-statement.org/prisma-2020-checklist)와 [flow diagram](https://www.prisma-statement.org/prisma-2020-flow-diagram)로 구성되어 있다. 체계적 문헌고찰이나 Meta-Analysis 논문을 작성하는 모든 저자는 PRISMA 체크리스트를 완성하여 논문과 함께 제출해야 한다. 대부분 저널은 이를 의무사항으로 규정하고 있다.
 - Guidelines have been developed to improve the reporting of systematic reviews and meta-analyses, ensuring that these studies are presented clearly and comprehensively.
 - PRISMA allows researchers to report their research results transparently and consistently, helping readers to evaluate the strengths and weaknesses of the studies. The main purpose of PRISMA is to enhance the quality and transparency of research.
-- The [PRISMA Statement](http://prisma-statement.org/PRISMAStatement/PRISMAStatement.aspx) is a document that guides authors on how to create a systematic review protocol and what to include when writing a review. It consists of 27 items organized into a [checklist](https://www.prisma-statement.org/prisma-2020-checklist) and a [flow diagram](https://www.prisma-statement.org/prisma-2020-flow-diagram).
+- The [PRISMA Statement](https://www.prisma-statement.org/PRISMAStatement/PRISMAStatement.aspx) is a document that guides authors on how to create a systematic review protocol and what to include when writing a review. It consists of 27 items organized into a [checklist](https://www.prisma-statement.org/prisma-2020-checklist) and a [flow diagram](https://www.prisma-statement.org/prisma-2020-flow-diagram).
 - All authors writing systematic reviews or meta-analysis papers must complete the PRISMA checklist and submit it with their paper. Most journals require adherence to these guidelines as a mandatory submission criterion, ensuring high standards of reporting and comprehensiveness in published research.
 
 
@@ -37,10 +37,6 @@ categories: [Guideline/Assessment, ]
 	- PRISMA에서는 제목에 "Systematic Review" 또는 "Meta-Analysis"라는 용어를 포함할 것을 권장.
 	- PRISMA recommends including the terms "Systematic Review" or "Meta-Analysis" in the title. This inclusion helps to clearly identify the type of research being conducted and ensures that readers and reviewers can quickly ascertain the nature of the study.
 2. **Abstract**
-	- 연구의 목적, 방법, 결과 및 결론을 요약하여 제공.
-	- The research should provide a comprehensive summary of its objectives, methods, results, and conclusions. This summary is essential for giving readers a clear and concise overview of the study's main findings and their implications.
-	- PRISMA에서는 구조화된 초록을 권장하며, 이는 체계적 문헌고찰과 메타분석의 주요 항목을 포함.
-	- PRISMA recommends using a structured abstract, which includes the key elements of systematic reviews and meta-analyses. This structured approach ensures that all critical components, such as the study's background, objectives, methods, results, and conclusions, are clearly and thoroughly presented, making it easier for readers to understand and evaluate the research.
 
 **3. Main Body**
 
