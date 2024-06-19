@@ -45,15 +45,9 @@ categories: [Guideline/Assessment, ]
 |               |              | Eyewear          | Sunglasses with a <15% transmittance(IR light)                                                      |
 |               |              | Eyelash makeup   | Thick eyelash makeup                                                                                |
 |               |              | Facial hair      | Long facial hair (>150mm in length)                                                                 |
-| **Behavior**  | Monitoring   | Driver behavior  | 1. Eating
-2. Talking
-3. Laughing
-4. Singing
-5. Smoking/Vaping
-6. Eye scratching/rubbing
-7. Sneezing |
+| **Behavior**  | Monitoring   | Driver behavior  | 1. Eating 2. Talking 3. Laughing 4. Singing 5. Smoking/Vaping 6. Eye scratching/rubbing 7. Sneezing |
 
-undefined- The OEM must demonstrate, by means of a **dossier**, that when faced with the following ranges and elements the DSM system is <u>**either**</u> **not degraded** in performance or that performance is **degraded** and the driver is informed within **10s** of the occlusion being present with visual and/or audible information.
+undefined- The OEM must demonstrate, by means of a **dossier**, that when faced with the following ranges and elements the DSM system is **either** **not degraded** in performance or that performance is **degraded** and the driver is informed within **10s** of the occlusion being present with visual and/or audible information.
 
 
 #### a. Stature types
@@ -92,10 +86,10 @@ undefined- The OEM must demonstrate, by means of a **dossier**, that when faced 
 |                | Intoxication            |                                                                         | ?               |
 |                | Cognitive Distraction   |                                                                         | ?               |
 | **OSM or OM**  | Occupant Classification | Airbag diabling for ChildRestraint System(CRS) and Out-Of-Position(OOP) | 2026 -          |
-|                |                         | Driver/front passenger classification for active retraint deployment    | 2026 -          |
+|                |                         | Driver/front passenger classification for active retrains deployment    | 2026 -          |
 |                | Occupant present        | Child Presence Detection(CPD)                                           | 2026 -          |
 |                |                         | Post-crash occupancy information                                        | 2026 -          |
-|                | Seatbelt Usage          | <u>**Update of SBR**</u>, <u>**Misuse**</u>                             | 2026 -          |
+|                | Seatbelt Usage          | **Update of SBR**, **Misuse**                                           | 2026 -          |
 | **SAS**        | -                       |                                                                         | 2023 -          |
 
 undefined
@@ -121,7 +115,7 @@ undefined
 
 #### **1) Long Distraction**
 
-- A single <u>**long duration**</u> distraction which takes the driver’s <u>**gaze away**</u> from the forward road view.
+- A single **long duration** distraction which takes the driver’s **gaze away** from the forward road view.
 - **≥ 3 seconds** glance away from the forward road view (+1 second if OEM provides justification and evidence that safety is kept)
 
 	Open image-20240214-073808.png
@@ -133,29 +127,29 @@ undefined
 
 #### **2) Short distraction or VATS**
 
-- <u>**Repeated short duration gazes away**</u> from the forward road view, which cumulatively reduce the driver’s awareness of the driving situation, until their attention returns to the driving task for long enough for them to fully assess the driving situation.
+- **Repeated short duration gazes away** from the forward road view, which cumulatively reduce the driver’s awareness of the driving situation, until their attention returns to the driving task for long enough for them to fully assess the driving situation.
 - glances away from the forward road view for **a cumulative 10 seconds** within **a 30 second time**, where the **time period is reset if the driver’s glance returns to the forward road view for a period of ≥ 2 seconds**.
-- 상기 내용 구현을 위해서 <u>**attendD-inspired buffer algorithm**</u> 방법론을 예시로 선보임(설득력 있는 다른 방법론 있다면 제시 가능)
+- 상기 내용 구현을 위해서 **`attendD-inspired buffer algorithm`** 방법론을 예시로 선보임(설득력 있는 다른 방법론 있다면 제시 가능)
 
 Open image-20240214-073323.png
 
 
-AttenD example [0]: development of the time buffer for three consecutive one-second glances away from the <u>**F**</u>ield <u>**R**</u>elevant for <u>**D**</u>riving (FRD), marked dark grey, with half-second glances back to the FRD in between. Note the <u>**0.1s**</u> physiological adaptation delay
+AttenD example [0]: development of the time buffer for three consecutive one-second glances away from the **F**ield **R**elevant for **D**riving (FRD), marked dark grey, with half-second glances back to the FRD in between. Note the **0.1s** physiological adaptation delay
 
 
 
 #### 3) Phone Use
 
-- A subset of short distraction (**VATS**) where <u>**the object the driver’s attention is shared with is their mobile phone.**</u>
+- A subset of short distraction (**VATS**) where **the object the driver’s attention is shared with is their mobile phone.**
 
 
 #### 4) Movement types
 
-- <u>**Owl**</u> type movement: A shifting of visual attention away from the road and forward-facing position that is primarily achieved by head rotation followed by the eyes
+- **Owl** type movement: A shifting of visual attention away from the road and forward-facing position that is primarily achieved by head rotation followed by the eyes
 
 ![4](/assets/img/2024-06-19-EURONCAP-[3]:-2022-Safe-Driving.md/4.png)
 
-- <u>**Lizard**</u> type movement: A movement in which the driver focuses on a task by moving primarily their eyeline away from the road with their head/face remaining in the forward-facing position.
+- **Lizard** type movement: A movement in which the driver focuses on a task by moving primarily their eyeline away from the road with their head/face remaining in the forward-facing position.
 
 ![5](/assets/img/2024-06-19-EURONCAP-[3]:-2022-Safe-Driving.md/5.png)
 
@@ -241,7 +235,7 @@ undefined
 
 ### **3. Unresponsive driver**
 
-- likely due to a sudden onset of sickness
+- likely due to a sudden onset of sickness.
 - a driver who either does **not return their gaze** to the forward road view **within 3 seconds** of an inattention **warning being issued**.
 - a driver whose **gaze has been away** from the forward road view for **≥ 6 seconds**.
 - a driver has been **eyes closed** for **≥ 6 seconds**.
@@ -249,19 +243,19 @@ undefined
 
 ### **4. Intoxication**
 
-- <u>**언제 필수 요소로 될지 알 수 없음**</u>
+- **We don’t know when it will become essential.**
 - Euro NCAP에서 문제 인지 중: “25% of the fatal crashes in Europe to alcohol and other drugs.”
-- 알콜 섭취 - 공간 지각 능력 변화에 대한 증거 수집 중
+- Alcohol consumption - gathering evidences for changes in spatial perception
 	- alcohol consumption altering oculomotor functioning
 	- gaze entropy measures correlated to alcohol-induced driver impairment
 
 
 ### **5. Cognitive Distraction (멍때림)**
 
-- **It might become essential**
+- **It might become essential.**
 - “the driver’s **mind wanders off for a certain period**, while the **eye gaze may still be directed toward the forward road view**”
-- 운전자 시뮬레이터 기반의 연구에서는 잘 정리 되어있으나, 실제 주행 환경에서의 연구는 매우 희박함
-- <u>**장기적으로 이 이슈를 해결해야할 것임을 강조**</u>
+- Although it is well-documented in driver simulator-based research, researches in actual driving environments is very sparse.
+- **This issue will need to be resolved in the long term.**
 
 
 ### **6. Occupant Classification**
