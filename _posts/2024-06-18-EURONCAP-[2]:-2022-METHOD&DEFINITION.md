@@ -8,7 +8,7 @@ categories: [Guideline/Assessment, ]
 
 
 
-## Prerequisites
+## **Prerequisites**
 
 
 ---
@@ -16,7 +16,7 @@ categories: [Guideline/Assessment, ]
 - [EURONCAP-1-Roadmap-(2022~2030)](https://rebedy.github.io/posts/EURONCAP-1-Roadmap-(2022~2030)/)
 
 
-## EURO NCAP 2022 🇪🇺
+## **EURO NCAP 2022 🇪🇺**
 
 
 ---
@@ -39,7 +39,7 @@ Implementation 2023
 
 
 
-### 1. METHOD OF ASSESSMENT 평가 방법
+### **1. METHOD OF ASSESSMENT 평가 방법**
 
 - 인적 요인은 차량 사고의 흔한 원인으로 그 중에서도 **과속과 음주 또는 약물**이 큰 문제가 됨.
 - human “errors”; 부주의, 피로, 주의 산만 및 경험 부족.
@@ -50,21 +50,21 @@ Implementation 2023
 - 충돌 시 제공되는 보호 기능에 대한 평가와는 달리, Safety Assist 기능 평가에는 차량에 대한 파괴 테스트가 필요하지 않다.
 
 
-### 2. DEFINITION
+### **2. DEFINITION**
 
 
 terms used.
 
 
 
-#### DSM; Driver State Monitoring 운전자 상태 모니터링
+#### **DSM; Driver State Monitoring 운전자 상태 모니터링**
 
 
 Driver State Monitoring system that is able to (in)directly determine the state of the driver
 
 
 
-#### Direct monitoring 직접 모니터링
+#### **Direct monitoring 직접 모니터링**
 
 
 Where driver state determination is supported by sensor(s) directly observing the driver.
@@ -74,7 +74,7 @@ Where driver state determination is supported by sensor(s) directly observing th
 
 
 
-#### Indirect monitoring 간접 모니터링
+#### **Indirect monitoring 간접 모니터링**
 
 
 Where driver state determination is achieved indirectly through means other than sensor(s) directly observing the driver (e.g steering input).
@@ -84,7 +84,7 @@ Where driver state determination is achieved indirectly through means other than
 
 
 
-#### Impaired driving 손상된 운전
+#### **Impaired driving 손상된 운전**
 
 
 A driver who is disconnected from the driving task or not in a physical state that is sufficient for safe driving, either due to distraction, fatigue or sickness.
@@ -94,7 +94,7 @@ A driver who is disconnected from the driving task or not in a physical state th
 
 
 
-#### Distraction 주의 산만
+#### **Distraction 주의 산만**
 
 
 Anything (e.g. secondary tasks) that reduces the driver’s focus on the primary task of driving/controlling the vehicle.
@@ -141,7 +141,7 @@ Warning and/or adapted vehicle mode after an impaired driving has been detected.
 	- Emergency manoeuvre where the vehicle will either come to a controlled stop or speed of <10km/h without input from the driver.
 
 
-#### Owl type movement
+#### **Owl** **type movement**
 
 
 A shifting of visual attention away from the road and forward-facing position that is primarily achieved by head rotation followed by the eyes.
@@ -151,7 +151,7 @@ A shifting of visual attention away from the road and forward-facing position th
 
 
 
-#### Lizard type movement
+#### **Lizard** **type movement**
 
 
 A movement in which the driver focuses on a task by moving primarily their eyeline away from the road with their head/face remaining in the forward-facing position.
@@ -161,7 +161,7 @@ A movement in which the driver focuses on a task by moving primarily their eyeli
 
 
 
-#### Degraded system 퇴화된 시스템
+#### **Degraded system 퇴화된 시스템**
 
 
 A direct driver monitoring system is considered degraded in this assessment when an entire subsystem becomes fully unavailable. E.g. A direct driver monitoring system which uses head pose tracking and eye tracking would be considered degraded if eye tracking became fully unavailable therefore preventing the system identifying any lizard type movements.
@@ -171,7 +171,7 @@ A direct driver monitoring system is considered degraded in this assessment when
 
 
 
-#### Eyelid aperture 눈꺼풀 틈
+#### **Eyelid aperture 눈꺼풀 틈**
 
 
 Distance between the point where the straight line drawn in the y-axis direction from the midpoint of line segment connecting the outer and inner corners of the driver’s eye overlaps the lower edge of the upper eyelid and upper edge of the lower eyelid. Measured when driver is awake and attentive.
@@ -184,7 +184,7 @@ Distance between the point where the straight line drawn in the y-axis direction
 
 
 
-#### In-vehicle infotainment (IVI) system 차량 내 인포테인먼트 시스템
+#### **In-vehicle infotainment (IVI) system 차량 내 인포테인먼트 시스템**
 
 
 The area containing the infotainment system and/or vehicle controls, typically located centrally ahead of the front row seating in the conventional passenger car layout. 
@@ -197,7 +197,7 @@ The area containing the infotainment system and/or vehicle controls, typically l
 
 
 
-#### Adaptive Cruise Control (ACC)
+#### **Adaptive Cruise Control (ACC)**
 
 
 Cruise control that adjusts vehicle speed adaptively to a forward vehicle by using information regarding distance to forward vehicle, motion of the subject vehicle, and driver commands.
@@ -207,7 +207,7 @@ Cruise control that adjusts vehicle speed adaptively to a forward vehicle by usi
 
 
 
-#### Forward Collision Warning (FCW) 전방 충돌 경고
+#### **Forward Collision Warning (FCW) 전방 충돌 경고**
 
 
 an audio-visual warning that is provided automatically by the vehicle in response to the detection of a likely collision to alert the driver.
@@ -217,7 +217,7 @@ an audio-visual warning that is provided automatically by the vehicle in respons
 
 
 
-#### Lane Departure Warning (LDW) 차선 이탈 경고
+#### **Lane Departure Warning (LDW) 차선 이탈 경고**
 
 
 A warning that is provided automatically by the vehicle response to the vehicle that is about to drift beyond a delineated edge line of the current travel lane.
@@ -227,17 +227,17 @@ A warning that is provided automatically by the vehicle response to the vehicle 
 
 
 
-#### Seat Belt Reminder (SBR) 안전 벨트 알림
+#### **Seat Belt Reminder (SBR) 안전 벨트 알림**
 
 
 Seat Belt Reminder that indicates the status of the seatbelt whether it is in use or not in use.
 
 
-안전 벨트가 사용 중인지 여부에 관계없이 안전 벨트의 상태를 나타내는 안전 벨트 알림.
+안전 벨트가 사용 중인지 아닌지 안전 벨트의 상태를 나타내는 안전 벨트 알림.
 
 
 
-## References
+## **References**
 
 
 ---

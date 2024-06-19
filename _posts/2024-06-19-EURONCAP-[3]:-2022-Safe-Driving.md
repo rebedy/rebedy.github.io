@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-06-19
-title: "EURONCAP"
+title: "EURONCAP [3]: 2022 Safe Driving"
 tags: [assessment, EURONCAP, EURONCAP23, ]
 categories: [Guideline/Assessment, ]
 ---
@@ -23,7 +23,7 @@ categories: [Guideline/Assessment, ]
 ---
 
 
-![0](/assets/img/2024-06-19-EURONCAP.md/0.png)
+![0](/assets/img/2024-06-19-EURONCAP-[3]:-2022-Safe-Driving.md/0.png)
 
 
 
@@ -62,7 +62,7 @@ undefined- The OEM must demonstrate, by means of a **dossier**, that when faced 
 **Total HUman Model for Safety (THUMS)**
 
 
-![1](/assets/img/2024-06-19-EURONCAP.md/1.png)_https://mag.toyota.co.uk/thums/_
+![1](/assets/img/2024-06-19-EURONCAP-[3]:-2022-Safe-Driving.md/1.png)_https://mag.toyota.co.uk/thums/_
 
 
 
@@ -72,7 +72,7 @@ undefined- The OEM must demonstrate, by means of a **dossier**, that when faced 
 <u>There are six Fitzpatrick skin types.</u> Skin types I to III burn easily and tan poorly. Many traditional lasers have been tested and designed for these skin types. Skin types IV to VI tend to burn less but are more prone to developing post-inflammatory hyperpigmentation5 (PIH) after injury or external triggers.
 
 
-![2](/assets/img/2024-06-19-EURONCAP.md/2.png)_https://candelamedical.com/resources/aesthetic-blogs/aesthetic-treatments-and-clinical-differences-in-different-fitzpatrick-skin-types/_
+![2](/assets/img/2024-06-19-EURONCAP-[3]:-2022-Safe-Driving.md/2.png)_https://candelamedical.com/resources/aesthetic-blogs/aesthetic-treatments-and-clinical-differences-in-different-fitzpatrick-skin-types/_
 
 
 
@@ -110,7 +110,7 @@ undefined
 ### **Driver States**
 
 
-![3](/assets/img/2024-06-19-EURONCAP.md/3.png)_Summary of Driver States_
+![3](/assets/img/2024-06-19-EURONCAP-[3]:-2022-Safe-Driving.md/3.png)_Summary of Driver States_
 
 
 
@@ -153,20 +153,20 @@ AttenD example [0]: development of the time buffer for three consecutive one-sec
 
 - <u>**Owl**</u> type movement: A shifting of visual attention away from the road and forward-facing position that is primarily achieved by head rotation followed by the eyes
 
-![4](/assets/img/2024-06-19-EURONCAP.md/4.png)
+![4](/assets/img/2024-06-19-EURONCAP-[3]:-2022-Safe-Driving.md/4.png)
 
 - <u>**Lizard**</u> type movement: A movement in which the driver focuses on a task by moving primarily their eyeline away from the road with their head/face remaining in the forward-facing position.
 
-![5](/assets/img/2024-06-19-EURONCAP.md/5.png)
+![5](/assets/img/2024-06-19-EURONCAP-[3]:-2022-Safe-Driving.md/5.png)
 
 - **Body lean**:
 	1. **Looking at rear passenger**
 
-![6](/assets/img/2024-06-19-EURONCAP.md/6.png)_Looking at rear passenger_
+![6](/assets/img/2024-06-19-EURONCAP-[3]:-2022-Safe-Driving.md/6.png)_Looking at rear passenger_
 
 	1. **Looking at passenger footwell**
 
-![7](/assets/img/2024-06-19-EURONCAP.md/7.png)_Looking at passenger footwell_
+![7](/assets/img/2024-06-19-EURONCAP-[3]:-2022-Safe-Driving.md/7.png)_Looking at passenger footwell_
 
 
 
@@ -208,11 +208,11 @@ undefined
 
 - Classification when **KSS > 7**
 
-![8](/assets/img/2024-06-19-EURONCAP.md/8.png)_KSS level: Qualitative and subjective evaluation method_
+![8](/assets/img/2024-06-19-EURONCAP-[3]:-2022-Safe-Driving.md/8.png)_KSS level: Qualitative and subjective evaluation method_
 
 - 장시간에 걸친 피로도 평가 방법. (예, 5분에 한번씩 피험자가 스스로의 피로도를 기록하는 식)
 
-![9](/assets/img/2024-06-19-EURONCAP.md/9.png)_Acknowledges the imperfections of KSS (euro-ncap-assessment-protocol-sa-safe-driving-v104)_
+![9](/assets/img/2024-06-19-EURONCAP-[3]:-2022-Safe-Driving.md/9.png)_Acknowledges the imperfections of KSS (euro-ncap-assessment-protocol-sa-safe-driving-v104)_
 
 - A method is needed to quantify KSS (or ‘drowsiness’) using features that can be obtained from DMS.
 - [Camera-based drowsiness reference for driver state classification under real driving conditions](https://ieeexplore.ieee.org/abstract/document/5548039)
@@ -272,7 +272,7 @@ undefined
 	- To link with active restraint deployment
 		- Automakers are releasing headrest systems designed to relieve neck pain in back seats. When a car crashes from behind with enough force, the occupants' bodies move forward. However, if the head is not properly supported, it can be pushed back against the chest, causing neck pain, and if the head is tilted forward by the neck, a phenomenon commonly known as a whiplash fracture can occur.
 
-![10](/assets/img/2024-06-19-EURONCAP.md/10.png)_Volkswagen offers active head restraints standard in the 2006 Passat._
+![10](/assets/img/2024-06-19-EURONCAP-[3]:-2022-Safe-Driving.md/10.png)_Volkswagen offers active head restraints standard in the 2006 Passat._
 
 
 
@@ -281,11 +281,11 @@ undefined
 - Determination of whether to ride in a seat other than the driver's seat
 - In particular, it will be linked to CPD(Child Presence Detection) / CRS (Child Restraint Systems).
 
-![11](/assets/img/2024-06-19-EURONCAP.md/11.png)
+![11](/assets/img/2024-06-19-EURONCAP-[3]:-2022-Safe-Driving.md/11.png)
 
 - Once the occupant present is identified, it will be used to link occupant information after a vehicle collision.
 
-![12](/assets/img/2024-06-19-EURONCAP.md/12.png)_Development status using dummy for CPD_
+![12](/assets/img/2024-06-19-EURONCAP-[3]:-2022-Safe-Driving.md/12.png)_Development status using dummy for CPD_
 
 
 
