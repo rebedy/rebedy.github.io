@@ -2,7 +2,7 @@
 layout: post
 date: 2024-05-28
 title: "Github Blog [1]: Using Jekyll"
-tags: [blog, chirpy, github, ]
+tags: [blog, chirpy, github, jekyll, google, ]
 categories: [GitHub, ]
 ---
 
@@ -453,7 +453,7 @@ bundle install
 
 {% raw %}
 ```bash
-boundle exec jekyll serve
+bundle exec jekyll serve
 ```
 {% endraw %}
 

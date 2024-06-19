@@ -2,7 +2,7 @@
 layout: post
 date: 2024-05-29
 title: "GitHub Blog [2]: Customizing"
-tags: [blog, chirpy, github, ]
+tags: [blog, chirpy, github, jekyll, google, ]
 categories: [GitHub, ]
 ---
 

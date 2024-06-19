@@ -37,6 +37,10 @@ categories: [Guideline/Assessment, ]
 	- PRISMA에서는 제목에 "Systematic Review" 또는 "Meta-Analysis"라는 용어를 포함할 것을 권장.
 	- PRISMA recommends including the terms "Systematic Review" or "Meta-Analysis" in the title. This inclusion helps to clearly identify the type of research being conducted and ensures that readers and reviewers can quickly ascertain the nature of the study.
 2. **Abstract**
+	- 연구의 목적, 방법, 결과 및 결론을 요약하여 제공.
+	- The research should provide a comprehensive summary of its objectives, methods, results, and conclusions. This summary is essential for giving readers a clear and concise overview of the study's main findings and their implications.
+	- PRISMA에서는 구조화된 초록을 권장하며, 이는 체계적 문헌고찰과 메타분석의 주요 항목을 포함.
+	- PRISMA recommends using a structured abstract, which includes the key elements of systematic reviews and meta-analyses. This structured approach ensures that all critical components, such as the study's background, objectives, methods, results, and conclusions, are clearly and thoroughly presented, making it easier for readers to understand and evaluate the research.
 
 **3. Main Body**
 
