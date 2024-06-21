@@ -19,7 +19,7 @@ categories: [Guideline/Assessment, ]
 
 #### SBR
 
-- $1.0\over n$ points is available for each rear seating position with occupant detection systems
+- 1.0/n points is available for each rear seating position with occupant detection systems
 - n is the total number of rear seating positions.
 - SBR Scoring examples
 

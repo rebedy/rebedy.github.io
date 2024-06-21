@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-06-21
-title: "Development Environments [1]: "
+title: "Development Environments [1]: MacBook Pro M3 Pro Settings"
 tags: [settings, MacBook Pro, M3 Pro, ]
 categories: [Development Environments, ]
 ---
@@ -14,7 +14,7 @@ categories: [Development Environments, ]
 ---
 
 
-![0](/assets/img/2024-06-21-Development-Environments-[1]:-.md/0.png)
+![0](/assets/img/2024-06-21-Development-Environments-[1]:-MacBook-Pro-M3-Pro-Settings.md/0.png)
 
 
 **MacBook Pro M3 Pro**
@@ -53,10 +53,10 @@ categories: [Development Environments, ]
 ### 2. Add Homebrew to your PATH in `.zprofile`
 
 
-![1](/assets/img/2024-06-21-Development-Environments-[1]:-.md/1.png)
+![1](/assets/img/2024-06-21-Development-Environments-[1]:-MacBook-Pro-M3-Pro-Settings.md/1.png)
 
 
-![2](/assets/img/2024-06-21-Development-Environments-[1]:-.md/2.png)
+![2](/assets/img/2024-06-21-Development-Environments-[1]:-MacBook-Pro-M3-Pro-Settings.md/2.png)
 
 
 
@@ -128,7 +128,7 @@ brew install --cask visual-studio-code google-chrome iterm2 onedrive notion anyd
 [https://www.anaconda.com/download](https://www.anaconda.com/download)
 
 
-![3](/assets/img/2024-06-21-Development-Environments-[1]:-.md/3.png)
+![3](/assets/img/2024-06-21-Development-Environments-[1]:-MacBook-Pro-M3-Pro-Settings.md/3.png)
 
 
 
@@ -138,13 +138,13 @@ brew install --cask visual-studio-code google-chrome iterm2 onedrive notion anyd
 `Anaconda3-2023.09-0-MacOSX-arm64.pkg`
 
 
-![4](/assets/img/2024-06-21-Development-Environments-[1]:-.md/4.png)
+![4](/assets/img/2024-06-21-Development-Environments-[1]:-MacBook-Pro-M3-Pro-Settings.md/4.png)
 
 
-![5](/assets/img/2024-06-21-Development-Environments-[1]:-.md/5.png)
+![5](/assets/img/2024-06-21-Development-Environments-[1]:-MacBook-Pro-M3-Pro-Settings.md/5.png)
 
 
-![6](/assets/img/2024-06-21-Development-Environments-[1]:-.md/6.png)
+![6](/assets/img/2024-06-21-Development-Environments-[1]:-MacBook-Pro-M3-Pro-Settings.md/6.png)
 
 
 
@@ -255,7 +255,7 @@ conda install tqdm
 ### 1. AirDrop
 
 
-![7](/assets/img/2024-06-21-Development-Environments-[1]:-.md/7.png)
+![7](/assets/img/2024-06-21-Development-Environments-[1]:-MacBook-Pro-M3-Pro-Settings.md/7.png)
 
 - Click random place on the Finder window and go to `Customize Toolbar...`
 - Add AirDrop to wherever you want to put it
