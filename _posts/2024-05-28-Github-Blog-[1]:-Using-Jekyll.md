@@ -96,6 +96,22 @@ categories: [GitHub, ]
 2. VSCode
 
 
+## Device Spec
+
+
+---
+
+
+**MacBook Pro M3 Pro**
+
+
+**Mem 18 GB / Macintosh HD**
+
+
+**MacOS Sonoma 14.4.1**
+
+
+
 ## How to build your own Blog with GItHub Pages
 
 
@@ -106,7 +122,7 @@ categories: [GitHub, ]
 ### 1. Create a new GitHub repository
 
 
-> 💡 Repository name : `{username}.github.io` 
+> 💡 Repository name : `{GitHub_username}.github.io` 
 
 - Set as ‘**Public’** / Check ‘**Add a README file’** / **Create repository**
 
@@ -221,7 +237,148 @@ source ~/.zshrc
 
 
 
-            
+
+#### **Re-Install Ruby with specific version using** **`rbenv`**
+
+- If you are using a M1 Macbook you may have this error…[Ruby Problem]
+
+
+{% raw %}
+```bash
+[NOTE]
+You may have encountered a bug in the Ruby interpreter or extension libraries.
+...
+```
+{% endraw %}
+
+
+
+1) **`rbenv`** installation
+
+
+
+{% raw %}
+```bash
+brew install rbenv ruby-build
+```
+{% endraw %}
+
+
+
+2) Check ruby version (current one)
+
+
+
+{% raw %}
+```bash
+rbenv versions
+```
+{% endraw %}
+
+
+
+3) Check installable versions
+
+
+
+{% raw %}
+```bash
+rbenv install -l
+```
+{% endraw %}
+
+
+
+4) Install ruby and change the version setting. (I am using `v3.3.1`)
+
+
+
+{% raw %}
+```bash
+rbenv install x.x.x
+rbenv global x.x.x
+```
+{% endraw %}
+
+
+
+5) Check the changed version! 🙂
+
+
+
+{% raw %}
+```bash
+rbenv versions
+which ruby
+rbenv init
+```
+{% endraw %}
+
+
+
+6) Check out shell and edit the configuration file.
+
+
+
+{% raw %}
+```bash
+echo $SHELL
+```
+{% endraw %}
+
+
+
+→ If it says `/bin/zsh`, add below after `vi ~/.zshrc`
+
+
+
+{% raw %}
+```bash
+export PATH={$Home}/.rbenv/bin:$PATH && \
+eval "$(rbenv init -)"
+```
+{% endraw %}
+
+
+
+7) Apply the change
+
+
+
+{% raw %}
+```bash
+source ~/.zshrc
+```
+{% endraw %}
+
+
+
+8) Re-install
+
+
+
+{% raw %}
+```bash
+gem install bundler
+rbenv rehash
+```
+{% endraw %}
+
+
+
+9) Download jekyll at the repository you cloned
+
+
+
+{% raw %}
+```bash
+gem install jekyll
+```
+{% endraw %}
+
+
+
+10) Install basic bundle using jekyll
 
 
             
@@ -282,136 +439,6 @@ jekyll new ./
 
 
 ![4](/assets/img/2024-05-28-Github-Blog-[1]:-Using-Jekyll.md/4.png)
-
-
-
-#### **Re-Install Ruby with specific version**
-
-- If you are using a M1 Macbook you may have this error…[Ruby Problem]
-
-
-{% raw %}
-```bash
-[NOTE]
-You may have encountered a bug in the Ruby interpreter or extension libraries.
-...
-```
-{% endraw %}
-
-
-
-1) `rbenv` installation
-
-
-
-{% raw %}
-```bash
-brew install rbenv ruby-build
-```
-{% endraw %}
-
-
-
-2) Check ruby version (current one)
-
-
-
-{% raw %}
-```bash
-rbenv versions
-```
-{% endraw %}
-
-
-
-3) Check installable versions
-
-
-
-{% raw %}
-```bash
-rbenv install -l
-```
-{% endraw %}
-
-
-
-4) Install ruby and change the version setting.
-
-
-
-{% raw %}
-```bash
-rbenv install x.x.x
-rbenv global x.x.x
-```
-{% endraw %}
-
-
-
-5) Check shell and edit the configuration file.
-
-
-
-{% raw %}
-```bash
-echo $SHELL
-```
-{% endraw %}
-
-
-
-→ If it says `/bin/zsh`, add below after `vi ~/.zshrc`
-
-
-
-{% raw %}
-```bash
-export PATH={$Home}/.rbenv/bin:$PATH && \
-eval "$(rbenv init -)"
-```
-{% endraw %}
-
-
-
-6) Apply the change
-
-
-
-{% raw %}
-```bash
-source ~/.zshrc
-```
-{% endraw %}
-
-
-
-7) Re-install
-
-
-
-{% raw %}
-```bash
-gem install bundler
-rbenv rehash
-```
-{% endraw %}
-
-
-
-8) Download jekyll at the repository you cloned
-
-
-
-{% raw %}
-```bash
-gem install jekyll
-```
-{% endraw %}
-
-
-
-9) Install basic bundle using jekyll
 
 
 
