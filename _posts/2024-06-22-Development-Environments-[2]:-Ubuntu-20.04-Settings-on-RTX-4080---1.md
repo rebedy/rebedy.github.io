@@ -81,6 +81,15 @@ nvidia-smi --query | fgrep 'Product Name'
 ### 1) Download [Ubuntu 20.04 LTS (Focal Fossa)](https://mirror.kakao.com/ubuntu-releases/20.04/)
 
 
+![1](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/1.png)_Choose this if you are at all unsure 😆_
+
+
+[64-bit PC (AMD64) desktop image](https://mirror.kakao.com/ubuntu-releases/20.04/ubuntu-20.04.6-desktop-amd64.iso)
+
+
+Choose since you have a computer based on the AMD64 or EM64T architecture (e.g., Athlon64, Opteron, EM64T Xeon, Core 2).
+
+
 
 ### 2) Install **Homebrew**
 
@@ -132,17 +141,17 @@ The [Homebrew website](https://brew.sh/) provides an installation script that ca
 The command above will ask you to enter your Mac user password. This is the password you use to log in to your Mac. You won't see the characters you typed. When you are done typing please press enter.
 
 
-![1](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/1.png)
+![2](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/2.png)
 
 
 
 #### (3) Add Homebrew to your PATH in `.zprofile`
 
 
-![2](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/2.png)
-
-
 ![3](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/3.png)
+
+
+![4](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/4.png)
 
 
 
@@ -156,6 +165,9 @@ The command above will ask you to enter your Mac user password. This is the pass
 
 
 #### (4) Check Installation
+
+
+Let’s check the version of installed homebrew!
 
 
 
@@ -172,6 +184,12 @@ Homebrew 4.3.4
 ### 3) Install [**balenaEtcher**](https://etcher.balena.io/) **using Homebrew**
 
 
+**balenaEtcher** is a free and open-source utility used for writing image files such as .iso and .img files, as well as zipped folders onto storage media to create live SD cards and USB flash drives. [[1](https://en.wikipedia.org/wiki/Etcher_(software))]
+
+
+![5](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/5.png)
+
+
 [Homebrew Formulae for balenaetcher](https://formulae.brew.sh/cask/balenaetcher)
 
 
@@ -184,17 +202,17 @@ brew install --cask balenaetcher
 
 
 
-![4](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/4.png)_balenaEtcher installed!_
+![6](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/6.png)_balenaEtcher installed!_
 
 
-![5](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/5.png)_Click ‘Open’ here!_
+![7](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/7.png)_Click ‘Open’ here!_
 
 
-![6](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/6.png)_Tah-Dah!_
+![8](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/8.png)_Tah-Dah!_
 
 
 
-### 4) Creating a bootable Ubuntu USB stick
+### 4) Creating a bootable Ubuntu USB stick with balenaEtcher
 
 
 Etcher consists of three steps.
@@ -217,7 +235,7 @@ In this step, select the `ISO` file you downloaded earlier.
 If a USB device is already connected, it will be automatically selected.
 
 
-![7](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/7.png)_Choose USB_
+![9](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/9.png)_Choose USB_
 
 
 
@@ -227,7 +245,7 @@ If a USB device is already connected, it will be automatically selected.
 It will be enabled when both the image and drive are selected. Like `Disk Utility`, **Etcher** requires low-level access to your storage hardware and prompts for a password after selection.
 
 
-![8](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/8.png)
+![10](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/10.png)
 
 
 **If you see message saying ‘Flash Complete!’ then creating bootable USB stick is DONE!**
@@ -256,53 +274,90 @@ The button to enter BIOS varies depending on the motherboard. It is usually one 
 And then, select **`UEFI`** and proceed with installation.
 
 
-![9](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/9.png)_Select UEFI!_
+![11](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/11.png)_Select UEFI!_
 
 
-![10](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/10.png)_Checking disks_
+Then you will see that all filesystem checks are in progress!
+
+
+![12](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/12.png)_Checking disks_
 
 
 
 ### 2) Proceed with installation
 
 
-Follow instruction below! 🙂
+Follow instructions below! 🙂
 
 
-![11](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/11.png)_(1) Setting for language and select ‘Install Ubuntu’_
+
+#### (1) Setting for language and select ‘Install Ubuntu’
 
 
-![12](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/12.png)_(2) Setting for Keyboard layout and select ‘Continue’_
+![13](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/13.png)_(1) Setting for language and select ‘Install Ubuntu’_
 
 
-![13](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/13.png)_(3) Uncheck ‘Download updates while installing Ubuntu’_
+
+#### (2) Setting for Keyboard layout and select ‘Continue’
 
 
-![14](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/14.png)_(4) Check ‘Erase Ubuntu 20.04.x LTS and reinstall’ to delete previous Ubuntu_
+![14](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/14.png)_(2) Setting for Keyboard layout and select ‘Continue’_
 
 
-![15](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/15.png)_(5) Select ‘Continue’ for the warning_
+
+#### (3) Uncheck ‘Download updates while installing Ubuntu’
 
 
-![16](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/16.png)_(6) Setting for the location and select ‘Continue’_
+![15](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/15.png)_(3) Uncheck ‘Download updates while installing Ubuntu’_
 
 
-![17](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/17.png)_(7) Setting for the basic information and select ‘Continue’_
+
+#### (4) Check ‘Erase Ubuntu 20.04.x LTS and reinstall’ to delete previous Ubuntu
 
 
-![18](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/18.png)_(8) Installation proceed_
+![16](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/16.png)_(4) Check ‘Erase Ubuntu 20.04.x LTS and reinstall’ to delete previous Ubuntu_
 
 
-![19](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/19.png)_(9) Installation complete and restart the computer_
+
+#### (5) Select ‘Continue’ for the warning
 
 
-![20](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/20.png)_(10) Remove the USB stick and press ENTER to proceed the booting_
+![17](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/17.png)_(5) Select ‘Continue’ for the warning_
 
 
-![21](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/21.png)
+
+#### (6) Setting for the location and select ‘Continue’
 
 
-![22](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/22.png)
+![18](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/18.png)_(6) Setting for the location and select ‘Continue’_
+
+
+
+#### (7) Setting for the basic information and select ‘Continue’
+
+
+![19](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/19.png)_(7) Setting for the basic information and select ‘Continue’_
+
+
+
+#### (8) Installation proceed
+
+
+![20](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/20.png)_(8) Installation proceed_
+
+
+
+#### (9) Installation complete and restart the computer
+
+
+![21](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/21.png)_(9) Installation complete and restart the computer_
+
+
+
+#### (10) Remove the USB stick and press ENTER to proceed the booting
+
+
+![22](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/22.png)_(10) Remove the USB stick and press ENTER to proceed the booting_
 
 
 
@@ -331,6 +386,9 @@ ubuntu-drivers devices
 
 
 
+You can check the vendor of graphic card and installable drivers with the command above!
+
+
 ![24](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/24.png)_The vendor of graphic card and installable drivers._
 
 
@@ -355,7 +413,7 @@ sudo apt install nvidia-driver-535
 
 
 ![Installing NVIDIA driver with specific version.
-](https://prod-files-secure.s3.us-west-2.amazonaws.com/2f9301c6-943e-48b6-8669-160bb74cd747/4df82853-89df-485b-ad1d-cbbf2cdb667a/IMG_8018.heic?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240622T053238Z&X-Amz-Expires=3600&X-Amz-Signature=53dc88d4c00ada196e60acf4c41d5c46cb54000630e95e12edfa64abdcc2a38e&X-Amz-SignedHeaders=host&x-id=GetObject)
+](https://prod-files-secure.s3.us-west-2.amazonaws.com/2f9301c6-943e-48b6-8669-160bb74cd747/4df82853-89df-485b-ad1d-cbbf2cdb667a/IMG_8018.heic?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240622%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240622T054433Z&X-Amz-Expires=3600&X-Amz-Signature=b2497da196bd05265b044bd5e39a07c22ef38db59b265473b43c00028f90df96&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 
