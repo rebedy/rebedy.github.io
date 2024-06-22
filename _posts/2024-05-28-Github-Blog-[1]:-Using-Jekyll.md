@@ -124,7 +124,7 @@ categories: [GitHub, ]
 
 > 💡 Repository name : `{GitHub_username}.github.io` 
 
-- Set as ‘**Public’** / Check ‘**Add a README file’** / **Create repository**
+- Set as ‘**Public’** / Uncheck ‘**Add a README file’** / **Create repository**
 
 
 #### After creating repository…
@@ -610,7 +610,7 @@ git push
 
 
 
-#### **Conflicts**
+#### **Conflicts 😕**
 
 
 **1. conflict error**

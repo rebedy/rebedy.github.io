@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-05-29
-title: "GitHub Blog [2]: Customizing"
+title: "GitHub Blog [2]: Customizing Jekyll Chirpy Theme"
 tags: [blog, chirpy, github, jekyll, google, ]
 categories: [GitHub, ]
 ---
@@ -250,7 +250,7 @@ paginate: 10  # -> How many post will be appeared on a list
 
 
 
-![0](/assets/img/2024-05-29-GitHub-Blog-[2]:-Customizing.md/0.png)
+![0](/assets/img/2024-05-29-GitHub-Blog-[2]:-Customizing-Jekyll-Chirpy-Theme.md/0.png)
 
 
             
