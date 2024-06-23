@@ -20,13 +20,16 @@ Every time I boot the desktop with Ubuntu install, this kind of `FAILED` error m
 ![0](/assets/img/2024-06-22-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080---1.md/0.png)_FAILED…_
 
 
-No matter how much I searched, I couldn't find the cause, so I tried various things, but the problem still wasn't solved.😵
+No matter how much I searched, I couldn't find the cause. I tried various things, but the problem still couldn’t be solved.😵
 
 
-I just thought there is something wrong with the graphics card connection, so I unplugged the graphics card and insert it again.
+I just thought there is something wrong with the graphics card connection, so I **unplugged the graphics card and insert it again**.
 
 
 Now, I am going to reinstall Ubuntu 20.04 to recreate the development environment.
+
+
+> 👸 **Please unplug and insert the Graphic card once before you start this!** 🔌
 
 
 
@@ -413,7 +416,7 @@ sudo apt install nvidia-driver-535
 
 
 ![Installing NVIDIA driver with specific version.
-](https://prod-files-secure.s3.us-west-2.amazonaws.com/2f9301c6-943e-48b6-8669-160bb74cd747/7bad0631-94d3-4148-8bcf-216e3978548c/25.heic?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240623%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240623T043905Z&X-Amz-Expires=3600&X-Amz-Signature=2c399e5a0c62f780c85a7c522dc34236e58d70053f6d5c02f50959379b3ea6ca&X-Amz-SignedHeaders=host&x-id=GetObject)
+](https://prod-files-secure.s3.us-west-2.amazonaws.com/2f9301c6-943e-48b6-8669-160bb74cd747/7bad0631-94d3-4148-8bcf-216e3978548c/25.heic?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240623%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240623T045314Z&X-Amz-Expires=3600&X-Amz-Signature=ffa20a1e935616af8297a0e32bc8c7ecb2383a3ce2393590d55a6839ec8eb4cc&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 
