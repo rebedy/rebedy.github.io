@@ -13,7 +13,8 @@ categories: [Development Environments, ]
 
 ---
 
-- 
+- [Development-Environments-2-Ubuntu-20.04-Settings-on-RTX-4080-1](https://rebedy.github.io/posts/Development-Environments-2-Ubuntu-20.04-Settings-on-RTX-4080-1/)
+- [Development-Environments-3-Ubuntu-20.04-Settings-on-RTX-4080-2](https://rebedy.github.io/posts/Development-Environments-3-Ubuntu-20.04-Settings-on-RTX-4080-2/)
 
 
 ## **6. Anaconda on Ubuntu 20.04 🐍**
