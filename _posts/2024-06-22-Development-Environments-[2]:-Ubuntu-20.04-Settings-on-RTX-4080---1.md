@@ -416,7 +416,7 @@ sudo apt install nvidia-driver-535
 
 
 ![Installing NVIDIA driver with specific version.
-](https://prod-files-secure.s3.us-west-2.amazonaws.com/2f9301c6-943e-48b6-8669-160bb74cd747/9634c124-559c-4f53-ab3e-fd23590ffc19/25.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240623%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240623T053725Z&X-Amz-Expires=3600&X-Amz-Signature=cd89cc01944ebf1cd4809c13e0cc8d9676a8cd94a4c266ab282d273a881ad5c4&X-Amz-SignedHeaders=host&x-id=GetObject)
+](https://prod-files-secure.s3.us-west-2.amazonaws.com/2f9301c6-943e-48b6-8669-160bb74cd747/9634c124-559c-4f53-ab3e-fd23590ffc19/25.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240623%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240623T063754Z&X-Amz-Expires=3600&X-Amz-Signature=660f163539ab1dbff8ba959250faeee7d75f3ae86b91713aa112149f3d7963a3&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 
