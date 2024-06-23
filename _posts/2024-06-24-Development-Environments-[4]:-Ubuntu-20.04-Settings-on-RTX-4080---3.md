@@ -2,7 +2,7 @@
 layout: post
 date: 2024-06-24
 title: "Development Environments [4]: Ubuntu 20.04 Settings on RTX 4080 - 3"
-tags: [settings, ubuntu 20.04, ]
+tags: [settings, Ubuntu 20.04, ]
 categories: [Development Environments, ]
 ---
 
