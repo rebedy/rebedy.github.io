@@ -145,7 +145,7 @@ fedf9e340039557f7b5e8a8a86affa9d299f5e9820144bd7b92ae9f7ee08ac60  [anaconda.sh](
 
 
 
-## **Ubuntu 22.04 Development Environment Settings on RTX 4080** 
+## **Ubuntu 22.04 Development Environment Settings on RTX 4080** ➿
 
 
 ---
