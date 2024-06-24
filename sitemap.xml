@@ -7,55 +7,49 @@ layout: null
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
+<!-- Static URLs -->
 <url>
   <loc>https://rebedy.github.io/</loc>
-  <lastmod>2024-06-23T06:47:32+00:00</lastmod>
+  <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://rebedy.github.io/categories/</loc>
-  <lastmod>2024-06-23T06:47:32+00:00</lastmod>
+  <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rebedy.github.io/tags/</loc>
-  <lastmod>2024-06-23T06:47:32+00:00</lastmod>
+  <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rebedy.github.io/archives/</loc>
-  <lastmod>2024-06-23T06:47:32+00:00</lastmod>
+  <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rebedy.github.io/about/</loc>
-  <lastmod>2024-06-23T06:47:32+00:00</lastmod>
+  <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
   <priority>0.80</priority>
 </url>
 
-  {% for post in site.posts %}
-    <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.last_modified_at == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ post.last_modified_at | date_to_xmlschema }}</lastmod>
-      {% endif %}
+<!-- Dynamic URLs for posts -->
+{% for post in site.posts %}
+  <url>
+    <loc>{{ site.url }}{{ post.url }}</loc>
+    <lastmod>{% if post.last_modified_at %}{{ post.last_modified_at | date_to_xmlschema }}{% else %}{{ post.date | date_to_xmlschema }}{% endif %}</lastmod>
+    <priority>0.80</priority>
+  </url>
+{% endfor %}
 
-      {% if post.sitemap.changefreq == null %}
-        <changefreq>weekly</changefreq>
-      {% else %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-      {% endif %}
-
-      {% if post.sitemap.priority == null %}
-        <priority>0.50</priority>
-      {% else %}
-        <priority>{{ post.sitemap.priority }}</priority>
-      {% endif %}
-    </url>
-  {% endfor %}
+<!-- Dynamic URLs for tags -->
+{% for tag in site.tags %}
+  <url>
+    <loc>{{ site.url }}/tag/{{ tag | slugify }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <priority>0.64</priority>
+  </url>
+{% endfor %}
 </urlset>
