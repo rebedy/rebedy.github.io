@@ -129,9 +129,12 @@ categories: [GitHub, ]
 
 #### After creating repository…
 
+
+ℹ️ We need to change the source of Build and deployment for **GitHub Pages**!
+
 - **Settings** > **Pages** > **Build and deployment > Source > choose** **`GitHub Actions`**
 
-            
+![4](/assets/img/2024-05-28-Github-Blog-[1]:-Using-Jekyll.md/4.png)
 
 
             
@@ -438,7 +441,7 @@ jekyll new ./
 
 
 
-![4](/assets/img/2024-05-28-Github-Blog-[1]:-Using-Jekyll.md/4.png)
+![5](/assets/img/2024-05-28-Github-Blog-[1]:-Using-Jekyll.md/5.png)
 
 
 
@@ -506,7 +509,7 @@ git push
 
 
 
-![5](/assets/img/2024-05-28-Github-Blog-[1]:-Using-Jekyll.md/5.png)
+![6](/assets/img/2024-05-28-Github-Blog-[1]:-Using-Jekyll.md/6.png)
 
 
 
@@ -671,7 +674,7 @@ remote_theme: hydecorp/hydejack@v9
 After you are done with step 9 if you have problem with build, please consider working on this process.
 
 
-![6](/assets/img/2024-05-28-Github-Blog-[1]:-Using-Jekyll.md/6.png)
+![7](/assets/img/2024-05-28-Github-Blog-[1]:-Using-Jekyll.md/7.png)
 
 - Do either one of the commands below.
 
@@ -689,7 +692,7 @@ $ npm install && npm run build bundle update
 
 - Result
 
-![7](/assets/img/2024-05-28-Github-Blog-[1]:-Using-Jekyll.md/7.png)
+![8](/assets/img/2024-05-28-Github-Blog-[1]:-Using-Jekyll.md/8.png)
 
 
             

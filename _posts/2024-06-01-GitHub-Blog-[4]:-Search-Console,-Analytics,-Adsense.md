@@ -32,9 +32,6 @@ categories: [GitHub, ]
 **[3]** [**GitHub Blog [3]: A comments system, giscus**](https://rebedy.github.io/posts/GitHub-Blog-3-A-comments-system,-giscus/)
 
 
-            
-
-
                         
 
 
@@ -60,17 +57,12 @@ A device that allows your blog posts to appear when searched on Google
 ![0](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/0.png)
 
 
-            
-
-
-            
-
-
-                        
-
-
 
 ### 1. How to set your site searchable?
+
+
+
+#### **Step 0. Please make** [**Google Account**](https://myaccount.google.com/) **first!**
 
 
 
