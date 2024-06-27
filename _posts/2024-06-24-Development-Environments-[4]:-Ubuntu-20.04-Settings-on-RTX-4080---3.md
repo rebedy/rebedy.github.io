@@ -571,6 +571,61 @@ sudo apt-get install ibus ibus-hangul
 - **Microsoft Office, Teams, Outllook, Xpad**
 
 
+#### 2) VSCode
+
+1. Install packages for VSCode
+
+
+{% raw %}
+```bash
+sudo apt update
+sudo apt install software-properties-common apt-transport-https wget
+```
+{% endraw %}
+
+
+1. Get Microsoft GPG key from wget
+
+
+{% raw %}
+```bash
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+```
+{% endraw %}
+
+
+1. Add VSCode repository
+
+
+{% raw %}
+```bash
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+```
+{% endraw %}
+
+
+1. Install VSCode
+
+
+{% raw %}
+```bash
+sudo apt install code
+```
+{% endraw %}
+
+
+1. Run VSCode
+
+
+{% raw %}
+```bash
+code
+```
+{% endraw %}
+
+
+
+
 #### **2) KakaoTalk  → don’t**
 
 
