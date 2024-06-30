@@ -536,7 +536,11 @@ Add code below to the bottom of `_includes/head.html`.
             
 
 
-            
+
+#### Step 3. Endless Waiting…
+
+
+![17](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/17.png)
 
 
                         
