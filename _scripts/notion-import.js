@@ -105,7 +105,12 @@ const n2m = new NotionToMarkdown({ notionClient: notion });
         cats.push(n);
       }
     }
-
+    // math
+    let math = false;
+    let pmath = r.properties?.["math"]?.["checkbox"];
+    if (pmath) {
+      math = pmath;
+    }
     // frontmatter
     let fmtags = "";
     let fmcats = "";
@@ -127,6 +132,7 @@ const n2m = new NotionToMarkdown({ notionClient: notion });
 layout: post
 date: ${date}
 title: "${title}"${fmtags}${fmcats}
+math: ${math}
 ---
 
 `;
