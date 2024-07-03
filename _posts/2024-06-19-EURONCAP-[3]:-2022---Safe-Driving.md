@@ -4,6 +4,7 @@ date: 2024-06-19
 title: "EURONCAP [3]: 2022 - Safe Driving"
 tags: [assessment, EURONCAP, EURONCAP22, ]
 categories: [Guideline/Assessment, ]
+math: false
 ---
 
 

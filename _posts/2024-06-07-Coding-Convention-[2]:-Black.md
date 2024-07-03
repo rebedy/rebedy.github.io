@@ -4,6 +4,7 @@ date: 2024-06-07
 title: "Coding Convention [2]: Black"
 tags: [coding-convention, code-formatter, black, ]
 categories: [Coding Convention, ]
+math: false
 ---
 
 

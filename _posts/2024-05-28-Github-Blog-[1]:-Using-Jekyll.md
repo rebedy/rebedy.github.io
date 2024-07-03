@@ -4,6 +4,7 @@ date: 2024-05-28
 title: "Github Blog [1]: Using Jekyll"
 tags: [blog, chirpy, github, jekyll, google, ]
 categories: [GitHub, ]
+math: false
 ---
 
 

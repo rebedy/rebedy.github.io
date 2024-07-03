@@ -4,6 +4,7 @@ date: 2024-06-06
 title: "Coding Convention [1]: Code Formatter"
 tags: [coding-convention, code-formatter, black, prettier, autopep8, ]
 categories: [Coding Convention, ]
+math: false
 ---
 
 

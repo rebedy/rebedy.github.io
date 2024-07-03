@@ -4,6 +4,7 @@ date: 2024-06-08
 title: "Coding Convention [3]: Prettier"
 tags: [coding-convention, code-formatter, prettier, ]
 categories: [Coding Convention, ]
+math: false
 ---
 
 

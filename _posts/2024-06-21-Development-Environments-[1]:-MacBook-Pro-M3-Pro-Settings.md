@@ -4,6 +4,7 @@ date: 2024-06-21
 title: "Development Environments [1]: MacBook Pro M3 Pro Settings"
 tags: [settings, MacBook Pro, M3 Pro, ]
 categories: [Development Environments, ]
+math: false
 ---
 
 

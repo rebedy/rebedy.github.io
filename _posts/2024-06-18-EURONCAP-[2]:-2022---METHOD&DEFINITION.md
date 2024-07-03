@@ -4,6 +4,7 @@ date: 2024-06-18
 title: "EURONCAP [2]: 2022 - METHOD&DEFINITION"
 tags: [assessment, EURONCAP, EURONCAP22, ]
 categories: [Guideline/Assessment, ]
+math: false
 ---
 
 

@@ -4,6 +4,7 @@ date: 2024-06-14
 title: "Guideline [1]: MISRA C "
 tags: [guideline, safety-related standards, ICMS, MISRA C, C, C++, ]
 categories: [Guideline/Assessment, ]
+math: false
 ---
 
 

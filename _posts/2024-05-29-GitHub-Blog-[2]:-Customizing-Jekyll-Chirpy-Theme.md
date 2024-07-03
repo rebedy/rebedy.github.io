@@ -4,6 +4,7 @@ date: 2024-05-29
 title: "GitHub Blog [2]: Customizing Jekyll Chirpy Theme"
 tags: [blog, chirpy, github, jekyll, google, ]
 categories: [GitHub, ]
+math: false
 ---
 
 

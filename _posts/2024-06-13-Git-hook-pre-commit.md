@@ -4,6 +4,7 @@ date: 2024-06-13
 title: "Git hook pre-commit"
 tags: [coding-convention, linter, git-hook, pre-commit, black, flake8, ]
 categories: [GitHub, ]
+math: false
 ---
 
 

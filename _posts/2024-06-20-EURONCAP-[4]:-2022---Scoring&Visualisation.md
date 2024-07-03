@@ -4,6 +4,7 @@ date: 2024-06-20
 title: "EURONCAP [4]: 2022 - Scoring&Visualisation"
 tags: [assessment, EURONCAP, EURONCAP22, ]
 categories: [Guideline/Assessment, ]
+math: false
 ---
 
 

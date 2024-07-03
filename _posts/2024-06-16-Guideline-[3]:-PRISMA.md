@@ -4,6 +4,7 @@ date: 2024-06-16
 title: "Guideline [3]: PRISMA"
 tags: [guideline, systematic-review, meta-analysis, PRISMA, ]
 categories: [Guideline/Assessment, ]
+math: false
 ---
 
 

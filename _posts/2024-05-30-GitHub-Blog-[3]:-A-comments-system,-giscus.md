@@ -4,6 +4,7 @@ date: 2024-05-30
 title: "GitHub Blog [3]: A comments system, giscus"
 tags: [blog, chirpy, github, jekyll, google, ]
 categories: [GitHub, ]
+math: false
 ---
 
 

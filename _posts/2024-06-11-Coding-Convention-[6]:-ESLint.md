@@ -4,6 +4,7 @@ date: 2024-06-11
 title: "Coding Convention [6]: ESLint"
 tags: [coding-convention, linter, ESLint, Javascript, ]
 categories: [Coding Convention, ]
+math: false
 ---
 
 
