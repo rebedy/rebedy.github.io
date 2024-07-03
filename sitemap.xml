@@ -1,56 +1,452 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-<!-- Static URLs -->
+
 <url>
   <loc>https://rebedy.github.io/</loc>
-  <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://rebedy.github.io/categories/</loc>
-  <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rebedy.github.io/tags/</loc>
-  <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rebedy.github.io/archives/</loc>
-  <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rebedy.github.io/about/</loc>
-  <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://rebedy.github.io/posts/Unreal-Engine-5.4-1-Introduction/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/DevOps-3-Jira-101-3/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/DevOps-2-Jira-101-2/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/DevOps-1-Jira-101-1/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/Development-Environments-4-Ubuntu-20.04-Settings-on-RTX-4080-3/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/Development-Environments-3-Ubuntu-20.04-Settings-on-RTX-4080-2/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/Development-Environments-2-Ubuntu-20.04-Settings-on-RTX-4080-1/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/Development-Environments-1-MacBook-Pro-M3-Pro-Settings/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/EURONCAP-4-2022-Scoring&amp;Visualisation/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/EURONCAP-3-2022-Safe-Driving/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/page2/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/page3/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/page4/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/coding-convention/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/github/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/settings/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/code-formatter/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/assessment/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/blog/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/chirpy/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/euroncap22/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/euroncap/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/github-profile/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/categories/coding-convention/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/categories/development-environments/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/categories/devops/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/categories/github/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/categories/guideline-assessment/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/categories/unreal-engine/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/categories/misc/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/autopep8/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/black/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/c/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/devops/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/eslint/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/euroncap26/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/euroncap30/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/flake8/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/git-hook/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/google/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/guideline/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/icms/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/iso-26262/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/javascript/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/jekyll/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/jira/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/linter/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/m3-pro/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/macbook-pro/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/meta-analysis/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/misra-c/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/pep8/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/post/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/pre-commit/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/prettier/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/prisma/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/python/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/safety-related-standards/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/systematic-review/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/ubuntu-20-04/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/tags/unreal-engine/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/EURONCAP-2-2022-METHOD&amp;DEFINITION/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/EURONCAP-1-Roadmap-(2022~2030)/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/Guideline-3-PRISMA/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/Guideline-2-ISO-26262/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/Guideline-1-MISRA-C/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/Git-hook-pre-commit/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/Coding-Convention-7-flake8/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/Coding-Convention-6-ESLint/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/Coding-Convention-5-Linter/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/Coding-Convention-4-autopep8/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/Coding-Convention-3-Prettier/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/Coding-Convention-2-Black/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/Coding-Convention-1-Code-Formatter/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/Github-Profile-4-Emoji/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/Github-Profile-3-Commit-Stat-(feat.gist)/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/Github-Profile-2-GitHub-Stats/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/Github-Profile-1-README.md/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/GitHub-Blog-4-Search-Console,-Analytics,-Adsense/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/GitHub-Blog-3-A-comments-system,-giscus/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/GitHub-Blog-2-Customizing-Jekyll-Chirpy-Theme/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/Github-Blog-1-Using-Jekyll/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://rebedy.github.io/posts/First-post/</loc>
+  <lastmod>2024-06-30T23:39:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 
-<!-- Dynamic URLs for posts -->
-{% for post in site.posts %}
-  <url>
-    <loc>{{ site.url }}{{ post.url }}</loc>
-    <lastmod>{% if post.last_modified_at %}{{ post.last_modified_at | date_to_xmlschema }}{% else %}{{ post.date | date_to_xmlschema }}{% endif %}</lastmod>
-    <priority>0.80</priority>
-  </url>
-{% endfor %}
 
-<!-- Dynamic URLs for tags -->
-{% for tag in site.tags %}
-  {% assign tag_name = tag[0] %}
-  <url>
-    <loc>{{ site.url }}/tag/{{ tag_name | slugify }}</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-    <priority>0.64</priority>
-  </url>
-{% endfor %}
 </urlset>
