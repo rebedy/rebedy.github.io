@@ -538,16 +538,69 @@ Add code below to the bottom of `_includes/head.html`.
 
 
 
-#### Step 3. Endless Waiting…
+#### Step 3. Add site
+
+
+Go to `Sites` tab and add your site.
 
 
 ![17](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/17.png)
 
 
+Then check “I’ve placed the code” then press `Verify`.
+
+
+![18](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/18.png)
+
+
+It will verify the site.
+
+
+![19](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/19.png)
+
+
+Request for review.
+
+
+![20](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/20.png)
+
+
+
+#### Step 4. Endless Waiting… and rejection
+
+
+![21](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/21.png)
+
+
+After inserting the <script> tag as step 1. When it is confirmed that the tag has been inserted correctly, the message ‘Reviewing’ appears as shown above.
+
+
+Now let's wait for good results...
+
+
+And~~~ the rejection!
+
+
+![22](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/22.png)
+
+
+Press `Fix now`.
+
+
+![23](/assets/img/2024-06-01-GitHub-Blog-[4]:-Search-Console,-Analytics,-Adsense.md/23.png)
+
+
+And check for the “I confirm I have fixed the issues” if you did something to improve your site. Then press `Request review` button.
+
+
                         
 
 
-            
+
+#### Step 4.  and more waiting…
+
+
+Re-do the step 3 over and over again till it accepts your site.
 
 
             

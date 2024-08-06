@@ -101,10 +101,6 @@ gcc --version
 > warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 
-
-## 9. **Mount HDD** 
-
-
 ---
 
 

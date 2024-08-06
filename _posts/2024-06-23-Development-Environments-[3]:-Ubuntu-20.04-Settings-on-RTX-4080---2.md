@@ -146,6 +146,16 @@ nvcc -V
 
 ![7](/assets/img/2024-06-23-Development-Environments-[3]:-Ubuntu-20.04-Settings-on-RTX-4080---2.md/7.png)_Command sudo apt install nvidia-cuda-toolkit is running!_
 
+- **No /usr/local/cuda-{version} directory after CUDA installation**
+
+
+{% raw %}
+```bash
+sudo ln -s /usr /usr/local/cuda-{version}
+```
+{% endraw %}
+
+
 
 
 #### (4) Add CUDA Toolkit settings to environment variables
@@ -686,8 +696,12 @@ pip3 install torch-tensorrt -f https://github.com/NVIDIA/Torch-TensorRT/releases
 
 {% raw %}
 ```bash
-conda install ipython matplotlib numpy scipy tqdm
+conda install ipython matplotlib numpy tqdm pyyaml
+pip install -U scikit-learn scipy albumentations 
+pip install wandb
 pip install opencv-python
+conda install -n fld ipykernel --update-deps --force-reinstall
+pip install paramiko
 ```
 {% endraw %}
 
