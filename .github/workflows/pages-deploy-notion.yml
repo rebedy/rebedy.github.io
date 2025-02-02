@@ -109,6 +109,9 @@ jobs:
           name: github-pages
           path: _site
 
+      - name: Debug - List Uploaded Artifacts
+        run: ls -lah ${{ github.workspace }}
+
   deploy:
     environment:
       name: github-pages
