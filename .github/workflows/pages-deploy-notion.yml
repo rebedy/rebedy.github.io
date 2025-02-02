@@ -2,7 +2,7 @@ name: "Notion Pages Build and Deploy"
 on:
   repository_dispatch:
     types: [RUN_WORKFLOW_DISPATCH]
-      
+
 permissions:
   contents: write
   pages: write
@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-    
+
       - name: Clean Directory
         run: |
           for file in assets/img/*
@@ -29,7 +29,7 @@ jobs:
               fi
           done
           rm -rf _posts/*
-      
+
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
@@ -50,17 +50,20 @@ jobs:
           commit_user_name: importer-bot 🤖
           commit_user_email: actions@github.com
           commit_author: importer-bot 🤖 <actions@github.com>
- 
+
   build:
     needs: importer
     runs-on: ubuntu-latest
 
-    steps:           
+    steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 1
+          # submodules: true
+          # If using the 'assets' git submodule from Chirpy Starter, uncomment above
+          # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
 
       - name: Setup Pages
         id: pages
@@ -69,7 +72,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.3
+          ruby-version: 3.3 # reads from a '.ruby-version' or '.tools-version' file if 'ruby-version' is omitted
           bundler-cache: true
 
       - name: Build site
@@ -77,12 +80,16 @@ jobs:
         env:
           JEKYLL_ENV: "production"
 
+      # - name: Test site
+      #   run: bundle exec htmlproofer _site --disable-external --check-html
+
       - name: Debug - List Build Output
-        run: ls -lah _site
+        run: ls -lah _site  # Debugging step to check if _site exists
 
       - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v4
         with:
+          name: github-pages
           path: "_site"
 
   deploy:
@@ -93,7 +100,7 @@ jobs:
     needs: build
     steps:
       - name: Download Artifact
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4
         with:
           name: github-pages
           path: _site
