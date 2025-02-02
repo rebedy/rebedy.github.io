@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-06-24
-title: "Development Environments [4]: Ubuntu 20.04 Settings on RTX 4080 - 3"
+title: "Development Environments [2]: Ubuntu 20.04 Settings on RTX 4080 -3"
 tags: [settings, Ubuntu 20.04, ]
 categories: [Development Environments, ]
 math: false
@@ -78,7 +78,7 @@ free -h
 
 
 
-![0](/assets/img/2024-06-24-Development-Environments-[4]:-Ubuntu-20.04-Settings-on-RTX-4080---3.md/0.png)
+![0](/assets/img/2024-06-24-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--3.md/0.png)
 
 
 
@@ -156,7 +156,7 @@ sudo parted /dev/sda
 5. Type `mkpart primary 0TiB 3.64TiB` (Change the capacity to yours🙂)
 6. Type `q` to quit
 
-![1](/assets/img/2024-06-24-Development-Environments-[4]:-Ubuntu-20.04-Settings-on-RTX-4080---3.md/1.png)
+![1](/assets/img/2024-06-24-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--3.md/1.png)
 
 
 
@@ -174,7 +174,7 @@ sudo fdisk /dev/sda
 
 1. Follow the instruction below
 
-![2](/assets/img/2024-06-24-Development-Environments-[4]:-Ubuntu-20.04-Settings-on-RTX-4080---3.md/2.png)_https://psychoria.tistory.com/521_
+![2](/assets/img/2024-06-24-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--3.md/2.png)_https://psychoria.tistory.com/521_
 
 
 
@@ -192,7 +192,7 @@ sudo mkfs.ext4 /dev/sda
 
 1. You can ignore the part where you need to enter some informations by pressing ENTER.
 
-![3](/assets/img/2024-06-24-Development-Environments-[4]:-Ubuntu-20.04-Settings-on-RTX-4080---3.md/3.png)_Formatting the partition_
+![3](/assets/img/2024-06-24-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--3.md/3.png)_Formatting the partition_
 
 
 
@@ -229,7 +229,7 @@ df -h
 
 
 
-![4](/assets/img/2024-06-24-Development-Environments-[4]:-Ubuntu-20.04-Settings-on-RTX-4080---3.md/4.png)
+![4](/assets/img/2024-06-24-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--3.md/4.png)
 
 
 
@@ -325,7 +325,7 @@ sudo systemctl status ssh
 
 
 
-![5](/assets/img/2024-06-24-Development-Environments-[4]:-Ubuntu-20.04-Settings-on-RTX-4080---3.md/5.png)
+![5](/assets/img/2024-06-24-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--3.md/5.png)
 
 - If it is not active, run the following commands
 
@@ -398,7 +398,7 @@ ssh {username}@{ip_address}
 
 
 
-![6](/assets/img/2024-06-24-Development-Environments-[4]:-Ubuntu-20.04-Settings-on-RTX-4080---3.md/6.png)
+![6](/assets/img/2024-06-24-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--3.md/6.png)
 
 
 You can check IP address as follows:
@@ -413,7 +413,7 @@ ip a
 
 
 
-![7](/assets/img/2024-06-24-Development-Environments-[4]:-Ubuntu-20.04-Settings-on-RTX-4080---3.md/7.png)
+![7](/assets/img/2024-06-24-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--3.md/7.png)
 
 
 OR…
@@ -429,7 +429,7 @@ ifconfig
 
 
 
-![8](/assets/img/2024-06-24-Development-Environments-[4]:-Ubuntu-20.04-Settings-on-RTX-4080---3.md/8.png)
+![8](/assets/img/2024-06-24-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--3.md/8.png)
 
 
 
@@ -515,43 +515,43 @@ sudo apt-get install ibus ibus-hangul
 
 
 
-![9](/assets/img/2024-06-24-Development-Environments-[4]:-Ubuntu-20.04-Settings-on-RTX-4080---3.md/9.png)
+![9](/assets/img/2024-06-24-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--3.md/9.png)
 
 1. Go to **`Settings`** > **`Region & Language`** > Click **`Manage Installed Languages`**
 
-![10](/assets/img/2024-06-24-Development-Environments-[4]:-Ubuntu-20.04-Settings-on-RTX-4080---3.md/10.png)_Go to Settings_
+![10](/assets/img/2024-06-24-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--3.md/10.png)_Go to Settings_
 
 
-![11](/assets/img/2024-06-24-Development-Environments-[4]:-Ubuntu-20.04-Settings-on-RTX-4080---3.md/11.png)_Go to Region & Language and click Manage Installed Languages._
+![11](/assets/img/2024-06-24-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--3.md/11.png)_Go to Region & Language and click Manage Installed Languages._
 
 1. Install the language support when the Language Support window is opened.
 
-![12](/assets/img/2024-06-24-Development-Environments-[4]:-Ubuntu-20.04-Settings-on-RTX-4080---3.md/12.png)_Install the language support._
+![12](/assets/img/2024-06-24-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--3.md/12.png)_Install the language support._
 
 
-![13](/assets/img/2024-06-24-Development-Environments-[4]:-Ubuntu-20.04-Settings-on-RTX-4080---3.md/13.png)_Installing and applying changes_
+![13](/assets/img/2024-06-24-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--3.md/13.png)_Installing and applying changes_
 
 1. Select **`fcitx`** for Keyboard input method system.
 
-![14](/assets/img/2024-06-24-Development-Environments-[4]:-Ubuntu-20.04-Settings-on-RTX-4080---3.md/14.png)_Select fcitx._
+![14](/assets/img/2024-06-24-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--3.md/14.png)_Select fcitx._
 
 1. Click **`+`** button under Input Sources.
 
-![15](/assets/img/2024-06-24-Development-Environments-[4]:-Ubuntu-20.04-Settings-on-RTX-4080---3.md/15.png)_Add new input source._
+![15](/assets/img/2024-06-24-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--3.md/15.png)_Add new input source._
 
 1. Choose **`Korean(Hangul)`** !!!
 
-![16](/assets/img/2024-06-24-Development-Environments-[4]:-Ubuntu-20.04-Settings-on-RTX-4080---3.md/16.png)
+![16](/assets/img/2024-06-24-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--3.md/16.png)
 
 - Set the configurations with ‘Korean(Hangul)’ not ‘Korean’ !!! ⚠️
 1. Activate `Hangul mode` from the language setting from the top bar.
 
-![17](/assets/img/2024-06-24-Development-Environments-[4]:-Ubuntu-20.04-Settings-on-RTX-4080---3.md/17.png)_이제 한글 됩니다 😊_
+![17](/assets/img/2024-06-24-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--3.md/17.png)_이제 한글 됩니다 😊_
 
 1. Reboot after both installation and system setting.
 2. Press `Shift+space` to change the language settings! 🚀
 
-![18](/assets/img/2024-06-24-Development-Environments-[4]:-Ubuntu-20.04-Settings-on-RTX-4080---3.md/18.png)
+![18](/assets/img/2024-06-24-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--3.md/18.png)
 
 
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-06-23
-title: "Development Environments [3]: Ubuntu 20.04 Settings on RTX 4080 - 2"
+title: "Development Environments [2]: Ubuntu 20.04 Settings on RTX 4080 -2"
 tags: [settings, Ubuntu 20.04, ]
 categories: [Development Environments, ]
 math: false
@@ -33,13 +33,13 @@ math: false
 Go to website above in order to install **`cuda 11.3`**. 
 
 
-![0](/assets/img/2024-06-23-Development-Environments-[3]:-Ubuntu-20.04-Settings-on-RTX-4080---2.md/0.png)_Select target platform_
+![0](/assets/img/2024-06-23-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--2.md/0.png)_Select target platform_
 
 
 [CUDA Toolkit 11.3.1](https://developer.nvidia.com/cuda-11-3-1-download-archive) > Operating System ‘Linux’ > Architecture ‘x86_64’ > Distribution ‘Ubuntu’ > Version ‘20.04’ > Installer Type ‘runfile(local)’ > Follow the instruction
 
 
-![1](/assets/img/2024-06-23-Development-Environments-[3]:-Ubuntu-20.04-Settings-on-RTX-4080---2.md/1.png)_Instructions for the installation_
+![1](/assets/img/2024-06-23-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--2.md/1.png)_Instructions for the installation_
 
 
 
@@ -89,16 +89,16 @@ After downloading cuda linux `.run` file using `wget`, we need to run the `.run`
 Run the command above. Make sure you are at the same directory as you run the `wget` command.
 
 
-![2](/assets/img/2024-06-23-Development-Environments-[3]:-Ubuntu-20.04-Settings-on-RTX-4080---2.md/2.png)_Move to ‘Continue’ and select with ENTER._
+![2](/assets/img/2024-06-23-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--2.md/2.png)_Move to ‘Continue’ and select with ENTER._
 
 
-![3](/assets/img/2024-06-23-Development-Environments-[3]:-Ubuntu-20.04-Settings-on-RTX-4080---2.md/3.png)_Type ‘accept’ and press ENTER._
+![3](/assets/img/2024-06-23-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--2.md/3.png)_Type ‘accept’ and press ENTER._
 
 
-![4](/assets/img/2024-06-23-Development-Environments-[3]:-Ubuntu-20.04-Settings-on-RTX-4080---2.md/4.png)_Press ENTER on ‘Driver’ to dismiss it and select ‘Install’_
+![4](/assets/img/2024-06-23-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--2.md/4.png)_Press ENTER on ‘Driver’ to dismiss it and select ‘Install’_
 
 
-![5](/assets/img/2024-06-23-Development-Environments-[3]:-Ubuntu-20.04-Settings-on-RTX-4080---2.md/5.png)_It will look like this when the installation went well! 🎊_
+![5](/assets/img/2024-06-23-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--2.md/5.png)_It will look like this when the installation went well! 🎊_
 
 
 
@@ -139,12 +139,12 @@ nvcc -V
 
 
 
-![6](/assets/img/2024-06-23-Development-Environments-[3]:-Ubuntu-20.04-Settings-on-RTX-4080---2.md/6.png)
+![6](/assets/img/2024-06-23-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--2.md/6.png)
 
 - **If** **`nvcc`** **command is not found and error occurs…**
 	- **Run** **`sudo apt install nvidia-cuda-toolkit`**
 
-![7](/assets/img/2024-06-23-Development-Environments-[3]:-Ubuntu-20.04-Settings-on-RTX-4080---2.md/7.png)_Command sudo apt install nvidia-cuda-toolkit is running!_
+![7](/assets/img/2024-06-23-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--2.md/7.png)_Command sudo apt install nvidia-cuda-toolkit is running!_
 
 - **No /usr/local/cuda-{version} directory after CUDA installation**
 
@@ -198,13 +198,13 @@ After log in to NVIDIA DEVELOPER website, download as indicated in below.
 #### (1) To install cnDNN 9.x.x versions
 
 
-![8](/assets/img/2024-06-23-Development-Environments-[3]:-Ubuntu-20.04-Settings-on-RTX-4080---2.md/8.png)
+![8](/assets/img/2024-06-23-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--2.md/8.png)
 
 
 [cuDNN 9.2.0 Downloads](https://developer.nvidia.com/cudnn-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=20.04&target_type=deb_local) > Operating System ‘Linux’ > Architecture ‘x86_64’ > Distribution ‘Ubuntu’ > Version ‘20.04’ > Installer Type ‘deb(local)’ > Follow the instruction
 
 
-![9](/assets/img/2024-06-23-Development-Environments-[3]:-Ubuntu-20.04-Settings-on-RTX-4080---2.md/9.png)_Press the ‘Download (1.4 GB)’ button._
+![9](/assets/img/2024-06-23-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--2.md/9.png)_Press the ‘Download (1.4 GB)’ button._
 
 
 If the download is done, run command below.
@@ -236,7 +236,7 @@ Follow the instruction below! 🚶‍♀️
 [**cuDNN 8.x - 1.x**](https://developer.nvidia.com/rdp/cudnn-archive) **(December 2023 - August 2014) >** [**Download cuDNN v8.2.1 (June 7th, 2021), for CUDA 11.x**](https://developer.nvidia.com/rdp/cudnn-archive#a-collapse821-113) **>** [**cuDNN Library for Linux (x86_64)**](https://developer.nvidia.com/compute/machine-learning/cudnn/secure/8.2.1.32/11.3_06072021/cudnn-11.3-linux-x64-v8.2.1.32.tgz)
 
 
-![10](/assets/img/2024-06-23-Development-Environments-[3]:-Ubuntu-20.04-Settings-on-RTX-4080---2.md/10.png)
+![10](/assets/img/2024-06-23-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--2.md/10.png)
 
 
 
@@ -302,7 +302,33 @@ ldconfig -N -v $(sed 's/:/ /' <<< $LD_LIBRARY_PATH) 2>/dev/null | grep libcudnn
 
 
 
-![11](/assets/img/2024-06-23-Development-Environments-[3]:-Ubuntu-20.04-Settings-on-RTX-4080---2.md/11.png)
+![11](/assets/img/2024-06-23-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--2.md/11.png)
+
+
+
+### 3) Validation!!
+
+
+
+{% raw %}
+```bash
+#!/bin/bash
+
+# libraries for examples
+sudo apt-get install libfreeimage3 libfreeimage-dev
+
+cp -r /usr/src/cudnn_samples_v8/ $HOME
+
+cd  $HOME/cudnn_samples_v8/mnistCUDNN
+
+make clean && make
+
+./mnistCUDNN
+
+# Test passed!
+```
+{% endraw %}
+
 
 
 
@@ -333,7 +359,7 @@ Visit the [**official website**](https://www.anaconda.com/download) of Anacond
 Provide an email to download Distribution of Anaconda.
 
 
-![12](/assets/img/2024-06-23-Development-Environments-[3]:-Ubuntu-20.04-Settings-on-RTX-4080---2.md/12.png)_Type in your email address to get the Distribution for Anaconda. 🐍_
+![12](/assets/img/2024-06-23-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--2.md/12.png)_Type in your email address to get the Distribution for Anaconda. 🐍_
 
 
 
@@ -346,10 +372,10 @@ Go to your inbox and check if there is an email from  **<account@anaconda.cloud
 If you see the link to download Anaconda and Conda packages, clik the ‘Download Now’ button!
 
 
-![13](/assets/img/2024-06-23-Development-Environments-[3]:-Ubuntu-20.04-Settings-on-RTX-4080---2.md/13.png)_This is what you will see on the email! 📧_
+![13](/assets/img/2024-06-23-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--2.md/13.png)_This is what you will see on the email! 📧_
 
 
-![14](/assets/img/2024-06-23-Development-Environments-[3]:-Ubuntu-20.04-Settings-on-RTX-4080---2.md/14.png)_If you click ‘Download Now’ button from above, this link will be opened._
+![14](/assets/img/2024-06-23-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--2.md/14.png)_If you click ‘Download Now’ button from above, this link will be opened._
 
 
 If you click the button, downlo ad will be proceeded automatically!
@@ -374,7 +400,7 @@ bash Anaconda3-2024.02-1-Linux-x86_64.sh
 
 
 
-![15](/assets/img/2024-06-23-Development-Environments-[3]:-Ubuntu-20.04-Settings-on-RTX-4080---2.md/15.png)_Press ENTER for once and press Space bar till you see Chapter 15.12! ⏭️_
+![15](/assets/img/2024-06-23-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--2.md/15.png)_Press ENTER for once and press Space bar till you see Chapter 15.12! ⏭️_
 
 
 Press ENTER button once if you see the outcome like above then the license agreement will show up.
@@ -386,7 +412,7 @@ Then press space bar repeatedly to review the license agreement until you see Ch
 Then yo will see as below:
 
 
-![16](/assets/img/2024-06-23-Development-Environments-[3]:-Ubuntu-20.04-Settings-on-RTX-4080---2.md/16.png)_Type ‘yes’ to continue… 🆗_
+![16](/assets/img/2024-06-23-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--2.md/16.png)_Type ‘yes’ to continue… 🆗_
 
 
 
@@ -396,7 +422,7 @@ Then yo will see as below:
 After accepting the license agreement, the installer will ask for the installation folder for Anaconda distribution. You can press ‘Enter’ to install in the default location or you can specify your desired location. Then installer will start unpacking packages and install them. Installation may take some time.
 
 
-![17](/assets/img/2024-06-23-Development-Environments-[3]:-Ubuntu-20.04-Settings-on-RTX-4080---2.md/17.png)_Check the Anaconda location and press ENTER to confirm the location! ☑️_
+![17](/assets/img/2024-06-23-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--2.md/17.png)_Check the Anaconda location and press ENTER to confirm the location! ☑️_
 
 
 
@@ -418,7 +444,7 @@ It will add the ‘conda’ tool to the system path, so users can run it from an
 If this part is no longer needed, find `>>> conda initailize >>>` at the end of `/root/.bashrc` and remove it!
 
 
-![18](/assets/img/2024-06-23-Development-Environments-[3]:-Ubuntu-20.04-Settings-on-RTX-4080---2.md/18.png)_Type ‘yes’ and press ENTER_
+![18](/assets/img/2024-06-23-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--2.md/18.png)_Type ‘yes’ and press ENTER_
 
 
 Now installation is complete and to activate Anaconda, just close the terminal and reopen it.
@@ -449,7 +475,7 @@ conda info
 
 
 
-![19](/assets/img/2024-06-23-Development-Environments-[3]:-Ubuntu-20.04-Settings-on-RTX-4080---2.md/19.png)
+![19](/assets/img/2024-06-23-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--2.md/19.png)
 
 
 
@@ -477,7 +503,7 @@ conda update --all
 **Step 2: Confirm updates**
 
 
-![20](/assets/img/2024-06-23-Development-Environments-[3]:-Ubuntu-20.04-Settings-on-RTX-4080---2.md/20.png)_Type ‘yes’ and press ‘ENTER’ to update Anaconda._
+![20](/assets/img/2024-06-23-Development-Environments-[2]:-Ubuntu-20.04-Settings-on-RTX-4080--2.md/20.png)_Type ‘yes’ and press ‘ENTER’ to update Anaconda._
 
 
 
@@ -536,7 +562,7 @@ You also can specify the python version as below:
 
 {% raw %}
 ```bash
-conda create --name {env_name} python=3.8
+conda create --name {env_name} python=3.8.19
 ```
 {% endraw %}
 

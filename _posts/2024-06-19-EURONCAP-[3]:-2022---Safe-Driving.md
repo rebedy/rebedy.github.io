@@ -60,6 +60,15 @@ undefined- The OEM must demonstrate, by means of a **dossier**, that when faced 
 ![1](/assets/img/2024-06-19-EURONCAP-[3]:-2022---Safe-Driving.md/1.png)_https://mag.toyota.co.uk/thums/_
 
 
+In 2016, Toyota expanded the virtual human models with three new models, representing children aged three, six and ten with physiques measuring 94cm, 118cm and 138cm respectively. These new models were created as a result of collaborative research with various United States universities and the Toyota Technical Center in Michigan. As with the adult models already available, they were available in either passenger or pedestrian versions.
+
+
+[https://www.toyota-europe.com/news/2016/thums-is-having-a-baby#:~:text=What about child safety?,perform more thorough injury analysis](https://www.toyota-europe.com/news/2016/thums-is-having-a-baby#:~:text=What%20about%20child%20safety?,perform%20more%20thorough%20injury%20analysis).
+
+
+The ten-year old (138cm tall), six-year old (118cm tall) and three-year old (94cm tall) additions to THUMS represent the average body sizes of children at each respective age. … As with the large male (189cm tall), average-build adult male (179cm tall), and small female (153cm tall) models that are already existing, the new models will come in two versions—a passenger version and a pedestrian version—for a total of six new additions to the THUMS line-up. This expanded line-up takes into consideration the influence of age and physique and allows us perform more thorough injury analysis.
+
+
 
 #### b. Fitzpatrick **skin** types
 
