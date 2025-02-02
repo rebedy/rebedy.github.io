@@ -98,7 +98,7 @@ jobs:
           name: github-pages
           path: _site
 
-      - name: Debug: List Downloaded Files
+      - name: Debug - List Downloaded Files
         run: ls -lah _site
 
       - name: Deploy to GitHub Pages
