@@ -50,11 +50,19 @@ jobs:
         env:
           JEKYLL_ENV: "production"
 
+      - name: Fix Invalid Filenames  # ✅ NEW STEP
+        run: |
+          find _site -depth -name '*:*' | while read file; do
+            new_file="$(echo "$file" | tr ':' '-')"
+            echo "Renaming $file -> $new_file"
+            mv "$file" "$new_file"
+          done
+
       - name: Test site
         run: |
           bundle exec htmlproofer _site \
-            \-\-disable-external \
-            \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+            --disable-external \
+            --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 
       - name: Upload site artifact
         uses: actions/upload-artifact@v4
@@ -70,4 +78,5 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v1
+  
