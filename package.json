@@ -21,11 +21,12 @@
     "lint:scss": "stylelint _sass/**/*.scss",
     "lint:fix:scss": "npm run lint:scss -- --fix",
     "test": "npm run lint:scss",
-    "prepare": "husky"
+    "prepare": "husky && husky install"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "cross-spawn": "^7.0.6"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
@@ -34,27 +35,26 @@
     "@babel/preset-env": "^7.26.0",
     "@commitlint/cli": "^19.6.0",
     "@commitlint/config-conventional": "^19.6.0",
+    "@notionhq/client": "^1.0.4",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-node-resolve": "^15.3.0",
     "@rollup/plugin-terser": "^0.4.4",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
+    "@types/node-fetch": "^2.6.2",
+    "axios": "^1.4.0",
     "concurrently": "^9.1.0",
     "conventional-changelog-conventionalcommits": "^8.0.0",
-    "husky": "^9.1.7",
-    "purgecss": "^7.0.2",
-    "rollup": "^4.27.4",
-    "semantic-release": "^24.2.0",
-    "stylelint": "^16.10.0",
-    "stylelint-config-standard-scss": "^13.1.0",
-
-    "@notionhq/client": "^1.0.4",
-    "@types/node-fetch": "^2.6.2",
+    "husky": "^8.0.0",
     "moment": "^2.29.2",
     "node-fetch": "^2.6.7",
     "notion-to-md": "^2.5.5",
-    "axios": "^1.4.0"
+    "purgecss": "^7.0.2",
+    "rollup": "^4.27.4",
+    "semantic-release": "^24.2.0",
+    "stylelint": "^16.14.1",
+    "stylelint-config-standard-scss": "^14.0.0"
   },
   "prettier": {
     "trailingComma": "none"
