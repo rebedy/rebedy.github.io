@@ -52,9 +52,7 @@
     "notion-to-md": "^2.5.5",
     "purgecss": "^7.0.2",
     "rollup": "^4.27.4",
-    "semantic-release": "^24.2.0",
-    "stylelint": "^16.14.1",
-    "stylelint-config-standard-scss": "^14.0.0"
+    "semantic-release": "^24.2.0"
   },
   "prettier": {
     "trailingComma": "none"
