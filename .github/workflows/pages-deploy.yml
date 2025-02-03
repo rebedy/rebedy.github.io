@@ -56,7 +56,6 @@ jobs:
             mv "$file" "$(echo $file | tr ':' '-')"
           done
 
-
       - name: Test site
         run: |
           bundle exec htmlproofer _site \
