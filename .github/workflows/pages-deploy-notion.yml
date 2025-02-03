@@ -83,15 +83,15 @@ jobs:
       # - name: Test site
       #   run: bundle exec htmlproofer _site --disable-external --check-html
 
-      - name: Debug - Check _site Directory
-        run: |
-          if [ -d "_site" ]; then
-            echo "✅ _site directory exists."
-            ls -lah _site
-          else
-            echo "❌ ERROR: _site directory is missing!"
-            exit 1
-          fi
+      # - name: Debug - Check _site Directory
+      #   run: |
+      #     if [ -d "_site" ]; then
+      #       echo "✅ _site directory exists."
+      #       ls -lah _site
+      #     else
+      #       echo "❌ ERROR: _site directory is missing!"
+      #       exit 1
+      #     fi
 
       - name: Fix Invalid Filenames
         run: |
