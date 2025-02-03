@@ -50,12 +50,6 @@ jobs:
         env:
           JEKYLL_ENV: "production"
 
-      - name: Fix Invalid Filenames
-        run: |
-          find _site -name '*:*' | while read file; do
-            mv "$file" "$(echo $file | tr ':' '-')"
-          done
-
       - name: Test site
         run: |
           bundle exec htmlproofer _site \
@@ -63,7 +57,7 @@ jobs:
             \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 
       - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
 
