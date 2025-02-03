@@ -99,8 +99,8 @@ jobs:
             mv "$file" "$(echo $file | tr ':' '-')"
           done
 
-      - name: Debug - List Build Output
-        run: ls -lah _site  # Debugging step to check if _site exists
+      # - name: Debug - List Build Output
+      #   run: ls -lah _site  # Debugging step to check if _site exists
 
       - name: Upload site artifact
         if: success()
@@ -109,8 +109,8 @@ jobs:
           name: github-pages
           path: _site
 
-      - name: Debug - List Uploaded Artifacts
-        run: ls -lah ${{ github.workspace }}
+      # - name: Debug - List Uploaded Artifacts
+      #   run: ls -lah ${{ github.workspace }}
 
   deploy:
     environment:
